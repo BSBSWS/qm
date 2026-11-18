@@ -10,6 +10,6 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 
 | Standard | Stand |
 |---|---|
-| `standards/qm-dokumente.md` | Version 0.1 (Entwurf), 18.11.2026: zwei Pflichtbestandteile festgelegt, Aufbau und Ordnung offen |
+| `standards/qm-dokumente.md` | Version 0.2 (Entwurf), 18.11.2026: Pflichtbestandteile, Überführung und Nachbildung der Lenkung festgelegt; Kennungsschema und Prozesslandkarte stehen aus |
 
 QM-Dokumente liegen noch nicht im Repository.
