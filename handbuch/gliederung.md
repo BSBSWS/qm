@@ -255,6 +255,7 @@ Umfang: 213 Einträge in 12 Kapiteln (0 bis 11).
 | 9.4.3 | Besuch am Wohnort des Kindes/Jugendlichen | 3 | Datei | nicht überführt |
 | 9.5 | Ausschluss Entwicklung | 2 | Ordner | nicht überführt |
 | 9.6 | Beteiligungskonzept | 2 | Datei | nicht überführt |
+| 9.8 | Ablauf Gefährdungsmomente/Übergriffe | 2 | Datei | nicht in der Vorlage 0.2 enthalten; überführt, Rev. 0004 Entwurf (`9.8_ablauf-gefaehrdungsmomente.md`), Word-Ausgabe in `export/`, Vorlage in `alt/` |
 
 ## 10 Kontinuierliche Qualitätsverbesserung
 

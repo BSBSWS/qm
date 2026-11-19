@@ -77,7 +77,7 @@ const lines = body.split('\n'), kids = []; let kapitel = [];
 for (let i = 0; i < lines.length; i++) {
   const l = lines[i];
   if (!l.trim() || l.startsWith('# ') || l.startsWith('Zugeordnete Prozesse:')) continue;
-  if (l.startsWith('Kapitel:')) { kapitel = l.replace('Kapitel:', '').split(' · ').slice(0, 2).map(s => s.trim()); continue; }
+  if (l.startsWith('Kapitel:')) { kapitel = l.replace('Kapitel:', '').split(' · ').map(s => s.trim()).filter(s => !/^(Kennung|Revision|Stand):/.test(s)).slice(0, 2); continue; }
   if (l.startsWith('### ')) { kids.push(new Paragraph({ keepNext: true, spacing: { before: 200, after: 100 }, children: [run(l.slice(4), { bold: true, size: 21, color: BLAU })] })); continue; }
   if (l.startsWith('## ')) { kids.push(new Paragraph({ keepNext: true, spacing: { before: 320, after: 120 },
     children: [run(l.slice(3), { bold: true, size: 24, color: BLAU })] })); continue; }

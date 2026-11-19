@@ -77,3 +77,22 @@ Bei 0.3 stehen zwei Daten („07/2026“ und „03.02.14“); welches die Freiga
 | 37 | Schreibweisen: Binnen-I („LeiterInnen“, „LehrerInnen“, „AusbilderInnen“), „Klienten“, „Erzieherteam“, „HPG“ und „Hpg“, Abkürzungen „ASD“, „JA“, „stat. Einr.“. Erledigt in Rev. 0006: nach den Schreibregeln bereinigt. |
 | 38 | Erstellt und geprüft hat dieselbe Person am selben Tag. |
 | 39 | Die Legende des Flussdiagramms führt sieben Zeichen (Start/Ende, Inhalte, Datenbank, Dokument, Entscheidung, Teilprozess, Prozess); verwendet sind vier. |
+
+## 7 Dokument 9.8 Ablauf Gefährdungsmomente/Übergriffe
+
+Vorlage: `alt/9.8_Ablauf_Gefaehrdungsmomente.docx`, Version 08.2026, Rev. 0003; erstellt 03.07.2026, geprüft 21.08.2026, freigegeben ohne Datum.
+
+| Nr. | Befund |
+|---|---|
+| 40 | Die Kennung 9.8 steht nicht in der Gliederung 0.2; dort endet Kapitel 9 mit 9.6. Eine Kennung 9.7 ist nicht bekannt. |
+| 41 | Die Kopfzeile nennt Kapitel 9 „Hilfeprozesse“, die Gliederung „Betreuungsprozesse“ (vgl. Befund zur Bezeichnung von Kapitel 9). |
+| 42 | Titel und Zweck weichen ab: Titel „Gefährdungsmomente/Übergriffe“, Zweck nur „gewalttätige Übergriffe“. Was außer Übergriffen als Gefährdungsmoment gilt, ist nicht beschrieben. |
+| 43 | Unbestimmte Angaben: „bei Bedarf“ (Polizei, Rettungsdienst), „je nach Fall“ (nicht sorgeberechtigte Eltern), „Ggf“ (Anzeige). Bedingungen und Entscheidungsbefugnis fehlen. |
+| 44 | Fristen fehlen: für die Meldungen an Leitung, Sorgeberechtigte und Jugendamt sowie für die Meldung nach § 47 SGB VIII. Der Adressat der Meldung nach § 47 (Landesjugendamt) ist nicht genannt. |
+| 45 | Stellenbezeichnungen uneinheitlich: „Gruppenleitung“ und „Einrichtungsleitung“; „Bereichsleitung“ und „FBL“. Die Geschäftsführung steht im Kopf als verantwortlich, kommt im Ablauf aber nicht vor. |
+| 46 | Die Spalte „verantwortlich“ ist den Schritten nicht eindeutig zugeordnet; eine Angabe nennt die pädagogische Fachkraft doppelt. |
+| 47 | Ein Flussdiagramm liegt nicht vor, obwohl das Dokument „Ablauf“ heißt. Die Überführung enthält eine aus dem Text abgeleitete Darstellung. |
+| 48 | Das Formular „Aktennotiz nach § 47“ ist mit einem Laufwerkspfad (X:) verknüpft und trägt keine Kennung; im Text heißt es „Aktennotiz“, in der Datei „Aktenvermerk § 47 Meldung“. |
+| 49 | Der Bezug zum Kinderschutzkonzept (5.3) und zum Institutionellen Schutzkonzept (5.8) ist nicht hergestellt. |
+| 50 | Die Dateieigenschaften tragen den Titel eines anderen Dokuments („Stellenbeschreibung Zentrale Steuerungsunterstützung (ZSu)“). |
+| 51 | Schreibweisen: Genderstern („Kolleg*innen“), „Täter und Opfer“, Abkürzungen „stat.“, „päd.“, „FBL“. Erledigt in Rev. 0004: bereinigt. |
