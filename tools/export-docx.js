@@ -60,7 +60,7 @@ function diagram(code) {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'qm-'));
   const f = n => path.join(tmp, n);
   fs.writeFileSync(f('d.mmd'), code); fs.writeFileSync(f('p.json'), '{"args":["--no-sandbox"]}');
-  fs.writeFileSync(f('c.json'), JSON.stringify({ theme: 'base', flowchart: { curve: 'linear', nodeSpacing: 40, rankSpacing: 45 },
+  fs.writeFileSync(f('c.json'), JSON.stringify({ theme: 'base', flowchart: { curve: 'linear', nodeSpacing: 40, rankSpacing: 40, htmlLabels: true },
     themeVariables: { fontFamily: 'Calibri, Carlito, Arial, sans-serif', fontSize: '15px', primaryColor: '#' + HELL, primaryBorderColor: '#' + BLAU,
       primaryTextColor: '#' + TEXT, lineColor: '#' + BLAU, edgeLabelBackground: '#FFFFFF', tertiaryColor: '#FFFFFF' } }));
   execFileSync('mmdc', ['-p', f('p.json'), '-c', f('c.json'), '-i', f('d.mmd'), '-o', f('d.png'), '-b', 'white', '-s', '3'], { stdio: 'ignore' });
@@ -86,7 +86,7 @@ for (let i = 0; i < lines.length; i++) {
   if (l.startsWith('OFFEN:')) { kids.push(offen(l)); continue; }
   const lab = l.match(/^(Risiko|Risikominimierung):/);
   if (lab) { kids.push(P([run(lab[1] + '  ', { bold: true, color: BLAU }), run(l.slice(lab[0].length).trim())])); continue; }
-  const klein = l.startsWith('Vorlagen:') || l.startsWith('Zeichen:');
+  const klein = l.startsWith('Vorlagen:') || l.startsWith('Zeichen:') || l.startsWith('Lesart:');
   kids.push(P([run(clean(l), klein ? { size: 16, color: GRAU } : {})], l.endsWith(':') ? { keepNext: true } : {}));
 }
 
