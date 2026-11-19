@@ -1,6 +1,6 @@
 # Standard: QM-Dokumente
 
-Stand: 19.11.2026 · Version 0.4 (Entwurf) · Verantwortlich: Geschäftsführung
+Stand: 19.11.2026 · Version 0.5 (Entwurf) · Verantwortlich: Geschäftsführung
 
 ## 1 Geltung
 
@@ -15,13 +15,17 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 5. **Lenkung.** Das Repository bildet die gelenkte Fassung nach (Versionen, Prüfung, Freigabevermerk, Verteiler). Die Freigabe selbst erfolgt außerhalb des Repositorys.
 6. Workflow-Diagramme werden vorerst als Mermaid-Text geführt.
 7. Es gelten die Schreibregeln des Trägers: präzise, sachliche Texte ohne Doppelungen und Ausschmückungen; keine Ich- und keine Wir-Form.
+8. **Prozessnummern.** Die Prozesse der Prozesslandkarte erhalten Nummern. Die Zeile „Zugeordnete Prozesse“ nennt Nummer und Name (Festlegung des Trägers vom 19.11.2026).
+9. **Revision.** Die Zählung der Revisionen aus den Vorlagen wird fortgeführt; die Kopfangabe heißt `revision` (Festlegung des Trägers vom 19.11.2026).
+10. **Musterdokument.** Die Überführung beginnt mit einem Musterdokument. An ihm werden Aufbau, Kopf und der Teil „Reflexion und Weiterentwicklung“ abgestimmt; danach folgen die übrigen Dokumente (Festlegung des Trägers vom 19.11.2026).
 
 ## 3 Vorschläge, noch nicht bestätigt
 
 ### 3.1 Zugeordnete Prozesse
 
 - Ort: im Dokumentenkopf, als eigene Zeile unter Kennung, Version, Stand und Verantwortung.
-- Inhalt: Kennung und Name jedes Prozesses nach der Prozesslandkarte, mehrere durch Semikolon getrennt.
+- Inhalt: Nummer und Name jedes Prozesses nach der Prozesslandkarte, mehrere durch Semikolon getrennt, z. B. „K2.2 Hilfeplanung; K2.5 Elternarbeit“.
+- Prozessnummern: Buchstabe der Prozessart und laufende Nummer in der Reihenfolge der Prozesslandkarte. M1 bis M7 Managementprozesse; K1 Ambulante Jugendhilfe (K1.1 bis K1.4), K2 Stationäre Hilfen (K2.1 bis K2.6), K3 teilstationäre Hilfen (K3.1 bis K3.6); U1 bis U6 Unterstützungsprozesse. Die Nummern stehen in `handbuch/3.1.2_prozesslandkarte.md`.
 - Kopfangabe der Markdown-Quelle: `prozesse`. Fehlt sie, meldet der Export das und setzt „Zugeordnete Prozesse: OFFEN“.
 - Prüfpunkt: Die zugeordneten Prozesse sind genannt und stimmen mit der Prozesslandkarte überein.
 
@@ -34,13 +38,12 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 
 ### 3.3 Nachbildung der Lenkung
 
-- Die Vorlagen führen in der Kopfzeile Kapitel, Nummer, Titel und Seitenzahl, in der Fußzeile „erstellt“, „freigegeben“ und „Revision“ (`handbuch/befunde-gliederung.md`, Abschnitt 4). Diese Angaben bleiben; die Zählung der Revisionen wird fortgeführt (Kopfangabe `revision` statt `version`).
-
-- Kopfangaben der Markdown-Quelle: `kennung`, `titel`, `textart`, `prozesse`, `version`, `stand`, `status` (Entwurf, geprüft, freigegeben), `erstellt`, `geprueft`, `freigegeben` (jeweils Stelle und Datum), `verteiler`, `naechste_ueberpruefung`, `ersetzt`.
+- Die Vorlagen führen in der Kopfzeile Kapitel, Nummer, Titel und Seitenzahl, in der Fußzeile „erstellt“, „freigegeben“ und „Revision“ (`handbuch/befunde-gliederung.md`, Abschnitt 4). Diese Angaben bleiben.
+- Kopfangaben der Markdown-Quelle: `kennung`, `titel`, `textart`, `prozesse`, `revision`, `stand`, `status` (Entwurf, geprüft, freigegeben), `erstellt`, `geprueft`, `freigegeben` (jeweils Stelle und Datum), `verteiler`, `naechste_ueberpruefung`, `ersetzt`.
 - Der Freigabevermerk wird eingetragen, nachdem die Freigabe außerhalb des Repositorys erteilt ist. Vorher steht `status: Entwurf` oder `geprüft`.
-- Jedes Dokument endet mit einer Änderungstabelle: Version, Datum, Änderung, Grund.
-- Jede Änderung an einem freigegebenen Dokument erzeugt eine neue Version; die freigegebene Word-Fassung bleibt im Ordner `export/` erhalten.
-- Eine Dokumentenliste (`dokumentenliste.md`) führt alle Dokumente mit Kennung, Titel, Prozess, Version, Stand und Status.
+- Jedes Dokument endet mit einer Änderungstabelle: Revision, Datum, Änderung, Grund.
+- Jede Änderung an einem freigegebenen Dokument erzeugt eine neue Revision; die freigegebene Word-Fassung bleibt im Ordner `export/` erhalten.
+- Eine Dokumentenliste (`dokumentenliste.md`) führt alle Dokumente mit Kennung, Titel, Prozess, Revision, Stand und Status.
 
 ### 3.4 Ordner und Dateinamen
 
@@ -51,10 +54,10 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 
 ## 4 Offen
 
-1. Prozesslandkarte (`handbuch/3.1.2_prozesslandkarte.md`): Die Prozesse tragen keine Nummern, und sechs Prozessnamen kommen in mehreren Bereichen vor. Zu entscheiden: Nummern einführen oder Bereich und Name nennen (z. B. „Stationäre Hilfen: Hilfeplanung“). Zu klären ist außerdem die Zuordnung der Handbuchdokumente, die keinen namensgleichen Prozess haben (`handbuch/befunde-gliederung.md`, Abschnitt 5).
+1. Prozesslandkarte: Bestätigung der vorgeschlagenen Prozessnummern (Abschnitt 3.1). Zuordnung der Handbuchdokumente, die keinen namensgleichen Prozess haben (`handbuch/befunde-gliederung.md`, Abschnitt 5).
 2. Zugeordnete Prozesse: Angabe bei Dokumenten, die keinem einzelnen Prozess zugeordnet sind. Gilt die Zeile auch für Arbeitsdokumente, Formulare und Workflows?
 3. Befunde zur Gliederung (`handbuch/befunde-gliederung.md`): doppelte Kennungen in 9.1, abweichende Titel, überholte Einträge.
-4. Reihenfolge der Überführung.
+4. Auswahl des Musterdokuments; Reihenfolge der weiteren Überführung.
 5. Lenkung: Welche Stellen erstellen, prüfen und geben frei? Wer steht im Verteiler? In welchem Rhythmus werden Dokumente überprüft?
 6. Kapitel 5 des Handbuchs: Verweis auf die Repositories der Konzeptionen und Leistungsbeschreibungen oder Kopie.
 7. Aufbau und Prüfliste je Textart.
@@ -67,3 +70,4 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 | 0.2 | 18.11.2026 | Festlegungen des Trägers vom 18.11.2026: Geltung der Prozesszeile, Reflexion des Handelns, Überführung nach und nach mit Ausgabe in Word, Kennungsschema und Prozesslandkarte, Nachbildung der Lenkung |
 | 0.3 | 19.11.2026 | Kennungsschema nach der Gliederung des Handbuchs; Vorschläge zu Ordnern, Dateinamen und Revisionszählung; offene Punkte fortgeschrieben |
 | 0.4 | 19.11.2026 | Prozesslandkarte (3.1.2) liegt vor; offene Punkte 1 und 2 neu gefasst |
+| 0.5 | 19.11.2026 | Festlegungen des Trägers vom 19.11.2026: Prozessnummern, Fortführung der Revisionszählung, Beginn mit einem Musterdokument; Vorschlag für das Nummernschema |

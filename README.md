@@ -11,7 +11,7 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 
 | Standard | Stand |
 |---|---|
-| `standards/qm-dokumente.md` | Version 0.4 (Entwurf), 19.11.2026: Pflichtbestandteile, Überführung, Nachbildung der Lenkung, Kennungsschema; Prozesslandkarte liegt vor |
+| `standards/qm-dokumente.md` | Version 0.5 (Entwurf), 19.11.2026: Pflichtbestandteile, Überführung, Nachbildung der Lenkung, Kennungsschema, Prozessnummern, Revisionszählung; Musterdokument steht aus |
 
 ## QM-Handbuch
 
