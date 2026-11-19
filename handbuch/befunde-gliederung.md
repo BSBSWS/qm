@@ -56,7 +56,7 @@ Bei 0.3 stehen zwei Daten („07/2026“ und „03.02.14“); welches die Freiga
 | 21 | Dokumente der Gliederung ohne namensgleichen Kernprozess: Inobhutnahme, Umgang mit dem Eigentum, Entweichung (9.1), Erziehungsplanung (9.2.3), Serviceleistungen (9.4), Ausschluss Entwicklung (9.5), Beteiligungskonzept (9.6). |
 | 22 | Ambulante Jugendhilfe: Die Prozesslandkarte nennt „Hilfeaufnahme“, „Hilfeverlauf“ und „Beendigung der Hilfe“, die Gliederung „Betreuungsaufnahme“, „Betreuungsplanung“ und „Betreuungsende“ (9.3.1, 9.3.3, 9.3.4). |
 | 23 | Die Zuordnung der Handbuchkapitel 1 bis 8, 10 und 11 zu den Management- und Unterstützungsprozessen ist nicht festgelegt. Sie lässt sich aus den Namen nur zum Teil ablesen. |
-| 24 | Schreibfehler: „Managmentprozesse“, „Controling“, „Personalführung und-entwickling“. |
+| 24 | Schreibfehler: „Managmentprozesse“, „Controling“, „Personalführung und-entwickling“. Erledigt in Rev. 002: berichtigt. |
 | 25 | Titel: In der Gliederung „Prozesslandkarte_SwS“, im Dateinamen „Prozesslandkarte“; das Dokument selbst trägt keinen Titel. |
 | 26 | Beschriftung der Pfeile: Der rechte Pfeil trägt „Beteiligung“, der linke „Transparenz“ und „Beteiligung“. Ob das beabsichtigt ist, ist unklar. |
 | 27 | Die Vorlage ist ein Schaubild ohne Text: Prozessverantwortliche, Schnittstellen und eine Erläuterung zu „linear“ und „systemisch“ fehlen. |

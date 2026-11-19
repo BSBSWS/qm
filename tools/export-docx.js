@@ -38,8 +38,10 @@ const offen = t => new Paragraph({ spacing: { before: 60, after: 100, line: 276 
   children: [run('OFFEN  ', { bold: true, color: '8A6100' }), run(clean(t.slice(6)))] });
 
 function widths(head, n) {
-  if (n === 2) return [2268, W - 2268];
+  if (n === 2 && !head[0].startsWith('Nr.')) return [2268, W - 2268];
   if (head[0] === 'Nr.' && n === 4) return [520, 4580, 1985, 1985];
+  if (head[0].startsWith('Nr.') && n === 3) return [1500, 3000, W - 4500];
+  if (head[0].startsWith('Nr.') && n === 2) return [1500, W - 1500];
   if (head[0] === 'Revision' && n === 4) return [1300, 1300, 3970, 2500];
   const w = Math.floor(W / n); return Array.from({ length: n }, (_, i) => i === n - 1 ? W - w * (n - 1) : w);
 }
@@ -65,7 +67,7 @@ function diagram(code) {
       primaryTextColor: '#' + TEXT, lineColor: '#' + BLAU, edgeLabelBackground: '#FFFFFF', tertiaryColor: '#FFFFFF' } }));
   execFileSync('mmdc', ['-p', f('p.json'), '-c', f('c.json'), '-i', f('d.mmd'), '-o', f('d.png'), '-b', 'white', '-s', '3'], { stdio: 'ignore' });
   const buf = fs.readFileSync(f('d.png')), pw = buf.readUInt32BE(16), ph = buf.readUInt32BE(20);
-  let w = 600, h = Math.round(600 * ph / pw); if (h > 720) { h = 720; w = Math.round(720 * pw / ph); }
+  let w = 600, h = Math.round(600 * ph / pw); if (h > 600) { h = 600; w = Math.round(600 * pw / ph); }
   return new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 80, after: 120 },
     children: [new ImageRun({ type: 'png', data: buf, transformation: { width: w, height: h } })] });
 }
@@ -76,6 +78,7 @@ for (let i = 0; i < lines.length; i++) {
   const l = lines[i];
   if (!l.trim() || l.startsWith('# ') || l.startsWith('Zugeordnete Prozesse:')) continue;
   if (l.startsWith('Kapitel:')) { kapitel = l.replace('Kapitel:', '').split(' · ').slice(0, 2).map(s => s.trim()); continue; }
+  if (l.startsWith('### ')) { kids.push(new Paragraph({ keepNext: true, spacing: { before: 200, after: 100 }, children: [run(l.slice(4), { bold: true, size: 21, color: BLAU })] })); continue; }
   if (l.startsWith('## ')) { kids.push(new Paragraph({ keepNext: true, spacing: { before: 320, after: 120 },
     children: [run(l.slice(3), { bold: true, size: 24, color: BLAU })] })); continue; }
   if (l.startsWith('```mermaid')) { const c = []; while (!lines[++i].startsWith('```')) c.push(lines[i]); kids.push(diagram(c.join('\n'))); continue; }
@@ -86,7 +89,7 @@ for (let i = 0; i < lines.length; i++) {
   if (l.startsWith('OFFEN:')) { kids.push(offen(l)); continue; }
   const lab = l.match(/^(Risiko|Risikominimierung):/);
   if (lab) { kids.push(P([run(lab[1] + '  ', { bold: true, color: BLAU }), run(l.slice(lab[0].length).trim())])); continue; }
-  const klein = l.startsWith('Vorlagen:') || l.startsWith('Zeichen:') || l.startsWith('Lesart:');
+  const klein = l.startsWith('Vorlagen:') || l.startsWith('Vorlage:') || l.startsWith('Zeichen:') || l.startsWith('Lesart:');
   kids.push(P([run(clean(l), klein ? { size: 16, color: GRAU } : {})], l.endsWith(':') ? { keepNext: true } : {}));
 }
 
