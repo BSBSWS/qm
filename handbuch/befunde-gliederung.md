@@ -1,6 +1,6 @@
-# Befunde zu Gliederung und Prolog des QM-Handbuchs
+# Befunde zu Gliederung, Prolog und Prozesslandkarte des QM-Handbuchs
 
-Stand: 19.11.2026. Grundlage: die Vorlagen 0.1 Startseite, 0.2 Gliederung und 0.3 Synopse Norm – QM-System (abgelegt in `alt/`). Die Befunde sind nicht berichtigt; über jede Änderung entscheidet der Träger.
+Stand: 19.11.2026. Grundlage: die Vorlagen 0.1 Startseite, 0.2 Gliederung, 0.3 Synopse Norm – QM-System und 3.1.2 Prozesslandkarte (abgelegt in `alt/`). Die Befunde sind nicht berichtigt; über jede Änderung entscheidet der Träger.
 
 ## 1 Kennungen
 
@@ -28,7 +28,7 @@ Stand: 19.11.2026. Grundlage: die Vorlagen 0.1 Startseite, 0.2 Gliederung und 0.
 
 | Nr. | Befund |
 |---|---|
-| 13 | Die Prozesslandkarte (3.1.2) liegt nicht vor. Ohne sie lässt sich die Zeile „Zugeordnete Prozesse“ nicht füllen. |
+| 13 | Erledigt am 19.11.2026: Die Prozesslandkarte (3.1.2) liegt vor und ist überführt (`3.1.2_prozesslandkarte.md`). Befunde dazu in Abschnitt 5. |
 | 14 | Kapitel 5 führt Dokumente, die in anderen Repositories gepflegt werden: Leistungsbeschreibungen (BSBSWS/SWSlb), Konzeptionen und Schutzkonzept (BSBSWS/SWSKonz). Zu klären ist, ob das Handbuch darauf verweist oder eine Kopie führt. |
 | 15 | Die Verweise der Startseite zeigen auf ein Laufwerk (H:). Im Repository werden daraus Verweise auf die Dateien des Handbuchs. |
 | 16 | Die Startseite trägt einen Vertraulichkeitsvermerk. Er ist für die Word-Ausgabe zu übernehmen oder neu zu fassen. |
@@ -42,4 +42,21 @@ Stand: 19.11.2026. Grundlage: die Vorlagen 0.1 Startseite, 0.2 Gliederung und 0.
 | Fußzeile | Kürzel oder Name der erstellenden Person, Datum | 0.1: „Schr 04.04.2023“ |
 | Fußzeile | erstellt, freigegeben, Revision | 0.3: „erst.: …, freigegeben: 07/2026, 03.02.14, Rev. 0005“ |
 
+Die Prozesslandkarte 3.1.2 weicht davon ab: Die Kopfzeile ist leer; die Fußzeile lautet „Datum: 29.04.2026 erstellt von: H. Wenkel | genehmigt von: Gf | Version: 04.2026 Rev. 001“ („genehmigt“ statt „freigegeben“, Version aus Monat und Jahr mit Revisionsnummer).
+
 Bei 0.3 stehen zwei Daten („07/2026“ und „03.02.14“); welches die Freigabe und welches die Erstellung bezeichnet, ist unklar. Angaben zu Prüfung, Verteiler und nächster Überprüfung enthalten die Vorlagen nicht.
+
+## 5 Prozesslandkarte (3.1.2)
+
+| Nr. | Befund |
+|---|---|
+| 18 | Die Prozesse tragen keine Nummern. Die Zeile „Zugeordnete Prozesse“ kann nach dieser Vorlage nur Namen nennen. |
+| 19 | Prozessnamen sind nicht eindeutig: „Neuaufnahme“, „Hilfeplanung“, „schulischer Bereich“, „Freizeitbereich“, „Elternarbeit“ und „Entlassung“ stehen bei den stationären und den teilstationären Hilfen, „Hilfeplanung“ zusätzlich bei der Ambulanten Jugendhilfe. Eindeutig ist erst die Verbindung aus Bereich und Prozess. |
+| 20 | Die stationären Hilfen sind nicht unterteilt. Die Gliederung trennt in 9.1 Wohngruppen, familienanaloge Einrichtungen (IWLs) und Eltern-Kind-Einrichtung. |
+| 21 | Dokumente der Gliederung ohne namensgleichen Kernprozess: Inobhutnahme, Umgang mit dem Eigentum, Entweichung (9.1), Erziehungsplanung (9.2.3), Serviceleistungen (9.4), Ausschluss Entwicklung (9.5), Beteiligungskonzept (9.6). |
+| 22 | Ambulante Jugendhilfe: Die Prozesslandkarte nennt „Hilfeaufnahme“, „Hilfeverlauf“ und „Beendigung der Hilfe“, die Gliederung „Betreuungsaufnahme“, „Betreuungsplanung“ und „Betreuungsende“ (9.3.1, 9.3.3, 9.3.4). |
+| 23 | Die Zuordnung der Handbuchkapitel 1 bis 8, 10 und 11 zu den Management- und Unterstützungsprozessen ist nicht festgelegt. Sie lässt sich aus den Namen nur zum Teil ablesen. |
+| 24 | Schreibfehler: „Managmentprozesse“, „Controling“, „Personalführung und-entwickling“. |
+| 25 | Titel: In der Gliederung „Prozesslandkarte_SwS“, im Dateinamen „Prozesslandkarte“; das Dokument selbst trägt keinen Titel. |
+| 26 | Beschriftung der Pfeile: Der rechte Pfeil trägt „Beteiligung“, der linke „Transparenz“ und „Beteiligung“. Ob das beabsichtigt ist, ist unklar. |
+| 27 | Die Vorlage ist ein Schaubild ohne Text: Prozessverantwortliche, Schnittstellen und eine Erläuterung zu „linear“ und „systemisch“ fehlen. |

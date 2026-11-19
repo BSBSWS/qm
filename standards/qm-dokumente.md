@@ -1,6 +1,6 @@
 # Standard: QM-Dokumente
 
-Stand: 19.11.2026 · Version 0.3 (Entwurf) · Verantwortlich: Geschäftsführung
+Stand: 19.11.2026 · Version 0.4 (Entwurf) · Verantwortlich: Geschäftsführung
 
 ## 1 Geltung
 
@@ -51,8 +51,8 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 
 ## 4 Offen
 
-1. Die Prozesslandkarte (Dokument 3.1.2) liegt im Repository noch nicht vor.
-2. Zugeordnete Prozesse: Schreibweise (Nummer und Name oder nur Name); Angabe bei Dokumenten, die keinem einzelnen Prozess zugeordnet sind. Gilt die Zeile auch für Arbeitsdokumente, Formulare und Workflows?
+1. Prozesslandkarte (`handbuch/3.1.2_prozesslandkarte.md`): Die Prozesse tragen keine Nummern, und sechs Prozessnamen kommen in mehreren Bereichen vor. Zu entscheiden: Nummern einführen oder Bereich und Name nennen (z. B. „Stationäre Hilfen: Hilfeplanung“). Zu klären ist außerdem die Zuordnung der Handbuchdokumente, die keinen namensgleichen Prozess haben (`handbuch/befunde-gliederung.md`, Abschnitt 5).
+2. Zugeordnete Prozesse: Angabe bei Dokumenten, die keinem einzelnen Prozess zugeordnet sind. Gilt die Zeile auch für Arbeitsdokumente, Formulare und Workflows?
 3. Befunde zur Gliederung (`handbuch/befunde-gliederung.md`): doppelte Kennungen in 9.1, abweichende Titel, überholte Einträge.
 4. Reihenfolge der Überführung.
 5. Lenkung: Welche Stellen erstellen, prüfen und geben frei? Wer steht im Verteiler? In welchem Rhythmus werden Dokumente überprüft?
@@ -66,3 +66,4 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 | 0.1 | 18.11.2026 | Erste Fassung: zwei Pflichtbestandteile nach den Festlegungen des Trägers vom 17.11.2026; Vorschläge und offene Punkte |
 | 0.2 | 18.11.2026 | Festlegungen des Trägers vom 18.11.2026: Geltung der Prozesszeile, Reflexion des Handelns, Überführung nach und nach mit Ausgabe in Word, Kennungsschema und Prozesslandkarte, Nachbildung der Lenkung |
 | 0.3 | 19.11.2026 | Kennungsschema nach der Gliederung des Handbuchs; Vorschläge zu Ordnern, Dateinamen und Revisionszählung; offene Punkte fortgeschrieben |
+| 0.4 | 19.11.2026 | Prozesslandkarte (3.1.2) liegt vor; offene Punkte 1 und 2 neu gefasst |

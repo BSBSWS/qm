@@ -11,14 +11,15 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 
 | Standard | Stand |
 |---|---|
-| `standards/qm-dokumente.md` | Version 0.3 (Entwurf), 19.11.2026: Pflichtbestandteile, Überführung, Nachbildung der Lenkung, Kennungsschema; Prozesslandkarte steht aus |
+| `standards/qm-dokumente.md` | Version 0.4 (Entwurf), 19.11.2026: Pflichtbestandteile, Überführung, Nachbildung der Lenkung, Kennungsschema; Prozesslandkarte liegt vor |
 
 ## QM-Handbuch
 
 | Datei | Inhalt |
 |---|---|
 | `handbuch/gliederung.md` | Gliederung des Handbuchs als Dokumentenliste: 213 Einträge in 12 Kapiteln, mit Stand der Überführung |
-| `handbuch/befunde-gliederung.md` | 17 Befunde zu Kennungen, Titeln und Aufbau; Lenkungsangaben der Vorlagen |
-| `handbuch/alt/` | Vorlagen 0.1 Startseite, 0.2 Gliederung, 0.3 Synopse Norm – QM-System |
+| `handbuch/befunde-gliederung.md` | 27 Befunde zu Kennungen, Titeln, Aufbau und Prozesslandkarte; Lenkungsangaben der Vorlagen |
+| `handbuch/3.1.2_prozesslandkarte.md` | Prozesslandkarte: 7 Managementprozesse, 16 Kernprozesse in 3 Bereichen, 6 Unterstützungsprozesse |
+| `handbuch/alt/` | Vorlagen 0.1 Startseite, 0.2 Gliederung, 0.3 Synopse Norm – QM-System, 3.1.2 Prozesslandkarte |
 
-Überführt ist bisher nur die Gliederung (0.2).
+Überführt sind die Gliederung (0.2) und die Prozesslandkarte (3.1.2).
