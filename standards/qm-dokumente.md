@@ -1,6 +1,6 @@
 # Standard: QM-Dokumente
 
-Stand: 19.11.2026 · Version 0.6 (Entwurf) · Verantwortlich: Geschäftsführung
+Stand: 19.11.2026 · Version 0.7 (Entwurf) · Verantwortlich: Geschäftsführung
 
 ## 1 Geltung
 
@@ -18,6 +18,8 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 8. **Prozessnummern.** Die Prozesse der Prozesslandkarte erhalten Nummern. Die Zeile „Zugeordnete Prozesse“ nennt Nummer und Name (Festlegung des Trägers vom 19.11.2026).
 9. **Revision.** Die Zählung der Revisionen aus den Vorlagen wird fortgeführt; die Kopfangabe heißt `revision` (Festlegung des Trägers vom 19.11.2026).
 10. **Musterdokument.** Die Überführung beginnt mit einem Musterdokument. An ihm werden Aufbau, Kopf und der Teil „Reflexion und Weiterentwicklung“ abgestimmt; danach folgen die übrigen Dokumente (Festlegung des Trägers vom 19.11.2026).
+11. **Text und Flussdiagramm.** Text und Flussdiagramm einer Kennung bilden ein Dokument mit gemeinsamer Revision; das Flussdiagramm steht als Mermaid-Text im Abschnitt „Ablauf“. Weichen beide ab, hat der Text Vorrang; das Flussdiagramm wird angepasst (Festlegungen des Trägers vom 19.11.2026).
+12. **Bereinigung.** Bei der Überführung wird der Wortlaut nach den Schreibregeln bereinigt: Paarform oder neutrale Form, Abkürzungen ausgeschrieben, einheitliche Schreibweisen. Der Inhalt bleibt; jede Änderung steht in der Änderungstabelle (Festlegung des Trägers vom 19.11.2026).
 
 ## 3 Vorschläge, noch nicht bestätigt
 
@@ -49,9 +51,8 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 
 - Je Kapitel ein Ordner: `handbuch/<Kapitelnummer zweistellig>-<kurzname>/`, z. B. `handbuch/09-betreuungsprozesse/`.
 - Je Dokument eine Markdown-Datei: `<Kennung>_<kurztitel>.md`, z. B. `9.1.4_hilfeplanung-stationaer.md`. Unterordner der Vorlage (Art „Ordner“) werden nicht nachgebildet; die Kennung trägt die Ordnung.
-- Text und Flussdiagramm einer Kennung bilden ein Dokument: Das Flussdiagramm steht als Mermaid-Text im Abschnitt „Ablauf“; beide tragen dieselbe Revision. Muster: `handbuch/9.1.4_hilfeplanung-stationaer.md`.
 - Aufbau eines Prozessdokuments nach dem Muster: Kopf mit Zeile „Zugeordnete Prozesse“; Zweck und Zuständigkeit; Beschreibung; Ablauf; Risikobetrachtung; Reflexion und Weiterentwicklung; Änderungen.
-- Die Word-Ausgabe liegt in `export/`, die überführte Vorlage in `handbuch/alt/`.
+- Die Word-Ausgabe liegt in `export/`, die überführte Vorlage in `handbuch/alt/`. Erzeugt wird sie mit `tools/export-docx.js`; Kopf- und Fußzeile folgen der Vorlage, Absätze mit `OFFEN:` sind gelb markiert.
 - `handbuch/gliederung.md` ist die Dokumentenliste und führt je Dokument den Stand der Überführung.
 
 ## 4 Offen
@@ -59,7 +60,7 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 1. Prozesslandkarte: Bestätigung der vorgeschlagenen Prozessnummern (Abschnitt 3.1). Zuordnung der Handbuchdokumente, die keinen namensgleichen Prozess haben (`handbuch/befunde-gliederung.md`, Abschnitt 5).
 2. Zugeordnete Prozesse: Angabe bei Dokumenten, die keinem einzelnen Prozess zugeordnet sind. Gilt die Zeile auch für Arbeitsdokumente, Formulare und Workflows?
 3. Befunde zur Gliederung (`handbuch/befunde-gliederung.md`): doppelte Kennungen in 9.1, abweichende Titel, überholte Einträge.
-4. Musterdokument 9.1.4 (`handbuch/9.1.4_hilfeplanung-stationaer.md`, Entwurf): Bestätigung von Aufbau, Kopf und Reflexionsteil; Befunde 28 bis 39; Revisionszählung bei getrennt gezählten Vorlagen (Text Rev. 0005, Flussdiagramm Rev. 0003). Danach Reihenfolge der weiteren Überführung.
+4. Musterdokument 9.1.4 (`handbuch/9.1.4_hilfeplanung-stationaer.md`, Rev. 0006 Entwurf): Durchsicht der Word-Ausgabe; Ort der Reflexion und Weg der Rückmeldung; Befunde 29, 35, 36, 38 und 39. Danach Reihenfolge der weiteren Überführung.
 5. Lenkung: Welche Stellen erstellen, prüfen und geben frei? Wer steht im Verteiler? In welchem Rhythmus werden Dokumente überprüft?
 6. Kapitel 5 des Handbuchs: Verweis auf die Repositories der Konzeptionen und Leistungsbeschreibungen oder Kopie.
 7. Aufbau und Prüfliste je Textart.
@@ -74,3 +75,4 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 | 0.4 | 19.11.2026 | Prozesslandkarte (3.1.2) liegt vor; offene Punkte 1 und 2 neu gefasst |
 | 0.5 | 19.11.2026 | Festlegungen des Trägers vom 19.11.2026: Prozessnummern, Fortführung der Revisionszählung, Beginn mit einem Musterdokument; Vorschlag für das Nummernschema |
 | 0.6 | 19.11.2026 | Musterdokument 9.1.4: Vorschläge zu Text und Flussdiagramm in einem Dokument und zum Aufbau eines Prozessdokuments |
+| 0.7 | 19.11.2026 | Festlegungen des Trägers vom 19.11.2026 zum Musterdokument: Text und Flussdiagramm als ein Dokument, Vorrang des Textes, Bereinigung nach den Schreibregeln; Word-Ausgabe mit `tools/export-docx.js` |

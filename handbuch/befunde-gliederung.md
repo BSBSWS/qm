@@ -65,15 +65,15 @@ Bei 0.3 stehen zwei Daten („07/2026“ und „03.02.14“); welches die Freiga
 
 | Nr. | Befund |
 |---|---|
-| 28 | Unter der Kennung 9.1.4 liegen zwei Dateien: der Text (Word, Version 04/2018, Rev. 0005) und das Flussdiagramm (Visio/PDF, Version 04/2011, Rev. 0003). Die Gliederung 0.2 führt nur einen Eintrag. Die Revisionen laufen getrennt; das Flussdiagramm ist sieben Jahre älter als der Text. |
+| 28 | Unter der Kennung 9.1.4 liegen zwei Dateien: der Text (Word, Version 04/2018, Rev. 0005) und das Flussdiagramm (Visio/PDF, Version 04/2011, Rev. 0003). Die Gliederung 0.2 führt nur einen Eintrag. Die Revisionen laufen getrennt; das Flussdiagramm ist sieben Jahre älter als der Text. Entschieden am 19.11.2026: ein Dokument mit gemeinsamer Revision 0006. |
 | 29 | Titel: Text „Hilfeplanung stat. Einr.“, Flussdiagramm „Hilfeplanung Wohngruppe“, Gliederung „Hilfeplanung - stat. Einr.“. Die Kopfzeile nennt 9.1 „Betreuungsprozesse stationäre Einrichtungen“, die Gliederung „Stationäre Einrichtungen“. |
-| 30 | Die Nummerierung der Beschreibung ist gestört: neun Nummern, davon vier ohne Text; der letzte Absatz trägt keine Nummer. Die Überführung zählt die sechs Absätze durch. |
-| 31 | Die Spalten „verantwortlich“ und „Dokumente/Formulare“ sind keinem Schritt zugeordnet. |
-| 32 | Reihenfolge: Die Vorbereitung des Hilfeplangesprächs steht im Text als letzter Absatz, im Flussdiagramm vor dem Gespräch. |
-| 33 | Der Verweis „s. 9.5.1“ hat kein Ziel; die Gliederung führt 9.5 „Ausschluss Entwicklung“ ohne Unterpunkte. In Betracht kommt 9.4.1 „HPG im Jugendamt“. |
-| 34 | Text und Flussdiagramm weichen ab. Nur im Flussdiagramm: Bericht an den ASD, abschließendes Hilfeplangespräch bei Entlassung, Folgemaßnahmen und Nachbetreuung. Nur im Text: Teilnahme von Lehrkräften und Ausbildenden, Zuständigkeiten, Risikobetrachtung. Turnus im Text „halbjährlich oder jährlich“, im Flussdiagramm „nach ca. ½ Jahr“. |
+| 30 | Die Nummerierung der Beschreibung ist gestört: neun Nummern, davon vier ohne Text; der letzte Absatz trägt keine Nummer. Die Überführung zählt die sechs Absätze durch. Erledigt in Rev. 0006. |
+| 31 | Die Spalten „verantwortlich“ und „Dokumente/Formulare“ sind keinem Schritt zugeordnet. Entschieden am 19.11.2026: Die Zuordnung nach der Lage in der Vorlage bleibt. |
+| 32 | Reihenfolge: Die Vorbereitung des Hilfeplangesprächs steht im Text als letzter Absatz, im Flussdiagramm vor dem Gespräch. Entschieden am 19.11.2026: Der Text hat Vorrang; die Reihenfolge des Textes bleibt. |
+| 33 | Der Verweis „s. 9.5.1“ hat kein Ziel; die Gliederung führt 9.5 „Ausschluss Entwicklung“ ohne Unterpunkte. In Betracht kommt 9.4.1 „HPG im Jugendamt“. Entschieden am 19.11.2026: Verweis auf 9.4.1. |
+| 34 | Text und Flussdiagramm weichen ab. Nur im Flussdiagramm: Bericht an den ASD, abschließendes Hilfeplangespräch bei Entlassung, Folgemaßnahmen und Nachbetreuung. Nur im Text: Teilnahme von Lehrkräften und Ausbildenden, Zuständigkeiten, Risikobetrachtung. Turnus im Text „halbjährlich oder jährlich“, im Flussdiagramm „nach ca. ½ Jahr“. Entschieden am 19.11.2026: Der Text hat Vorrang; das Flussdiagramm ist in Rev. 0006 angepasst. |
 | 35 | Verantwortung: Im Kopf stehen „LeiterInnen der Einrichtungen, Personensorgeberechtigte“, in der Tabelle zusätzlich Fachbereichsleitung und Erzieherteam; die Personensorgeberechtigten kommen in der Beschreibung nicht vor. |
 | 36 | Dokumente und Formulare ohne Kennung: „Fragebogen Jugendamt“, „Vorbereitung auf das Hpg“, „Einschätzungsbogen Verselbständigung“; das HPG-Protokoll ist „nicht hinterlegt“. |
-| 37 | Schreibweisen: Binnen-I („LeiterInnen“, „LehrerInnen“, „AusbilderInnen“), „Klienten“, „Erzieherteam“, „HPG“ und „Hpg“, Abkürzungen „ASD“, „JA“, „stat. Einr.“. |
+| 37 | Schreibweisen: Binnen-I („LeiterInnen“, „LehrerInnen“, „AusbilderInnen“), „Klienten“, „Erzieherteam“, „HPG“ und „Hpg“, Abkürzungen „ASD“, „JA“, „stat. Einr.“. Erledigt in Rev. 0006: nach den Schreibregeln bereinigt. |
 | 38 | Erstellt und geprüft hat dieselbe Person am selben Tag. |
 | 39 | Die Legende des Flussdiagramms führt sieben Zeichen (Start/Ende, Inhalte, Datenbank, Dokument, Entscheidung, Teilprozess, Prozess); verwendet sind vier. |
