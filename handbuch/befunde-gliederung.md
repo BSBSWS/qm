@@ -1,6 +1,6 @@
-# Befunde zu Gliederung, Prolog und Prozesslandkarte des QM-Handbuchs
+# Befunde zum QM-Handbuch: Gliederung, Prolog, Prozesslandkarte, Musterdokument 9.1.4
 
-Stand: 19.11.2026. Grundlage: die Vorlagen 0.1 Startseite, 0.2 Gliederung, 0.3 Synopse Norm – QM-System und 3.1.2 Prozesslandkarte (abgelegt in `alt/`). Die Befunde sind nicht berichtigt; über jede Änderung entscheidet der Träger.
+Stand: 19.11.2026. Grundlage: die Vorlagen 0.1 Startseite, 0.2 Gliederung, 0.3 Synopse Norm – QM-System 3.1.2 Prozesslandkarte und 9.1.4 Hilfeplanung stat. Einr. mit Flussdiagramm (abgelegt in `alt/`). Die Befunde sind nicht berichtigt; über jede Änderung entscheidet der Träger.
 
 ## 1 Kennungen
 
@@ -44,7 +44,7 @@ Stand: 19.11.2026. Grundlage: die Vorlagen 0.1 Startseite, 0.2 Gliederung, 0.3 S
 
 Die Prozesslandkarte 3.1.2 weicht davon ab: Die Kopfzeile ist leer; die Fußzeile lautet „Datum: 29.04.2026 erstellt von: H. Wenkel | genehmigt von: Gf | Version: 04.2026 Rev. 001“ („genehmigt“ statt „freigegeben“, Version aus Monat und Jahr mit Revisionsnummer).
 
-Bei 0.3 stehen zwei Daten („07/2026“ und „03.02.14“); welches die Freigabe und welches die Erstellung bezeichnet, ist unklar. Angaben zu Prüfung, Verteiler und nächster Überprüfung enthalten die Vorlagen nicht.
+Bei 0.3 stehen zwei Daten („07/2026“ und „03.02.14“); welches die Freigabe und welches die Erstellung bezeichnet, ist unklar. Angaben zu Verteiler und nächster Überprüfung enthalten die Vorlagen nicht. Eine Angabe zur Prüfung enthält nur 9.1.4 (Fußzeile: „erstellt: M. Kettler 30.04.18 · geprüft: M. Kettler 30.04.18 · freigegeben: K. Glasenapp/M. Frese · Version 04/2018 Rev. 0005“, je mit Feld „Unterschrift“; ein Datum der Freigabe fehlt).
 
 ## 5 Prozesslandkarte (3.1.2)
 
@@ -60,3 +60,20 @@ Bei 0.3 stehen zwei Daten („07/2026“ und „03.02.14“); welches die Freiga
 | 25 | Titel: In der Gliederung „Prozesslandkarte_SwS“, im Dateinamen „Prozesslandkarte“; das Dokument selbst trägt keinen Titel. |
 | 26 | Beschriftung der Pfeile: Der rechte Pfeil trägt „Beteiligung“, der linke „Transparenz“ und „Beteiligung“. Ob das beabsichtigt ist, ist unklar. |
 | 27 | Die Vorlage ist ein Schaubild ohne Text: Prozessverantwortliche, Schnittstellen und eine Erläuterung zu „linear“ und „systemisch“ fehlen. |
+
+## 6 Musterdokument 9.1.4 Hilfeplanung stat. Einr.
+
+| Nr. | Befund |
+|---|---|
+| 28 | Unter der Kennung 9.1.4 liegen zwei Dateien: der Text (Word, Version 04/2018, Rev. 0005) und das Flussdiagramm (Visio/PDF, Version 04/2011, Rev. 0003). Die Gliederung 0.2 führt nur einen Eintrag. Die Revisionen laufen getrennt; das Flussdiagramm ist sieben Jahre älter als der Text. |
+| 29 | Titel: Text „Hilfeplanung stat. Einr.“, Flussdiagramm „Hilfeplanung Wohngruppe“, Gliederung „Hilfeplanung - stat. Einr.“. Die Kopfzeile nennt 9.1 „Betreuungsprozesse stationäre Einrichtungen“, die Gliederung „Stationäre Einrichtungen“. |
+| 30 | Die Nummerierung der Beschreibung ist gestört: neun Nummern, davon vier ohne Text; der letzte Absatz trägt keine Nummer. Die Überführung zählt die sechs Absätze durch. |
+| 31 | Die Spalten „verantwortlich“ und „Dokumente/Formulare“ sind keinem Schritt zugeordnet. |
+| 32 | Reihenfolge: Die Vorbereitung des Hilfeplangesprächs steht im Text als letzter Absatz, im Flussdiagramm vor dem Gespräch. |
+| 33 | Der Verweis „s. 9.5.1“ hat kein Ziel; die Gliederung führt 9.5 „Ausschluss Entwicklung“ ohne Unterpunkte. In Betracht kommt 9.4.1 „HPG im Jugendamt“. |
+| 34 | Text und Flussdiagramm weichen ab. Nur im Flussdiagramm: Bericht an den ASD, abschließendes Hilfeplangespräch bei Entlassung, Folgemaßnahmen und Nachbetreuung. Nur im Text: Teilnahme von Lehrkräften und Ausbildenden, Zuständigkeiten, Risikobetrachtung. Turnus im Text „halbjährlich oder jährlich“, im Flussdiagramm „nach ca. ½ Jahr“. |
+| 35 | Verantwortung: Im Kopf stehen „LeiterInnen der Einrichtungen, Personensorgeberechtigte“, in der Tabelle zusätzlich Fachbereichsleitung und Erzieherteam; die Personensorgeberechtigten kommen in der Beschreibung nicht vor. |
+| 36 | Dokumente und Formulare ohne Kennung: „Fragebogen Jugendamt“, „Vorbereitung auf das Hpg“, „Einschätzungsbogen Verselbständigung“; das HPG-Protokoll ist „nicht hinterlegt“. |
+| 37 | Schreibweisen: Binnen-I („LeiterInnen“, „LehrerInnen“, „AusbilderInnen“), „Klienten“, „Erzieherteam“, „HPG“ und „Hpg“, Abkürzungen „ASD“, „JA“, „stat. Einr.“. |
+| 38 | Erstellt und geprüft hat dieselbe Person am selben Tag. |
+| 39 | Die Legende des Flussdiagramms führt sieben Zeichen (Start/Ende, Inhalte, Datenbank, Dokument, Entscheidung, Teilprozess, Prozess); verwendet sind vier. |

@@ -212,7 +212,7 @@ Umfang: 213 Einträge in 12 Kapiteln (0 bis 11).
 | 9.1.1 | Neuaufnahme - stat. Einr. | 3 | Datei | nicht überführt |
 | 9.1.2 | Inobhutnahme - stat. Einr. | 3 | Datei | nicht überführt |
 | 9.1.3 | Umgang mit dem Eigentum des Kinder- und Jugendlichen - stat. Einr. | 3 | Datei | nicht überführt |
-| 9.1.4 | Hilfeplanung - stat. Einr. | 3 | Datei | nicht überführt |
+| 9.1.4 | Hilfeplanung - stat. Einr. | 3 | Datei | überführt als Musterdokument, Entwurf (`9.1.4_hilfeplanung-stationaer.md`), Vorlagen in `alt/` |
 | 9.1.6 | Elternarbeit - stat. Einr. | 3 | Datei | nicht überführt |
 | 9.1.7 | Schulischer Bereich - stat. Einr. | 3 | Datei | nicht überführt |
 | 9.1.8 | Freizeitbereich - stat. Einr. | 3 | Datei | nicht überführt |
