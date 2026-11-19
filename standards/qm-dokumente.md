@@ -25,13 +25,6 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 - Kopfangabe der Markdown-Quelle: `prozesse`. Fehlt sie, meldet der Export das und setzt „Zugeordnete Prozesse: OFFEN“.
 - Prüfpunkt: Die zugeordneten Prozesse sind genannt und stimmen mit der Prozesslandkarte überein.
 
-### 3.4 Ordner und Dateinamen
-
-- Je Kapitel ein Ordner: `handbuch/<Kapitelnummer zweistellig>-<kurzname>/`, z. B. `handbuch/09-betreuungsprozesse/`.
-- Je Dokument eine Markdown-Datei: `<Kennung>_<kurztitel>.md`, z. B. `9.1.4_hilfeplanung-stationaer.md`. Unterordner der Vorlage (Art „Ordner“) werden nicht nachgebildet; die Kennung trägt die Ordnung.
-- Die Word-Ausgabe liegt in `export/`, die überführte Vorlage in `handbuch/alt/`.
-- `handbuch/gliederung.md` ist die Dokumentenliste und führt je Dokument den Stand der Überführung.
-
 ### 3.2 Reflexion und Weiterentwicklung
 
 - Ort: am Ende des Dokuments, immer gleich aufgebaut, höchstens eine halbe Seite.
@@ -48,6 +41,13 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 - Jedes Dokument endet mit einer Änderungstabelle: Version, Datum, Änderung, Grund.
 - Jede Änderung an einem freigegebenen Dokument erzeugt eine neue Version; die freigegebene Word-Fassung bleibt im Ordner `export/` erhalten.
 - Eine Dokumentenliste (`dokumentenliste.md`) führt alle Dokumente mit Kennung, Titel, Prozess, Version, Stand und Status.
+
+### 3.4 Ordner und Dateinamen
+
+- Je Kapitel ein Ordner: `handbuch/<Kapitelnummer zweistellig>-<kurzname>/`, z. B. `handbuch/09-betreuungsprozesse/`.
+- Je Dokument eine Markdown-Datei: `<Kennung>_<kurztitel>.md`, z. B. `9.1.4_hilfeplanung-stationaer.md`. Unterordner der Vorlage (Art „Ordner“) werden nicht nachgebildet; die Kennung trägt die Ordnung.
+- Die Word-Ausgabe liegt in `export/`, die überführte Vorlage in `handbuch/alt/`.
+- `handbuch/gliederung.md` ist die Dokumentenliste und führt je Dokument den Stand der Überführung.
 
 ## 4 Offen
 
