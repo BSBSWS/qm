@@ -52,7 +52,7 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 - Je Kapitel ein Ordner: `handbuch/<Kapitelnummer zweistellig>-<kurzname>/`, z. B. `handbuch/09-betreuungsprozesse/`.
 - Je Dokument eine Markdown-Datei: `<Kennung>_<kurztitel>.md`, z. B. `9.1.4_hilfeplanung-stationaer.md`. Unterordner der Vorlage (Art „Ordner“) werden nicht nachgebildet; die Kennung trägt die Ordnung.
 - Aufbau eines Prozessdokuments nach dem Muster: Kopf mit Zeile „Zugeordnete Prozesse“; Zweck und Zuständigkeit; Beschreibung; Ablauf; Risikobetrachtung; Reflexion und Weiterentwicklung; Änderungen.
-- Die Word-Ausgabe liegt in `export/`, die überführte Vorlage in `handbuch/alt/`. Erzeugt wird sie mit `tools/export-docx.js`; Die Angaben in Kopf- und Fußzeile folgen der Vorlage. Gestaltung nach der Festlegung des Trägers vom 19.11.2026: Blau des Trägerlogos (#33448C) statt Gelb, Tabellenköpfe blau mit weißer Schrift, feine waagerechte Linien statt Gitter. Absätze mit `OFFEN:` sind farbig hinterlegt.
+- Die Word-Ausgabe liegt in `export/`, die überführte Vorlage in `handbuch/alt/`. Erzeugt wird sie mit `tools/export-docx.js`; Die Angaben in Kopf- und Fußzeile folgen der Vorlage. Logo ist immer `tools/logo-sws.png` (Fassung 2021 ohne „GmbH“; Festlegung des Trägers vom 19.11.2026). Gestaltung nach der Festlegung des Trägers vom 19.11.2026: Blau des Trägerlogos (#2D4B9B) statt Gelb, Tabellenköpfe blau mit weißer Schrift, feine waagerechte Linien statt Gitter. Absätze mit `OFFEN:` sind farbig hinterlegt.
 - `handbuch/gliederung.md` ist die Dokumentenliste und führt je Dokument den Stand der Überführung.
 
 ## 4 Offen

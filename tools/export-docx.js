@@ -11,7 +11,7 @@ if (!src || !out) { console.error('Aufruf: node tools/export-docx.js quelle.md z
 
 // Gestaltung: Blau des Trägerlogos, helle Tönung, feine Linien
 const FONT = 'Calibri', W = 9070;
-const BLAU = '33448C', HELL = 'EEF1F8', LINIE = 'C5CBE0', GRAU = '5F6470', TEXT = '1F2433', OFFEN_BG = 'FFF3D1', OFFEN_LN = 'E0A100';
+const BLAU = '2D4B9B', HELL = 'EEF1F8', LINIE = 'C5CBE0', GRAU = '5F6470', TEXT = '1F2433', OFFEN_BG = 'FFF3D1', OFFEN_LN = 'E0A100';
 
 const text = fs.readFileSync(src, 'utf8').replace(/\r/g, '');
 const fm = {}; let body = text;
@@ -107,7 +107,7 @@ const titel = new Table({ width: { size: W, type: WidthType.DXA }, columnWidths:
 // Kopfzeile: Logo links, Angaben rechts, blaue Linie
 const s8 = { size: 16, color: GRAU };
 const R = children => new Paragraph({ alignment: AlignmentType.RIGHT, spacing: { after: 10 }, children });
-const logo = new ImageRun({ type: 'jpg', data: fs.readFileSync(path.join(__dirname, 'logo-sws.jpeg')), transformation: { width: 196, height: 46 } });
+const logo = new ImageRun({ type: 'png', data: fs.readFileSync(path.join(__dirname, 'logo-sws.png')), transformation: { width: 200, height: 52 } });
 const hb = { top: none, left: none, right: none, bottom: line(BLAU, 8) };
 const header = new Header({ children: [new Table({ width: { size: W, type: WidthType.DXA }, columnWidths: [3600, W - 3600], rows: [new TableRow({ children: [
   cell([new Paragraph({ children: [logo] })], 3600, { borders: hb, verticalAlign: VerticalAlign.CENTER, margins: { top: 0, bottom: 80, left: 0, right: 0 } }),
