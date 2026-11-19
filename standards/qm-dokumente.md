@@ -1,6 +1,6 @@
 # Standard: QM-Dokumente
 
-Stand: 19.11.2026 · Version 0.7 (Entwurf) · Verantwortlich: Geschäftsführung
+Stand: 19.11.2026 · Version 0.8 (Entwurf) · Verantwortlich: Geschäftsführung
 
 ## 1 Geltung
 
@@ -20,6 +20,7 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 10. **Musterdokument.** Die Überführung beginnt mit einem Musterdokument. An ihm werden Aufbau, Kopf und der Teil „Reflexion und Weiterentwicklung“ abgestimmt; danach folgen die übrigen Dokumente (Festlegung des Trägers vom 19.11.2026).
 11. **Text und Flussdiagramm.** Text und Flussdiagramm einer Kennung bilden ein Dokument mit gemeinsamer Revision; das Flussdiagramm steht als Mermaid-Text im Abschnitt „Ablauf“. Weichen beide ab, hat der Text Vorrang; das Flussdiagramm wird angepasst (Festlegungen des Trägers vom 19.11.2026).
 12. **Bereinigung.** Bei der Überführung wird der Wortlaut nach den Schreibregeln bereinigt: Paarform oder neutrale Form, Abkürzungen ausgeschrieben, einheitliche Schreibweisen. Der Inhalt bleibt; jede Änderung steht in der Änderungstabelle (Festlegung des Trägers vom 19.11.2026).
+13. **Keine unbestimmten Angaben.** Ungefähre und weiche Angaben wie „etwa“, „ca.“, „ungefähr“, „in der Regel“, „ggf.“, „rechtzeitig“ oder „im Einzelfall“ stehen in keinem Text; Häufigkeiten, Fristen, Mengen und Bedingungen werden genau genannt. Fehlt die genaue Angabe, wird sie mit `OFFEN:` gekennzeichnet und beim Träger erfragt (Festlegung des Trägers vom 19.11.2026).
 
 ## 3 Vorschläge, noch nicht bestätigt
 
@@ -76,3 +77,4 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 | 0.5 | 19.11.2026 | Festlegungen des Trägers vom 19.11.2026: Prozessnummern, Fortführung der Revisionszählung, Beginn mit einem Musterdokument; Vorschlag für das Nummernschema |
 | 0.6 | 19.11.2026 | Musterdokument 9.1.4: Vorschläge zu Text und Flussdiagramm in einem Dokument und zum Aufbau eines Prozessdokuments |
 | 0.7 | 19.11.2026 | Festlegungen des Trägers vom 19.11.2026 zum Musterdokument: Text und Flussdiagramm als ein Dokument, Vorrang des Textes, Bereinigung nach den Schreibregeln; Word-Ausgabe mit `tools/export-docx.js` |
+| 0.8 | 19.11.2026 | Festlegungen des Trägers vom 19.11.2026: keine unbestimmten Angaben; Logo und Blauton der Word-Ausgabe |
