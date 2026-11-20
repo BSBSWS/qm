@@ -204,6 +204,7 @@ Umfang: 213 Einträge in 12 Kapiteln (0 bis 11).
 | 8.7 | Rahmen-Hygieneplan | 2 | Datei | nicht überführt |
 | 8.8 | Beauftragte_Fachkräfte | 2 | Datei | nicht überführt |
 | 8.9 | Arbeitsanweisungen | 2 | Datei | nicht überführt |
+| 8.9.3 | Lenkung von Formularen und Dokumenten | 3 | Datei | nicht in der Gliederung 0.2, nach der Dateiliste ergänzt; überführt, Rev. 0002 Entwurf (`8.9.3_lenkung-dokumente.md`), Word-Ausgabe in `export/`, Vorlage in `alt/` |
 
 ## 9 Betreuungsprozesse
 

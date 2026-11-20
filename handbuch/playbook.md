@@ -68,6 +68,12 @@ Das QM ist nützlich für die praktische Arbeit, schlank und effizient, anschlus
 |---|---|
 | 3.1.2 Prozesslandkarte (Entwurf) | Die Prozesslandkarte zeigt alle Prozesse des Trägers auf einem Blatt: Managementprozesse, Kernprozesse der ambulanten, stationären und teilstationären Hilfen und Unterstützungsprozesse. Beteiligung und Transparenz verbinden sie. |
 
+### Kapitel 8 Rahmenbedingungen
+
+| Dokument | Leitorientierung |
+|---|---|
+| 8.9.3 Lenkung von Formularen und Dokumenten (Entwurf) | Jedes Dokument zeigt, wer es erstellt, geprüft und freigegeben hat und welche Fassung gilt. Die QMB prüft, die Geschäftsführung gibt frei. Gearbeitet wird immer mit der aktuellen Fassung; ein Entwurf gilt nicht. |
+
 ### Kapitel 9 Hilfeprozesse
 
 | Dokument | Leitorientierung |
