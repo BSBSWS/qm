@@ -6,8 +6,10 @@ revision: "001"
 stand: 20.11.2026
 status: Entwurf
 erstellt: OFFEN
-geprueft: OFFEN
-freigegeben: OFFEN
+geprueft: QMB
+freigegeben: Geschäftsführung
+verteiler: OFFEN
+naechste_ueberpruefung: mindestens jährlich zum Audit
 ---
 
 # Arbeiten mit dem QM-Handbuch – Anleitung für Mitarbeitende
@@ -50,17 +52,26 @@ Den Aufbau der Prozessdokumente erklärt die Kurzanleitung „Aufbau der Prozess
 1. Vor der Aufgabe den Ablauf des Prozesses ansehen: Welche Schritte folgen aufeinander, wer ist verantwortlich?
 2. Während der Aufgabe die Checkliste abhaken. Formulare und Gesetzestexte stehen in der Liste der Verweise.
 3. Nach der Aufgabe die Leitfragen im Team besprechen: Was hat getragen, wo wurde abgewichen, was soll sich ändern?
-4. Abweichungen und Verbesserungen melden. Sie führen zu einer neuen Revision des Dokuments.
+4. Abweichungen und Verbesserungen an die Qualitätsmanagementbeauftragte oder den Qualitätsmanagementbeauftragten (QMB) melden. Sie führen zu einer neuen Revision des Dokuments.
 
 ## 5 Welche Fassung gilt
 
+- Geprüft wird jedes Dokument durch die QMB, freigegeben durch die Geschäftsführung, überprüft mindestens jährlich zum Audit.
 - Es gilt die freigegebene Fassung mit der höchsten Revision. Revision, Stand und Freigabe stehen in der Fußzeile jeder Seite.
 - Eine Fassung mit dem Vermerk „Entwurf“ gilt nicht.
 - Ausdrucke können veraltet sein. Vor der Nutzung die Revision mit der Fassung im Handbuch vergleichen.
 
 ## 6 Wenn etwas nicht passt
 
-Beschreibt ein Dokument die Arbeit nicht so, wie sie tatsächlich abläuft, ist das ein Grund für eine Rückmeldung. Das Dokument wird dann geprüft und angepasst.
+Beschreibt ein Dokument die Arbeit nicht so, wie sie tatsächlich abläuft, ist das ein Grund für eine Rückmeldung an die QMB. Das Dokument wird dann geprüft und angepasst.
+
+## Risikobetrachtung
+
+Vorschlag; vom Träger nicht bestätigt.
+
+Risiko: Mitarbeitende arbeiten mit veralteten Ausdrucken, oder das Handbuch wird im Alltag nicht genutzt.
+
+Risikominimierung: Revision in der Fußzeile prüfen; Rückmeldungen an die QMB; Überprüfung mindestens jährlich zum Audit.
 
 ## Reflexion und Weiterentwicklung
 
@@ -69,20 +80,19 @@ Leitfragen zur Reflexion des Handelns:
 1. Wann wurde zuletzt ein Dokument des Handbuchs bei der Arbeit genutzt, und hat es geholfen?
 2. Was erschwert den Zugang zum Handbuch?
 
+Ort der Reflexion: je nach Thema und Handlungsebene. Rückmeldungen gehen an die Qualitätsmanagementbeauftragte oder den Qualitätsmanagementbeauftragten (QMB).
+
 ## Offene Punkte
 
 OFFEN: Ort, an dem Mitarbeitende das Handbuch und die Ablaufblätter finden.
 
-OFFEN: Stelle, an die Rückmeldungen gehen, und Weg der Rückmeldung.
-
 OFFEN: Anrede der Mitarbeitenden (Sie oder Du); der Entwurf kommt ohne Anrede aus.
 
 OFFEN: Kennung des Dokuments in Kapitel 1.2 der Gliederung.
-
-OFFEN: Abschnitt 5 beschreibt die Lenkung so, wie der Standard sie vorschlägt; der Träger hat sie noch nicht bestätigt.
 
 ## Änderungen
 
 | Revision | Datum | Änderung | Grund |
 |---|---|---|---|
 | 001 (Entwurf) | 20.11.2026 | Erste Fassung | Auftrag des Trägers vom 20.11.2026 |
+| 001 (Entwurf) | 20.11.2026 | Rückmeldung an die QMB, Lenkung und Risikobetrachtung eingetragen | Festlegungen des Trägers vom 20.11.2026 |

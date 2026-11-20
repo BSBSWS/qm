@@ -34,7 +34,7 @@ Ergänzend am selben Tag: Die Praxistauglichkeit ist sehr wichtig.
 | Texte enthalten keine ungefähren oder weichen Angaben. | schlank, anschlussfähig | 19.11.2026 | Nr. 13 |
 | Texte sind präzise und sachlich, ohne Doppelungen; Abkürzungen sind ausgeschrieben. | schlank, anschlussfähig | 19.11.2026 | Nr. 7 und 12 |
 | Alle Prozessdokumente haben denselben Aufbau; eine Kurzanleitung erklärt ihn. | anschlussfähig | 20.11.2026 | `anleitung-prozessdokumente.md` |
-| Jedes Dokument nennt die zugeordneten Prozesse mit Nummer und Name. | anschlussfähig | 17.11. bis 19.11.2026 | Nr. 1 und 8 |
+| Jedes Dokument nennt die zugeordneten Prozesse mit Bereich und Name. | anschlussfähig | 17.11. bis 19.11.2026 | Nr. 1 und 8 |
 | Jede Festlegung, jeder Text und jedes Kapitel hat eine Leitorientierung; alle zusammen bilden das Playbook. | schlank, anschlussfähig | 20.11.2026 | Nr. 18 und 19 |
 | Jedes Dokument enthält den Teil „Reflexion und Weiterentwicklung“ zur Reflexion des Handelns. | reflexiv | 17.11. und 18.11.2026 | Nr. 2 |
 

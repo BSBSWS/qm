@@ -1,6 +1,6 @@
 # Standard: QM-Dokumente
 
-Stand: 20.11.2026 · Version 0.14 (Entwurf) · Verantwortlich: Geschäftsführung
+Stand: 20.11.2026 · Version 0.15 (Entwurf) · Verantwortlich: Geschäftsführung
 
 ## 1 Geltung
 
@@ -26,7 +26,7 @@ Grundannahme: Die begrenzte Reichweite von Verfahrensstandardisierungen resultie
 5. **Lenkung.** Das Repository bildet die gelenkte Fassung nach (Versionen, Prüfung, Freigabevermerk, Verteiler). Die Freigabe selbst erfolgt außerhalb des Repositorys.
 6. Workflow-Diagramme werden vorerst als Mermaid-Text geführt.
 7. Es gelten die Schreibregeln des Trägers: präzise, sachliche Texte ohne Doppelungen und Ausschmückungen; keine Ich- und keine Wir-Form.
-8. **Prozessnummern.** Die Prozesse der Prozesslandkarte erhalten Nummern. Die Zeile „Zugeordnete Prozesse“ nennt Nummer und Name (Festlegung des Trägers vom 19.11.2026).
+8. **Keine eigenen Prozessnummern.** Die Prozesse sind im Handbuch beschrieben; eine zweite Nummerierung gibt es nicht. Die Zeile „Zugeordnete Prozesse“ nennt Bereich und Namen des Prozesses nach der Prozesslandkarte, z. B. „Stationäre Hilfen: Hilfeplanung“ (Festlegung des Trägers vom 20.11.2026; ersetzt die Festlegung vom 19.11.2026).
 9. **Revision.** Die Zählung der Revisionen aus den Vorlagen wird fortgeführt; die Kopfangabe heißt `revision` (Festlegung des Trägers vom 19.11.2026).
 10. **Musterdokument.** Die Überführung beginnt mit einem Musterdokument. An ihm werden Aufbau, Kopf und der Teil „Reflexion und Weiterentwicklung“ abgestimmt; danach folgen die übrigen Dokumente (Festlegung des Trägers vom 19.11.2026).
 11. **Text und Flussdiagramm.** Text und Flussdiagramm einer Kennung bilden ein Dokument mit gemeinsamer Revision; das Flussdiagramm steht als Mermaid-Text im Abschnitt „Ablauf“. Weichen beide ab, hat der Text Vorrang; das Flussdiagramm wird angepasst (Festlegungen des Trägers vom 19.11.2026).
@@ -41,12 +41,19 @@ Grundannahme: Die begrenzte Reichweite von Verfahrensstandardisierungen resultie
 20. **Wortlaut der Leitsätze.** Oberster Grundsatz und Leitsätze stehen überall im Wortlaut des Trägers, auch in der Wir-Form; der übrige Text bleibt sachlich (Festlegung des Trägers vom 20.11.2026).
 21. **Grundlagen des QM.** § 78b SGB VIII und die ISO 9001 sind beide maßgeblich und werden beide genannt (Festlegung des Trägers vom 20.11.2026).
 22. **Unbestimmte Angaben werden definiert.** Stehen in einer Vorlage unbestimmte Angaben, bleiben sie nicht stehen und entfallen nicht ersatzlos: Der Träger legt die genaue Angabe fest; sie wird vor der Ausgabe abgefragt (Festlegung des Trägers vom 20.11.2026; ergänzt Nr. 13).
+23. **Lenkung.** Freigegeben wird immer durch die Geschäftsführung, geprüft immer durch die QMB; die erstellende Stelle wechselt. Jedes Dokument wird mindestens jährlich zum Audit überprüft. Rückmeldungen gehen an die QMB. Dokumente des Handbuchs tragen keine Unterschriftsfelder (Festlegungen des Trägers vom 20.11.2026).
+24. **Ort der Reflexion.** Die Leitfragen werden je nach Thema und Handlungsebene besprochen (Festlegung des Trägers vom 20.11.2026).
+25. **Risikobetrachtung.** Jeder Prozess und jedes Dokument enthält zwingend eine Risikobetrachtung (Festlegung des Trägers vom 20.11.2026).
+26. **Checkliste, Prüffragen, Beschreibung.** Die Checkliste je Prozess und die Prüffragen zur Leitlinie sind verbindlich. Die Beschreibung bleibt Teil der Prozessdokumente (Festlegungen des Trägers vom 20.11.2026).
+27. **Kapitel 9.** Kapitel 9 heißt „Hilfeprozesse“. „Wohngruppen“, „familienanaloge Einrichtungen, IWLs“ und „Eltern-Kind-Einrichtung“ sind Zwischenüberschriften (Festlegungen des Trägers vom 20.11.2026).
+28. **Stellenbezeichnungen.** Stellen heißen so, wie das Schlüsselverzeichnis sie führt (Festlegung des Trägers vom 20.11.2026).
+29. **Gestaltung.** Blau #2D4B9B ist bestätigt (20.11.2026).
 
 ## 3 Vorschläge, noch nicht bestätigt
 
 ### 3.0 Prüffragen zur Leitlinie
 
-Vor der Ausgabe eines Dokuments:
+Verbindlich nach der Festlegung des Trägers vom 20.11.2026. Vor der Ausgabe eines Dokuments:
 
 - Nützlich: Sagt das Dokument, wer was wann tut? Hilft es in der Situation, für die es geschrieben ist?
 - Schlank und effizient: Steht jede Angabe nur einmal? Lässt sich etwas streichen, ohne dass in der Praxis etwas fehlt? Reicht ein Verweis statt einer Wiederholung?
@@ -56,8 +63,7 @@ Vor der Ausgabe eines Dokuments:
 ### 3.1 Zugeordnete Prozesse
 
 - Ort: im Dokumentenkopf, als eigene Zeile unter Kennung, Version, Stand und Verantwortung.
-- Inhalt: Nummer und Name jedes Prozesses nach der Prozesslandkarte, mehrere durch Semikolon getrennt, z. B. „K2.2 Hilfeplanung; K2.5 Elternarbeit“.
-- Prozessnummern: Buchstabe der Prozessart und laufende Nummer in der Reihenfolge der Prozesslandkarte. M1 bis M7 Managementprozesse; K1 Ambulante Jugendhilfe (K1.1 bis K1.4), K2 Stationäre Hilfen (K2.1 bis K2.6), K3 teilstationäre Hilfen (K3.1 bis K3.6); U1 bis U6 Unterstützungsprozesse. Die Nummern stehen in `handbuch/3.1.2_prozesslandkarte.md`.
+- Inhalt: Bereich und Name jedes Prozesses nach der Prozesslandkarte, mehrere durch Semikolon getrennt, z. B. „Stationäre Hilfen: Hilfeplanung; Stationäre Hilfen: Elternarbeit“.
 - Kopfangabe der Markdown-Quelle: `prozesse`. Fehlt sie, meldet der Export das und setzt „Zugeordnete Prozesse: OFFEN“.
 - Prüfpunkt: Die zugeordneten Prozesse sind genannt und stimmen mit der Prozesslandkarte überein.
 
@@ -82,19 +88,21 @@ Vor der Ausgabe eines Dokuments:
 - Je Kapitel ein Ordner: `handbuch/<Kapitelnummer zweistellig>-<kurzname>/`, z. B. `handbuch/09-betreuungsprozesse/`.
 - Je Dokument eine Markdown-Datei: `<Kennung>_<kurztitel>.md`, z. B. `9.1.4_hilfeplanung-stationaer.md`. Unterordner der Vorlage (Art „Ordner“) werden nicht nachgebildet; die Kennung trägt die Ordnung.
 - Aufbau eines Prozessdokuments nach dem Muster: Kopf mit Zeile „Zugeordnete Prozesse“; Ablauf; Checkliste; zugehörige Dokumente, Formulare und Rechtsgrundlagen; Zweck und Zuständigkeit; Beschreibung; Risikobetrachtung; Reflexion und Weiterentwicklung; offene Punkte (nur im Entwurf); Änderungen.
-- Checkliste je Prozess (Anregung des Trägers vom 20.11.2026): Punkte zum Abhaken, aus der Beschreibung abgeleitet, nach den Abschnitten des Ablaufs gegliedert.
+- Checkliste je Prozess: Punkte zum Abhaken, aus der Beschreibung abgeleitet, nach den Abschnitten des Ablaufs gegliedert (verbindlich, Festlegung des Trägers vom 20.11.2026).
 - Die Word-Ausgabe liegt in `export/`, die überführte Vorlage in `handbuch/alt/`. Erzeugt wird sie mit `tools/export-docx.js`; Die Angaben in Kopf- und Fußzeile folgen der Vorlage. Logo ist immer `tools/logo-sws.png` (Fassung 2021 ohne „GmbH“; Festlegung des Trägers vom 19.11.2026). Gestaltung nach der Festlegung des Trägers vom 19.11.2026: Blau des Trägerlogos (#2D4B9B) statt Gelb, Tabellenköpfe blau mit weißer Schrift, feine waagerechte Linien statt Gitter. Absätze mit `OFFEN:` sind farbig hinterlegt.
 - `handbuch/gliederung.md` ist die Dokumentenliste und führt je Dokument den Stand der Überführung.
 
 ## 4 Offen
 
-1. Prozesslandkarte: Bestätigung der vorgeschlagenen Prozessnummern (Abschnitt 3.1). Zuordnung der Handbuchdokumente, die keinen namensgleichen Prozess haben (`handbuch/befunde-gliederung.md`, Abschnitt 5).
-2. Zugeordnete Prozesse: Angabe bei Dokumenten, die keinem einzelnen Prozess zugeordnet sind. Gilt die Zeile auch für Arbeitsdokumente, Formulare und Workflows?
-3. Befunde zur Gliederung (`handbuch/befunde-gliederung.md`): doppelte Kennungen in 9.1, abweichende Titel, überholte Einträge.
-4. Musterdokument 9.1.4 (`handbuch/9.1.4_hilfeplanung-stationaer.md`, Rev. 0006 Entwurf): Durchsicht der Word-Ausgabe; Ort der Reflexion und Weg der Rückmeldung; Befunde 29, 35, 36, 38 und 39. Danach Reihenfolge der weiteren Überführung.
-5. Lenkung: Welche Stellen erstellen, prüfen und geben frei? Wer steht im Verteiler? In welchem Rhythmus werden Dokumente überprüft?
-6. Kapitel 5 des Handbuchs: Verweis auf die Repositories der Konzeptionen und Leistungsbeschreibungen oder Kopie.
-7. Aufbau und Prüfliste je Textart.
+1. Schlüsselverzeichnis der Stellen: liegt im Repository nicht vor.
+2. Verteiler der Dokumente; erstellende Stelle je Dokument.
+3. Fundort von Handbuch und Ablaufblättern für Mitarbeitende.
+4. Kennung und Ablageort der Formulare.
+5. Zugeordnete Prozesse: Angabe bei der Prozesslandkarte selbst und bei Dokumenten ohne namensgleichen Prozess (z. B. 9.8). Gilt die Zeile auch für Arbeitsdokumente, Formulare und Workflows?
+6. Risikobetrachtungen in 2.3.1, 3.1.2, 9.8 und den Anleitungen sind Vorschläge und nicht bestätigt; ebenso die Leitfragen in 2.3.1 und 9.8.
+7. Kennungen der beiden Anleitungen in Kapitel 1.2; Anrede; eine oder zwei Anleitungen.
+8. Übrige Befunde (`handbuch/befunde-gliederung.md`).
+9. Kapitel 5 des Handbuchs: Verweis auf die Repositories der Konzeptionen und Leistungsbeschreibungen oder Kopie. Reihenfolge der weiteren Überführung.
 
 ## Änderungen
 
@@ -114,3 +122,4 @@ Vor der Ausgabe eines Dokuments:
 | 0.12 | 20.11.2026 | Arbeitshinweise des Trägers vom 20.11.2026: oberster Grundsatz, Leitorientierungen, Playbook |
 | 0.13 | 20.11.2026 | Leitsätze und Grundannahme des Trägers vom 20.11.2026 |
 | 0.14 | 20.11.2026 | Festlegungen des Trägers vom 20.11.2026: Wortlaut der Leitsätze, § 78b SGB VIII und ISO 9001 als Grundlagen, Definition unbestimmter Angaben |
+| 0.15 | 20.11.2026 | Festlegungen des Trägers vom 20.11.2026: keine eigenen Prozessnummern (ersetzt Nr. 8), Lenkung, Ort der Reflexion, Risikobetrachtung zwingend, Checkliste und Prüffragen verbindlich, Kapitel 9, Stellenbezeichnungen; offene Punkte neu gefasst |

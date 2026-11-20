@@ -6,8 +6,10 @@ revision: "001"
 stand: 20.11.2026
 status: Entwurf
 erstellt: OFFEN
-geprueft: OFFEN
-freigegeben: OFFEN
+geprueft: QMB
+freigegeben: Geschäftsführung
+verteiler: OFFEN
+naechste_ueberpruefung: mindestens jährlich zum Audit
 ---
 
 # Aufbau der Prozessdokumente – Kurzanleitung
@@ -42,7 +44,7 @@ Ablauf und Checkliste gibt es zusätzlich als eigenes Ablaufblatt zum Ausdrucken
 1. Ablauf ansehen: Welche Schritte folgen aufeinander, wer ist verantwortlich?
 2. Checkliste abhaken: Ist jeder Schritt getan, liegt jedes Dokument vor?
 3. Formulare und Gesetzestexte über die Verweise aufrufen.
-4. Nach der Aufgabe die Leitfragen im Team besprechen. Abweichungen und Verbesserungen gehen an die für das Dokument verantwortliche Stelle und führen zu einer neuen Revision.
+4. Nach der Aufgabe die Leitfragen im Team besprechen. Abweichungen und Verbesserungen gehen an die Qualitätsmanagementbeauftragte oder den Qualitätsmanagementbeauftragten (QMB) und führen zu einer neuen Revision.
 
 ## 4 Warum dieser Aufbau
 
@@ -53,6 +55,14 @@ Ablauf und Checkliste gibt es zusätzlich als eigenes Ablaufblatt zum Ausdrucken
 | Anschlussfähig für alle Mitarbeitenden | Alle Dokumente haben denselben Aufbau, dieselben Farben und dieselben Bezeichnungen. |
 | Reflexiv | Jedes Dokument endet mit Leitfragen. Die Antworten verändern das Dokument. |
 
+## Risikobetrachtung
+
+Vorschlag; vom Träger nicht bestätigt.
+
+Risiko: Das Raster wird als Formalie befolgt, ohne der Arbeit zu nützen.
+
+Risikominimierung: Leitfragen zum Raster; Rückmeldungen an die QMB; Überprüfung mindestens jährlich zum Audit.
+
 ## Reflexion und Weiterentwicklung
 
 Leitfragen zur Reflexion des Handelns:
@@ -60,14 +70,15 @@ Leitfragen zur Reflexion des Handelns:
 1. Welcher Teil der Prozessdokumente wird bei der Arbeit genutzt, welcher nicht?
 2. Was fehlt im Raster, was ist überflüssig?
 
+Ort der Reflexion: je nach Thema und Handlungsebene. Rückmeldungen gehen an die Qualitätsmanagementbeauftragte oder den Qualitätsmanagementbeauftragten (QMB).
+
 ## Offene Punkte
 
 OFFEN: Kennung des Dokuments in Kapitel 1.2 der Gliederung.
-
-OFFEN: Stelle, an die Rückmeldungen zu den Dokumenten gehen.
 
 ## Änderungen
 
 | Revision | Datum | Änderung | Grund |
 |---|---|---|---|
 | 001 (Entwurf) | 20.11.2026 | Erste Fassung | Auftrag des Trägers vom 20.11.2026 |
+| 001 (Entwurf) | 20.11.2026 | Rückmeldung an die QMB, Lenkung und Risikobetrachtung eingetragen | Festlegungen des Trägers vom 20.11.2026 |

@@ -6,7 +6,7 @@ Stand: 19.11.2026. Grundlage: die Vorlagen 0.1 Startseite, 0.2 Gliederung, 0.3 S
 
 | Nr. | Befund |
 |---|---|
-| 1 | In Kapitel 9.1 sind drei Nummern doppelt vergeben: 9.1.1 (Wohngruppen; Neuaufnahme), 9.1.2 (Inobhutnahme; familienanaloge Einrichtungen, IWLs), 9.1.3 (Umgang mit dem Eigentum; Eltern-Kind-Einrichtung). |
+| 1 | In Kapitel 9.1 sind drei Nummern doppelt vergeben: 9.1.1 (Wohngruppen; Neuaufnahme), 9.1.2 (Inobhutnahme; familienanaloge Einrichtungen, IWLs), 9.1.3 (Umgang mit dem Eigentum; Eltern-Kind-Einrichtung). Entschieden am 20.11.2026: „Wohngruppen“, „familienanaloge Einrichtungen, IWLs“ und „Eltern-Kind-Einrichtung“ sind Zwischenüberschriften ohne eigenes Dokument. |
 | 2 | Die Dokumente der Wohngruppen tragen dreistellige Nummern (9.1.1 bis 9.1.10), die der familienanalogen Einrichtungen und der Eltern-Kind-Einrichtung vierstellige (9.1.2.1, 9.1.3.1). |
 | 3 | 9.1.5 fehlt in der Zählung der Wohngruppen. |
 | 4 | Schreibweise der Nummern uneinheitlich: mit und ohne Schlusspunkt (6.4.1., 9.1.3., 4.2.2.3.). |
@@ -15,7 +15,7 @@ Stand: 19.11.2026. Grundlage: die Vorlagen 0.1 Startseite, 0.2 Gliederung, 0.3 S
 
 | Nr. | Befund |
 |---|---|
-| 5 | Kapitel 9 heißt in der Gliederung „Betreuungsprozesse“, auf der Startseite „Hilfeprozesse“. |
+| 5 | Kapitel 9 heißt in der Gliederung „Betreuungsprozesse“, auf der Startseite „Hilfeprozesse“. Entschieden am 20.11.2026: Kapitel 9 heißt „Hilfeprozesse“. |
 | 6 | 0.3 heißt in der Gliederung „Synopse Norm - QM-Handbuch“, in der Datei „Synopse Norm – QM-System“. |
 | 7 | Die Synopse 0.3 nennt Titel, die von der Gliederung abweichen: „3.1 Organigramm“ (Gliederung: 3.1 Firmenübersichten, 3.1.1 Organigramm SwS), „4.2.1 Teambesprechung Leitungsteam“ (4.2.1 Facharbeitskreise), „3.3.1.3 Stellenbeschreibung Regional-_Fachbereichsleitung“ (3.3.1.3 Fachbereich Verwaltung), „7.3 betriebswirtschaftl. Controlling“ (7.3 Controlling). |
 | 8 | 3.3.1.8 „Pädagogische Leitung“: Die Position gibt es beim Träger nicht mehr. |
@@ -50,8 +50,8 @@ Bei 0.3 stehen zwei Daten („07/2026“ und „03.02.14“); welches die Freiga
 
 | Nr. | Befund |
 |---|---|
-| 18 | Die Prozesse tragen keine Nummern. Die Zeile „Zugeordnete Prozesse“ kann nach dieser Vorlage nur Namen nennen. |
-| 19 | Prozessnamen sind nicht eindeutig: „Neuaufnahme“, „Hilfeplanung“, „schulischer Bereich“, „Freizeitbereich“, „Elternarbeit“ und „Entlassung“ stehen bei den stationären und den teilstationären Hilfen, „Hilfeplanung“ zusätzlich bei der Ambulanten Jugendhilfe. Eindeutig ist erst die Verbindung aus Bereich und Prozess. |
+| 18 | Die Prozesse tragen keine Nummern. Die Zeile „Zugeordnete Prozesse“ kann nach dieser Vorlage nur Namen nennen. Entschieden am 20.11.2026: keine eigenen Prozessnummern. |
+| 19 | Prozessnamen sind nicht eindeutig: „Neuaufnahme“, „Hilfeplanung“, „schulischer Bereich“, „Freizeitbereich“, „Elternarbeit“ und „Entlassung“ stehen bei den stationären und den teilstationären Hilfen, „Hilfeplanung“ zusätzlich bei der Ambulanten Jugendhilfe. Eindeutig ist erst die Verbindung aus Bereich und Prozess. Entschieden am 20.11.2026: Benennung mit Bereich und Name. |
 | 20 | Die stationären Hilfen sind nicht unterteilt. Die Gliederung trennt in 9.1 Wohngruppen, familienanaloge Einrichtungen (IWLs) und Eltern-Kind-Einrichtung. |
 | 21 | Dokumente der Gliederung ohne namensgleichen Kernprozess: Inobhutnahme, Umgang mit dem Eigentum, Entweichung (9.1), Erziehungsplanung (9.2.3), Serviceleistungen (9.4), Ausschluss Entwicklung (9.5), Beteiligungskonzept (9.6). |
 | 22 | Ambulante Jugendhilfe: Die Prozesslandkarte nennt „Hilfeaufnahme“, „Hilfeverlauf“ und „Beendigung der Hilfe“, die Gliederung „Betreuungsaufnahme“, „Betreuungsplanung“ und „Betreuungsende“ (9.3.1, 9.3.3, 9.3.4). |
@@ -84,18 +84,18 @@ Vorlage: `alt/9.8_Ablauf_Gefaehrdungsmomente.docx`, Version 08.2026, Rev. 0003; 
 
 | Nr. | Befund |
 |---|---|
-| 40 | Die Kennung 9.8 steht nicht in der Gliederung 0.2; dort endet Kapitel 9 mit 9.6. Eine Kennung 9.7 ist nicht bekannt. |
-| 41 | Die Kopfzeile nennt Kapitel 9 „Hilfeprozesse“, die Gliederung „Betreuungsprozesse“ (vgl. Befund zur Bezeichnung von Kapitel 9). |
+| 40 | Die Kennung 9.8 steht nicht in der Gliederung 0.2; dort endet Kapitel 9 mit 9.6. Eine Kennung 9.7 ist nicht bekannt. Entschieden am 20.11.2026: 9.8 ist ein neues Dokument. |
+| 41 | Die Kopfzeile nennt Kapitel 9 „Hilfeprozesse“, die Gliederung „Betreuungsprozesse“ (vgl. Befund zur Bezeichnung von Kapitel 9). Entschieden am 20.11.2026: „Hilfeprozesse“. |
 | 42 | Titel und Zweck weichen ab: Titel „Gefährdungsmomente/Übergriffe“, Zweck nur „gewalttätige Übergriffe“. Was außer Übergriffen als Gefährdungsmoment gilt, ist nicht beschrieben. |
-| 43 | Unbestimmte Angaben: „bei Bedarf“ (Polizei, Rettungsdienst), „je nach Fall“ (nicht sorgeberechtigte Eltern), „Ggf“ (Anzeige). Bedingungen und Entscheidungsbefugnis fehlen. |
-| 44 | Fristen fehlen: für die Meldungen an Leitung, Sorgeberechtigte und Jugendamt sowie für die Meldung nach § 47 SGB VIII. Der Adressat der Meldung nach § 47 (Landesjugendamt) ist nicht genannt. |
-| 45 | Stellenbezeichnungen uneinheitlich: „Gruppenleitung“ und „Einrichtungsleitung“; „Bereichsleitung“ und „FBL“. Die Geschäftsführung steht im Kopf als verantwortlich, kommt im Ablauf aber nicht vor. |
+| 43 | Unbestimmte Angaben: „bei Bedarf“ (Polizei, Rettungsdienst), „je nach Fall“ (nicht sorgeberechtigte Eltern), „Ggf“ (Anzeige). Bedingungen und Entscheidungsbefugnis fehlen. Entschieden am 20.11.2026 und in Rev. 0004 eingetragen. |
+| 44 | Fristen fehlen: für die Meldungen an Leitung, Sorgeberechtigte und Jugendamt sowie für die Meldung nach § 47 SGB VIII. Der Adressat der Meldung nach § 47 (Landesjugendamt) ist nicht genannt. Entschieden am 20.11.2026: unverzüglich; Meldung nach § 47 an Landesjugendamt und örtliches Jugendamt. |
+| 45 | Stellenbezeichnungen uneinheitlich: „Gruppenleitung“ und „Einrichtungsleitung“; „Bereichsleitung“ und „FBL“. Die Geschäftsführung steht im Kopf als verantwortlich, kommt im Ablauf aber nicht vor. Entschieden am 20.11.2026: Bezeichnungen nach dem Schlüsselverzeichnis; es liegt noch nicht vor. |
 | 46 | Die Spalte „verantwortlich“ ist den Schritten nicht eindeutig zugeordnet; eine Angabe nennt die pädagogische Fachkraft doppelt. |
 | 47 | Ein Flussdiagramm liegt nicht vor, obwohl das Dokument „Ablauf“ heißt. Die Überführung enthält eine aus dem Text abgeleitete Darstellung. |
 | 48 | Das Formular „Aktennotiz nach § 47“ ist mit einem Laufwerkspfad (X:) verknüpft und trägt keine Kennung; im Text heißt es „Aktennotiz“, in der Datei „Aktenvermerk § 47 Meldung“. |
 | 49 | Der Bezug zum Kinderschutzkonzept (5.3) und zum Institutionellen Schutzkonzept (5.8) ist nicht hergestellt. |
 | 50 | Die Dateieigenschaften tragen den Titel eines anderen Dokuments („Stellenbeschreibung Zentrale Steuerungsunterstützung (ZSu)“). |
-| 51 | Schreibweisen: Genderstern („Kolleg*innen“), „Täter und Opfer“, Abkürzungen „stat.“, „päd.“, „FBL“. Erledigt in Rev. 0004: bereinigt. |
+| 51 | Schreibweisen: Genderstern („Kolleg*innen“), „Täter und Opfer“, Abkürzungen „stat.“, „päd.“, „FBL“. Erledigt in Rev. 0004: bereinigt. Am 20.11.2026 entschieden: „Täter und Opfer“ bleibt. |
 
 ## 8 Dokument 2.3.1 Qualitätspolitik
 
@@ -103,11 +103,11 @@ Vorlage: `alt/2.3.1_Qualitaetspolitik.docx`, Version 04.2023, Rev. 0005; erstell
 
 | Nr. | Befund |
 |---|---|
-| 52 | Die Kennung 2.3.1 steht nicht in der Gliederung 0.2; dort gibt es nur 2.3 „Qualitätspolitik und Qualitätsziele“ als Ordner und Datei. |
-| 53 | Die Kopfzeile lautet „Qualitätspolitik und Qualitätsziele“, der Titel „Qualitätspolitik“. Qualitätsziele enthält das Dokument nicht. |
+| 52 | Die Kennung 2.3.1 steht nicht in der Gliederung 0.2; dort gibt es nur 2.3 „Qualitätspolitik und Qualitätsziele“ als Ordner und Datei. Entschieden am 20.11.2026: 2.3.1 bleibt. |
+| 53 | Die Kopfzeile lautet „Qualitätspolitik und Qualitätsziele“, der Titel „Qualitätspolitik“. Qualitätsziele enthält das Dokument nicht. Entschieden am 20.11.2026: „Qualitätspolitik und Qualitätsziele“ ist nur das übergeordnete Kapitel. |
 | 54 | Die Spalten „verantwortlich“ und „Dokumente/Formulare“ sind leer; sie machen aus einer Seite Text drei Seiten. |
 | 55 | Die beiden Aufzählungen überschneiden sich (Beteiligung der jungen Menschen, Wirkung pädagogischer Maßnahmen). |
 | 56 | Unbestimmte Angaben: „regelmäßig“, „bei Bedarf“, „unter anderem“, „insbesondere“. Entschieden am 20.11.2026: in jeder Teamsitzung; bei Themen der Betriebserlaubnis; Mindestumfang. „insbesondere“ bleibt als Hervorhebung. |
 | 57 | Der Wohlfühlindex ist genannt, aber nicht beschrieben. Der Satz „Das QM unterteilen sich zukünftig …“ ist grammatisch fehlerhaft; im Satz zu den Kostenträgern steht ein Einschub ohne Anschluss („Sie sichern unsere wirtschaftliche Grundlage“). |
 | 58 | Abkürzungen ohne Erklärung: „KJHV“, „LJA“. In der Überführung als „Kinder- und Jugendhilfeverbund“ und „Landesjugendamt“ ausgeschrieben. |
-| 59 | Der Bezug auf die „vorliegende Vereinbarung zur Qualitätsentwicklung“ lässt offen, welches Dokument gemeint ist. |
+| 59 | Der Bezug auf die „vorliegende Vereinbarung zur Qualitätsentwicklung“ lässt offen, welches Dokument gemeint ist. Entschieden am 20.11.2026: Vereinbarung mit dem örtlichen Jugendamt. |

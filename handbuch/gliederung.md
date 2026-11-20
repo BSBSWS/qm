@@ -207,9 +207,9 @@ Umfang: 213 Einträge in 12 Kapiteln (0 bis 11).
 
 | Nr. | Titel | Ebene | Art | Stand |
 |---|---|---|---|---|
-| 9 | Betreuungsprozesse | 1 | Ordner | – |
+| 9 | Hilfeprozesse | 1 | Ordner | – |
 | 9.1 | Stationäre Einrichtungen | 2 | Ordner | nicht überführt |
-| 9.1.1 | Wohngruppen | 3 | Datei | nicht überführt |
+| 9.1.1 | Wohngruppen | 3 | Zwischenüberschrift | – |
 | 9.1.1 | Neuaufnahme - stat. Einr. | 3 | Datei | nicht überführt |
 | 9.1.2 | Inobhutnahme - stat. Einr. | 3 | Datei | nicht überführt |
 | 9.1.3 | Umgang mit dem Eigentum des Kinder- und Jugendlichen - stat. Einr. | 3 | Datei | nicht überführt |
@@ -219,7 +219,7 @@ Umfang: 213 Einträge in 12 Kapiteln (0 bis 11).
 | 9.1.8 | Freizeitbereich - stat. Einr. | 3 | Datei | nicht überführt |
 | 9.1.9 | Entlassung - stat. Einr. | 3 | Datei | nicht überführt |
 | 9.1.10 | Entweichung - stat. Einr. | 3 | Datei | nicht überführt |
-| 9.1.2 | familienanaloge Einrichtungen, IWLs | 3 | Datei | nicht überführt |
+| 9.1.2 | familienanaloge Einrichtungen, IWLs | 3 | Zwischenüberschrift | – |
 | 9.1.2.1 | Neuaufnahme - familienanaloge Einrichtung | 3 | Datei | nicht überführt |
 | 9.1.2.2 | Hilfeplan - familienanaloge Einr. | 3 | Datei | nicht überführt |
 | 9.1.2.3 | Schulischer Bereich - familienanaloge Einr. | 3 | Datei | nicht überführt |
@@ -227,7 +227,7 @@ Umfang: 213 Einträge in 12 Kapiteln (0 bis 11).
 | 9.1.2.5 | Umgang mit dem Eigentum des Kindes und Jugdl.- familienanaloge Einr. | 3 | Datei | nicht überführt |
 | 9.1.2.6 | Elternarbeit - familienanaloge Einr. | 3 | Datei | nicht überführt |
 | 9.1.2.7 | Entlassung - familienanaloge Einr. | 3 | Datei | nicht überführt |
-| 9.1.3 | Eltern-Kind-Einrichtung | 3 | Datei | nicht überführt |
+| 9.1.3 | Eltern-Kind-Einrichtung | 3 | Zwischenüberschrift | – |
 | 9.1.3.1 | Neuaufnahme - Eltern-Kind-Einrichtung | 3 | Datei | nicht überführt |
 | 9.1.3.2 | Hilfeplanung - Eltern-Kind-Einrichtung | 3 | Datei | nicht überführt |
 | 9.1.3.3 | Elternarbeit - Eltern-Kind-Einrichtung | 3 | Datei | nicht überführt |
