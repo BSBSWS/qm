@@ -1,6 +1,6 @@
 # Standard: QM-Dokumente
 
-Stand: 20.11.2026 · Version 0.13 (Entwurf) · Verantwortlich: Geschäftsführung
+Stand: 20.11.2026 · Version 0.14 (Entwurf) · Verantwortlich: Geschäftsführung
 
 ## 1 Geltung
 
@@ -38,6 +38,9 @@ Grundannahme: Die begrenzte Reichweite von Verfahrensstandardisierungen resultie
 17. **Eigenes Blatt.** Ablauf und Checkliste stehen je auf einem eigenen Blatt; nach jedem der beiden folgt ein Seitenumbruch, damit sie einzeln nutzbar sind (Festlegung des Trägers vom 20.11.2026).
 18. **Leitorientierung.** Für jede Festlegung, jeden Text und jedes Kapitel gibt es eine Leitorientierung: eine kurze Zusammenfassung. In Dokumenten steht sie als Zeile „Leitorientierung“ unter dem Titel; die Leitorientierungen zu den Festlegungen stehen in `standards/leitorientierungen.md` (Arbeitshinweis des Trägers vom 20.11.2026).
 19. **Playbook.** Alle Leitorientierungen werden im Playbook zusammengefasst (`handbuch/playbook.md`, erzeugt mit `tools/playbook.py`) (Arbeitshinweis des Trägers vom 20.11.2026).
+20. **Wortlaut der Leitsätze.** Oberster Grundsatz und Leitsätze stehen überall im Wortlaut des Trägers, auch in der Wir-Form; der übrige Text bleibt sachlich (Festlegung des Trägers vom 20.11.2026).
+21. **Grundlagen des QM.** § 78b SGB VIII und die ISO 9001 sind beide maßgeblich und werden beide genannt (Festlegung des Trägers vom 20.11.2026).
+22. **Unbestimmte Angaben werden definiert.** Stehen in einer Vorlage unbestimmte Angaben, bleiben sie nicht stehen und entfallen nicht ersatzlos: Der Träger legt die genaue Angabe fest; sie wird vor der Ausgabe abgefragt (Festlegung des Trägers vom 20.11.2026; ergänzt Nr. 13).
 
 ## 3 Vorschläge, noch nicht bestätigt
 
@@ -110,3 +113,4 @@ Vor der Ausgabe eines Dokuments:
 | 0.11 | 20.11.2026 | Festlegung des Trägers vom 20.11.2026: Ablauf und Checkliste je auf einem eigenen Blatt |
 | 0.12 | 20.11.2026 | Arbeitshinweise des Trägers vom 20.11.2026: oberster Grundsatz, Leitorientierungen, Playbook |
 | 0.13 | 20.11.2026 | Leitsätze und Grundannahme des Trägers vom 20.11.2026 |
+| 0.14 | 20.11.2026 | Festlegungen des Trägers vom 20.11.2026: Wortlaut der Leitsätze, § 78b SGB VIII und ISO 9001 als Grundlagen, Definition unbestimmter Angaben |

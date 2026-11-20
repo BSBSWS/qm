@@ -107,7 +107,7 @@ Vorlage: `alt/2.3.1_Qualitaetspolitik.docx`, Version 04.2023, Rev. 0005; erstell
 | 53 | Die Kopfzeile lautet „Qualitätspolitik und Qualitätsziele“, der Titel „Qualitätspolitik“. Qualitätsziele enthält das Dokument nicht. |
 | 54 | Die Spalten „verantwortlich“ und „Dokumente/Formulare“ sind leer; sie machen aus einer Seite Text drei Seiten. |
 | 55 | Die beiden Aufzählungen überschneiden sich (Beteiligung der jungen Menschen, Wirkung pädagogischer Maßnahmen). |
-| 56 | Unbestimmte Angaben: „regelmäßig“, „bei Bedarf“, „unter anderem“, „insbesondere“. |
+| 56 | Unbestimmte Angaben: „regelmäßig“, „bei Bedarf“, „unter anderem“, „insbesondere“. Entschieden am 20.11.2026: in jeder Teamsitzung; bei Themen der Betriebserlaubnis; Mindestumfang. „insbesondere“ bleibt als Hervorhebung. |
 | 57 | Der Wohlfühlindex ist genannt, aber nicht beschrieben. Der Satz „Das QM unterteilen sich zukünftig …“ ist grammatisch fehlerhaft; im Satz zu den Kostenträgern steht ein Einschub ohne Anschluss („Sie sichern unsere wirtschaftliche Grundlage“). |
 | 58 | Abkürzungen ohne Erklärung: „KJHV“, „LJA“. In der Überführung als „Kinder- und Jugendhilfeverbund“ und „Landesjugendamt“ ausgeschrieben. |
 | 59 | Der Bezug auf die „vorliegende Vereinbarung zur Qualitätsentwicklung“ lässt offen, welches Dokument gemeint ist. |

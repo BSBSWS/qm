@@ -13,7 +13,7 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 
 | Standard | Stand |
 |---|---|
-| `standards/qm-dokumente.md` | Version 0.13 (Entwurf), 20.11.2026: Pflichtbestandteile, Überführung, Nachbildung der Lenkung, Kennungsschema, Prozessnummern, Revisionszählung, Text und Flussdiagramm, Bereinigung |
+| `standards/qm-dokumente.md` | Version 0.14 (Entwurf), 20.11.2026: Pflichtbestandteile, Überführung, Nachbildung der Lenkung, Kennungsschema, Prozessnummern, Revisionszählung, Text und Flussdiagramm, Bereinigung |
 
 ## QM-Handbuch
 
@@ -26,7 +26,7 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 | `standards/leitorientierungen.md` | Leitorientierungen zu den Festlegungen (Quelle für das Playbook) |
 | `handbuch/anleitung-mitarbeitende.md` | Arbeiten mit dem QM-Handbuch: Anleitung für Mitarbeitende (Rev. 001, Entwurf) |
 | `handbuch/anleitung-prozessdokumente.md` | Kurzanleitung: Aufbau der Prozessdokumente und Begründung (Rev. 001, Entwurf) |
-| `handbuch/2.3.1_qualitaetspolitik.md` | Qualitätspolitik (Rev. 0006, Entwurf): auf eine Seite gekürzt |
+| `handbuch/2.3.1_qualitaetspolitik.md` | Qualitätspolitik (Rev. 0006, Entwurf): gekürzt, mit Grundsatz, Leitsätzen und Anforderungen an das QM-Handbuch |
 | `handbuch/3.1.2_prozesslandkarte.md` | Prozesslandkarte (Rev. 002, Entwurf), Schaubild farbig nach Prozessart: 7 Managementprozesse, 16 Kernprozesse in 3 Bereichen, 6 Unterstützungsprozesse |
 | `handbuch/9.8_ablauf-gefaehrdungsmomente.md` | Ablauf Gefährdungsmomente und Übergriffe (Rev. 0004, Entwurf) |
 | `handbuch/9.1.4_hilfeplanung-stationaer.md` | Musterdokument Hilfeplanung – stationäre Einrichtungen (Rev. 0006, Entwurf): Text und Flussdiagramm in einem Dokument, bereinigt |
