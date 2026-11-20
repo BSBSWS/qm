@@ -58,7 +58,7 @@ Das QM ist nützlich für die praktische Arbeit, schlank und effizient, anschlus
 | Dokument | Leitorientierung |
 |---|---|
 | 2.3.1 Qualitätspolitik (Entwurf) | Das QM dient der praktischen Arbeit. Definierte Prozesse schaffen Zeit und Raum für Beziehung; reflexive Qualitätsentwicklung stellt die jungen Menschen und ihre Familien in den Mittelpunkt. |
-| 2.3.2 Qualitätsziele (Entwurf) | Acht Qualitätsziele machen die Qualitätspolitik überprüfbar: Beteiligung, Schutz, reflexive Praxis, Wirkung, Fehler- und Lernkultur, Beschwerdemanagement, Fachkompetenz und Qualitätsentwicklung. Jedes Ziel hat Maßnahmen und Indikatoren; überprüft wird jährlich zum Audit. |
+| 2.3.2 Qualitätsziele (Entwurf) | Acht Qualitätsziele machen die Qualitätspolitik überprüfbar: Beteiligung, Schutz, reflexive Praxis, Wirkung, Fehler- und Lernkultur, Beschwerdemanagement, Fachkompetenz und Qualitätsentwicklung. Jede Maßnahme hat einen Nachweis; das Audit bewertet sie jährlich, und die Geschäftsführung setzt daraus Schwerpunkte. |
 
 ### Kapitel 3 Betriebliche Organisation und Verantwortungen
 

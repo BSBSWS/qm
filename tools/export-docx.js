@@ -48,10 +48,11 @@ const offen = t => new Paragraph({ spacing: { before: 60, after: 100, line: 276 
   children: [run('OFFEN  ', { bold: true, color: '8A6100' }), run(clean(t.slice(6)))] });
 
 function widths(head, n) {
-  if (n === 2 && !head[0].startsWith('Nr.') && !['Leitlinie', 'Thema', 'Dokument', 'Bereich', 'Bezug'].includes(head[0])) return [2268, W - 2268];
+  if (n === 2 && !head[0].startsWith('Nr.') && !['Leitlinie', 'Thema', 'Dokument', 'Bereich', 'Bezug', 'Maßnahme und Indikator'].includes(head[0])) return [2268, W - 2268];
   if (head[0] === 'Nr.' && n === 4) return [520, 4580, 1985, 1985];
   if (head[0] === 'Nr.' && n === 3) return [520, 3150, W - 3670];
   if (head[0] === 'Bezug') return [3000, W - 3000];
+  if (head[0] === 'Maßnahme und Indikator') return [W - 3000, 3000];
   if (head[0] === 'Art' && n === 3) return [1900, 4670, 2500];
   if (head[0] === 'Dokument' && n === 3) return [2300, 4270, 2500];
   if (head[0] === 'Teil' && n === 3) return [2300, 3900, 2870];
@@ -132,7 +133,8 @@ for (let i = 0; i < lines.length; i++) {
   const lab = l.match(/^(Risiko|Risikominimierung):/);
   if (lab) { kids.push(P([run(lab[1] + '  ', { bold: true, color: BLAU }), run(l.slice(lab[0].length).trim())])); continue; }
   const klein = l.startsWith('Vorlagen:') || l.startsWith('Vorlage:') || l.startsWith('Zeichen:') || l.startsWith('Lesart:');
-  kids.push(P(inline(clean(l), klein ? { size: 16, color: GRAU } : {}), l.endsWith(':') ? { keepNext: true } : {}));
+  const folgt = (lines.slice(i + 1).find(x => x.trim()) || '');
+  kids.push(P(inline(clean(l), klein ? { size: 16, color: GRAU } : {}), l.endsWith(':') || folgt.startsWith('|') ? { keepNext: true } : {}));
 }
 
 // Titelfeld mit Prozesszeile
