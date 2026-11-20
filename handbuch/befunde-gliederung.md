@@ -125,3 +125,17 @@ Vorlage: `alt/2.3.2_Qualitaetsziele.docx`, Version 04.2023, Rev. 0005; erstellt 
 | 64 | Unbestimmte Angaben: elfmal „regelmäßig“, zweimal „bei Bedarf“, einmal „zeitnah“. Am 20.11.2026 vom Träger definiert; der Turnus von Supervision, kollegialer Beratung und psychiatrischer Fallberatung steht nach Auskunft des Trägers in anderen Dokumenten. |
 | 65 | Doppelungen: strukturierte Reflexion nach kritischen Ereignissen (Ziele 2 und 5); Teamsitzungen, kollegiale Beratung und Supervision (Ziele 3 und 7). |
 | 66 | Schreibfehler: „psychatrischer“, „weiterentwickelt“ statt „weiterentwickeln“, fehlende Leerzeichen nach Überschriften; ein Indikator ohne Subjekt („individuelle und einrichtungsbezogene Fortbildungsbedarfe ermittelt“). |
+
+## 10 Dokument 2.3.3 Kontext der Organisation
+
+Vorlage: `alt/2.3.3_Kontext_der_Organisation.docx`, Version 05.2025, Rev. 0001; erstellt, geprüft und freigegeben am 02.05.2025; eine Seite; Kennung in der Vorlage 2.3.2.
+
+| Nr. | Befund |
+|---|---|
+| 67 | Kennung: Vorlage 2.3.2, vom Träger am 20.11.2026 als 2.3.3 festgelegt. |
+| 68 | Der Zweck wiederholt den Titel („Kontext der Organisation“); die rechtlichen Grundlagen sind leer; verantwortlich ist „Leitung“ ohne nähere Bezeichnung. |
+| 69 | Die Vorlage ist Fließtext. Interessierte Parteien und ihre Anforderungen, die Überwachung der Themen und der Anwendungsbereich des QM-Systems (ISO 9001:2015, Abschnitte 4.2 und 4.3) kommen nicht vor. |
+| 70 | Zeitgebundene Angaben ohne Datum: „derzeit“, „zuletzt“. In der Überführung auf den Stand der Vorlage (Mai 2025) datiert. |
+| 71 | Unbestimmte Angaben und Superlativ: „stets“, „zeitnah“, „diverse andere Projekte“, „höchste Transparenz“. |
+| 72 | Die Vorlage nennt sozialpädagogische Hilfen an Schulen und Projekte als Leistungen des Trägers; die Prozesslandkarte führt dafür keine Kernprozesse. |
+| 73 | Erstellt und geprüft hat dieselbe Person am selben Tag. |

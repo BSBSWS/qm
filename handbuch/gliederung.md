@@ -45,7 +45,7 @@ Umfang: 213 Einträge in 12 Kapiteln (0 bis 11).
 | 2.3 | Qualitätspolitik und Qualitätsziele | 2 | Ordner und Datei | nicht überführt; Vorgaben vorgemerkt in `vormerkung-2.3-qualitaetspolitik.md` |
 | 2.3.1 | Qualitätspolitik | 3 | Datei | nicht in der Vorlage 0.2 enthalten; überführt, Rev. 0006 Entwurf (`2.3.1_qualitaetspolitik.md`), Word-Ausgabe in `export/`, Vorlage in `alt/` |
 | 2.3.2 | Qualitätsziele | 3 | Datei | Kennung festgelegt am 20.11.2026 (bisher 2.3.1); überführt, Rev. 0006 Entwurf (`2.3.2_qualitaetsziele.md`), Word-Ausgabe in `export/`, Vorlage in `alt/` |
-| 2.3.3 | Kontext der Organisation | 3 | Datei | Kennung festgelegt am 20.11.2026; neu erstellt, Rev. 001 Entwurf (`2.3.3_kontext-der-organisation.md`), Word-Ausgabe in `export/`; keine Vorlage |
+| 2.3.3 | Kontext der Organisation | 3 | Datei | Kennung festgelegt am 20.11.2026; bisher 2.3.2; überführt, Rev. 0002 Entwurf (`2.3.3_kontext-der-organisation.md`), Word-Ausgabe in `export/`, Vorlage in `alt/` |
 | 2.4 | Marketing und Öffentlichkeitsarbeit | 2 | Ordner und Datei | nicht überführt |
 | 2.4.1 | Marketing und Öffentlichkeitsarbeit | 3 | Datei | nicht überführt |
 | 2.4.2 | elektronische Medien | 3 | Datei | nicht überführt |

@@ -59,6 +59,6 @@ Festlegung des Trägers vom 20.11.2026: Das Handbuch bleibt vorerst bei der Ausg
 
 | Norm | Anforderung in Stichworten | Stand in 2.3.3 | Bewertung |
 |---|---|---|---|
-| 4.1 | externe und interne Themen bestimmen, überwachen, überprüfen | Abschnitte 2, 3 und 5; die Themen stammen nur aus den überführten Dokumenten | teilweise |
+| 4.1 | externe und interne Themen bestimmen, überwachen, überprüfen | Abschnitte 2, 3 und 5; Themen aus der bisherigen Fassung (05.2025) und den überführten Dokumenten | weitgehend erfüllt; Stand der Konzepte veraltet |
 | 4.2 | interessierte Parteien und ihre Anforderungen bestimmen, überwachen, überprüfen | Abschnitte 4 und 5; Anforderungen abgeleitet, nicht erhoben | teilweise |
 | 4.3 | Anwendungsbereich mit Leistungen, Grenzen und begründeten Ausschlüssen als dokumentierte Information | Abschnitt 1 nennt die Leistungen; Grenzen und Ausschlüsse fehlen | teilweise |
