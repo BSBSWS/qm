@@ -1,12 +1,14 @@
 # Standard: QM-Dokumente
 
-Stand: 19.11.2026 · Version 0.8 (Entwurf) · Verantwortlich: Geschäftsführung
+Stand: 20.11.2026 · Version 0.9 (Entwurf) · Verantwortlich: Geschäftsführung
 
 ## 1 Geltung
 
 Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, Arbeitsdokumente und Formulare, Workflows.
 
 ## 2 Festgelegt
+
+**Leitlinie (Festlegung des Trägers vom 20.11.2026).** Das QM ist nützlich für die praktische Arbeit, schlank und effizient, anschlussfähig für alle Mitarbeitenden und reflexiv. Jedes Dokument und jede Regel dieses Standards wird daran gemessen.
 
 1. **Zugeordnete Prozesse.** Jedes Dokument des QM-Handbuchs enthält die Zeile „Zugeordnete Prozesse“ (Festlegungen des Trägers vom 17.11. und 18.11.2026).
 2. **Reflexion und Weiterentwicklung.** Jedes QM-Dokument enthält den Teil „Reflexion und Weiterentwicklung“. Er dient der Reflexion des Handelns: Er leitet die Fachkräfte an, ihr Vorgehen im beschriebenen Prozess zu überdenken (Festlegungen des Trägers vom 17.11. und 18.11.2026).
@@ -23,6 +25,15 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 13. **Keine unbestimmten Angaben.** Ungefähre und weiche Angaben wie „etwa“, „ca.“, „ungefähr“, „in der Regel“, „ggf.“, „rechtzeitig“ oder „im Einzelfall“ stehen in keinem Text; Häufigkeiten, Fristen, Mengen und Bedingungen werden genau genannt. Fehlt die genaue Angabe, wird sie mit `OFFEN:` gekennzeichnet und beim Träger erfragt (Festlegung des Trägers vom 19.11.2026).
 
 ## 3 Vorschläge, noch nicht bestätigt
+
+### 3.0 Prüffragen zur Leitlinie
+
+Vor der Ausgabe eines Dokuments:
+
+- Nützlich: Sagt das Dokument, wer was wann tut? Hilft es in der Situation, für die es geschrieben ist?
+- Schlank und effizient: Steht jede Angabe nur einmal? Lässt sich etwas streichen, ohne dass in der Praxis etwas fehlt? Reicht ein Verweis statt einer Wiederholung?
+- Anschlussfähig: Versteht eine neue Fachkraft den Text ohne Vorwissen? Sind Begriffe und Stellenbezeichnungen einheitlich?
+- Reflexiv: Führen die Leitfragen zu einem Gespräch über das eigene Handeln, und ist geregelt, wohin die Ergebnisse gehen?
 
 ### 3.1 Zugeordnete Prozesse
 
@@ -78,3 +89,4 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 | 0.6 | 19.11.2026 | Musterdokument 9.1.4: Vorschläge zu Text und Flussdiagramm in einem Dokument und zum Aufbau eines Prozessdokuments |
 | 0.7 | 19.11.2026 | Festlegungen des Trägers vom 19.11.2026 zum Musterdokument: Text und Flussdiagramm als ein Dokument, Vorrang des Textes, Bereinigung nach den Schreibregeln; Word-Ausgabe mit `tools/export-docx.js` |
 | 0.8 | 19.11.2026 | Festlegungen des Trägers vom 19.11.2026: keine unbestimmten Angaben; Logo und Blauton der Word-Ausgabe |
+| 0.9 | 20.11.2026 | Leitlinie des Trägers vom 20.11.2026 (nützlich, schlank und effizient, anschlussfähig, reflexiv); Vorschlag für Prüffragen |
