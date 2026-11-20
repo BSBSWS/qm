@@ -1,12 +1,14 @@
 # Standard: QM-Dokumente
 
-Stand: 20.11.2026 · Version 0.11 (Entwurf) · Verantwortlich: Geschäftsführung
+Stand: 20.11.2026 · Version 0.12 (Entwurf) · Verantwortlich: Geschäftsführung
 
 ## 1 Geltung
 
 Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, Arbeitsdokumente und Formulare, Workflows.
 
 ## 2 Festgelegt
+
+**Oberster Grundsatz (Festlegung des Trägers vom 20.11.2026).** Das QM arbeitet für uns, nicht wir für das QM!
 
 **Leitlinie (Festlegung des Trägers vom 20.11.2026).** Das QM ist nützlich für die praktische Arbeit, schlank und effizient, anschlussfähig für alle Mitarbeitenden und reflexiv. Jedes Dokument und jede Regel dieses Standards wird daran gemessen.
 
@@ -27,6 +29,8 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 15. **Ablaufblatt.** Jedes Flussdiagramm ist für sich nutzbar und zugänglich: Zu jedem Prozessdokument gibt es ein Ablaufblatt mit Flussdiagramm, Checkliste und Verweisen, ausgegeben als Word, PDF und Bild in `export/ablauf/` (Festlegung des Trägers vom 20.11.2026).
 16. **Verweise.** Zugehörige Dokumente, Formulare und Gesetzestexte werden direkt am Prozess genannt und, wo eine Fundstelle vorhanden ist, verlinkt. Gesetze verweisen auf gesetze-im-internet.de (Festlegung des Trägers vom 20.11.2026).
 17. **Eigenes Blatt.** Ablauf und Checkliste stehen je auf einem eigenen Blatt; nach jedem der beiden folgt ein Seitenumbruch, damit sie einzeln nutzbar sind (Festlegung des Trägers vom 20.11.2026).
+18. **Leitorientierung.** Für jede Festlegung, jeden Text und jedes Kapitel gibt es eine Leitorientierung: eine kurze Zusammenfassung. In Dokumenten steht sie als Zeile „Leitorientierung“ unter dem Titel; die Leitorientierungen zu den Festlegungen stehen in `standards/leitorientierungen.md` (Arbeitshinweis des Trägers vom 20.11.2026).
+19. **Playbook.** Alle Leitorientierungen werden im Playbook zusammengefasst (`handbuch/playbook.md`, erzeugt mit `tools/playbook.py`) (Arbeitshinweis des Trägers vom 20.11.2026).
 
 ## 3 Vorschläge, noch nicht bestätigt
 
@@ -97,3 +101,4 @@ Vor der Ausgabe eines Dokuments:
 | 0.9 | 20.11.2026 | Leitlinie des Trägers vom 20.11.2026 (nützlich, schlank und effizient, anschlussfähig, reflexiv); Vorschlag für Prüffragen |
 | 0.10 | 20.11.2026 | Festlegungen des Trägers vom 20.11.2026: Ablauf zuerst, Ablaufblatt, Verweise; Vorschlag Checkliste je Prozess; Aufbau des Prozessdokuments angepasst |
 | 0.11 | 20.11.2026 | Festlegung des Trägers vom 20.11.2026: Ablauf und Checkliste je auf einem eigenen Blatt |
+| 0.12 | 20.11.2026 | Arbeitshinweise des Trägers vom 20.11.2026: oberster Grundsatz, Leitorientierungen, Playbook |

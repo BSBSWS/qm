@@ -2,7 +2,8 @@
 # Erzeugt alle Word-Ausgaben und je Prozessdokument das Ablaufblatt (Word, PDF, PNG).
 # Aufruf aus dem Wurzelordner des Repositorys: sh tools/export-alle.sh
 set -e
-for f in handbuch/[0-9]*.md handbuch/anleitung-*.md; do
+python3 tools/playbook.py
+for f in handbuch/[0-9]*.md handbuch/anleitung-*.md handbuch/playbook.md; do
   kennung=$(sed -n 's/^kennung: *"\{0,1\}\([0-9.]*\)"\{0,1\}$/\1/p' "$f")
   name=$(basename "$f" .md)
   node tools/export-docx.js "$f" "export/$name.docx"

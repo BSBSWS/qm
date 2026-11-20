@@ -13,7 +13,7 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 
 | Standard | Stand |
 |---|---|
-| `standards/qm-dokumente.md` | Version 0.11 (Entwurf), 20.11.2026: Pflichtbestandteile, Überführung, Nachbildung der Lenkung, Kennungsschema, Prozessnummern, Revisionszählung, Text und Flussdiagramm, Bereinigung |
+| `standards/qm-dokumente.md` | Version 0.12 (Entwurf), 20.11.2026: Pflichtbestandteile, Überführung, Nachbildung der Lenkung, Kennungsschema, Prozessnummern, Revisionszählung, Text und Flussdiagramm, Bereinigung |
 
 ## QM-Handbuch
 
@@ -22,6 +22,8 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 | `handbuch/gliederung.md` | Gliederung des Handbuchs als Dokumentenliste: 213 Einträge in 12 Kapiteln, mit Stand der Überführung |
 | `handbuch/befunde-gliederung.md` | 51 Befunde zu Kennungen, Titeln, Aufbau, Prozesslandkarte und Musterdokument 9.1.4; Lenkungsangaben der Vorlagen |
 | `handbuch/vormerkung-2.3-qualitaetspolitik.md` | Vorgaben des Trägers für die Qualitätspolitik (Vormerkung, kein gelenktes Dokument) |
+| `handbuch/playbook.md` | Playbook QM: oberster Grundsatz, Leitlinie und alle Leitorientierungen; erzeugt mit `tools/playbook.py` |
+| `standards/leitorientierungen.md` | Leitorientierungen zu den Festlegungen (Quelle für das Playbook) |
 | `handbuch/anleitung-mitarbeitende.md` | Arbeiten mit dem QM-Handbuch: Anleitung für Mitarbeitende (Rev. 001, Entwurf) |
 | `handbuch/anleitung-prozessdokumente.md` | Kurzanleitung: Aufbau der Prozessdokumente und Begründung (Rev. 001, Entwurf) |
 | `handbuch/3.1.2_prozesslandkarte.md` | Prozesslandkarte (Rev. 002, Entwurf), Schaubild farbig nach Prozessart: 7 Managementprozesse, 16 Kernprozesse in 3 Bereichen, 6 Unterstützungsprozesse |

@@ -48,12 +48,13 @@ const offen = t => new Paragraph({ spacing: { before: 60, after: 100, line: 276 
   children: [run('OFFEN  ', { bold: true, color: '8A6100' }), run(clean(t.slice(6)))] });
 
 function widths(head, n) {
-  if (n === 2 && !head[0].startsWith('Nr.') && head[0] !== 'Leitlinie') return [2268, W - 2268];
+  if (n === 2 && !head[0].startsWith('Nr.') && !['Leitlinie', 'Thema', 'Dokument'].includes(head[0])) return [2268, W - 2268];
   if (head[0] === 'Nr.' && n === 4) return [520, 4580, 1985, 1985];
   if (head[0] === 'Art' && n === 3) return [1900, 4670, 2500];
   if (head[0] === 'Dokument' && n === 3) return [2300, 4270, 2500];
   if (head[0] === 'Teil' && n === 3) return [2300, 3900, 2870];
   if (head[0] === 'Leitlinie') return [3000, W - 3000];
+  if (head[0] === 'Thema' || (head[0] === 'Dokument' && n === 2)) return [2700, W - 2700];
   if (head[0].startsWith('Nr.') && n === 3) return [1500, 3000, W - 4500];
   if (head[0].startsWith('Nr.') && n === 2) return [1500, W - 1500];
   if (head[0] === 'Revision' && n === 4) return [1300, 1300, 3970, 2500];
@@ -96,6 +97,11 @@ if (ABLAUF) { // nur Kopfzeilen und die Abschnitte Ablauf, Checkliste, zugehöri
 for (let i = 0; i < lines.length; i++) {
   let l = lines[i];
   if (!l.trim() || l.startsWith('# ') || l.startsWith('Zugeordnete Prozesse:')) continue;
+  if (l.startsWith('Leitorientierung:')) { kids.push(new Paragraph({ spacing: { after: 160, line: 288 }, shading: fill(HELL), indent: { left: 120, right: 120 },
+    border: { left: { style: BorderStyle.SINGLE, size: 18, color: BLAU, space: 6 } },
+    children: [run('Leitorientierung  ', { bold: true, color: BLAU, size: 18 }), run(clean(l.slice(17)), { size: 21 })] })); continue; }
+  if (l.startsWith('> ')) { kids.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 120, after: 200 }, shading: fill(BLAU),
+    children: [run(clean(l.slice(2)), { bold: true, size: 32, color: 'FFFFFF' })] })); continue; }
   if (l.startsWith('Kapitel:')) { kapitel = l.replace('Kapitel:', '').split(' · ').map(s => s.trim()).filter(s => !/^(Kennung|Revision|Stand):/.test(s)).slice(0, 2); continue; }
   if (l.startsWith('### ')) { kids.push(new Paragraph({ keepNext: true, spacing: { before: 200, after: 100 }, children: [run(l.slice(4), { bold: true, size: 21, color: BLAU })] })); continue; }
   if (l.startsWith('## ')) { // Ablauf und Checkliste stehen je auf einem eigenen Blatt

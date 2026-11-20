@@ -16,6 +16,8 @@ Kapitel: 1 Allgemeine Anforderungen · 1.2 Regelungen zur Handhabung des Handbuc
 
 Zugeordnete Prozesse: alle Prozesse mit Prozessdokument
 
+Leitorientierung: Alle Prozessdokumente haben denselben Aufbau: vorn Ablauf und Checkliste, dann Verweise, Zuständigkeit und Beschreibung, am Ende die Leitfragen.
+
 ## 1 Wozu das Raster dient
 
 Alle Prozessdokumente sind gleich aufgebaut. Wer eines kennt, findet sich in jedem zurecht. Vorn steht, was bei der Arbeit sofort gebraucht wird; dahinter steht, was zum Nachlesen und zum Besprechen dient.

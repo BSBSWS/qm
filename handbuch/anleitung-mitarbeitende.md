@@ -16,6 +16,8 @@ Kapitel: 1 Allgemeine Anforderungen · 1.2 Regelungen zur Handhabung des Handbuc
 
 Zugeordnete Prozesse: alle Prozesse
 
+Leitorientierung: Vor der Aufgabe den Ablauf ansehen, während der Aufgabe die Checkliste nutzen, danach die Leitfragen im Team besprechen und Abweichungen melden.
+
 ## 1 Auf einen Blick
 
 ```mermaid
