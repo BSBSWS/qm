@@ -41,7 +41,7 @@ Grundannahme: Die begrenzte Reichweite von Verfahrensstandardisierungen resultie
 20. **Wortlaut der Leitsätze.** Oberster Grundsatz und Leitsätze stehen überall im Wortlaut des Trägers, auch in der Wir-Form; der übrige Text bleibt sachlich (Festlegung des Trägers vom 20.11.2026).
 21. **Grundlagen des QM.** § 78b SGB VIII und die ISO 9001 sind beide maßgeblich und werden beide genannt (Festlegung des Trägers vom 20.11.2026).
 22. **Unbestimmte Angaben werden definiert.** Stehen in einer Vorlage unbestimmte Angaben, bleiben sie nicht stehen und entfallen nicht ersatzlos: Der Träger legt die genaue Angabe fest; sie wird vor der Ausgabe abgefragt (Festlegung des Trägers vom 20.11.2026; ergänzt Nr. 13).
-23. **Lenkung.** Freigegeben wird immer durch die Geschäftsführung, geprüft immer durch die QMB; die erstellende Stelle wechselt. Jedes Dokument wird mindestens jährlich zum Audit überprüft. Rückmeldungen gehen an die QMB. Dokumente des Handbuchs tragen keine Unterschriftsfelder (Festlegungen des Trägers vom 20.11.2026).
+23. **Lenkung.** Freigegeben wird immer durch die Geschäftsführung, geprüft immer durch die Qualitätsmanagementbeauftragte oder den Qualitätsmanagementbeauftragten (QMB); die erstellende Stelle wechselt. Jedes Dokument wird mindestens jährlich zum Audit überprüft. Rückmeldungen gehen an die QMB. Dokumente des Handbuchs tragen keine Unterschriftsfelder (Festlegungen des Trägers vom 20.11.2026).
 24. **Ort der Reflexion.** Die Leitfragen werden je nach Thema und Handlungsebene besprochen (Festlegung des Trägers vom 20.11.2026).
 25. **Risikobetrachtung.** Jeder Prozess und jedes Dokument enthält zwingend eine Risikobetrachtung (Festlegung des Trägers vom 20.11.2026).
 26. **Checkliste, Prüffragen, Beschreibung.** Die Checkliste je Prozess und die Prüffragen zur Leitlinie sind verbindlich. Die Beschreibung bleibt Teil der Prozessdokumente (Festlegungen des Trägers vom 20.11.2026).
@@ -99,7 +99,8 @@ Verbindlich nach der Festlegung des Trägers vom 20.11.2026. Vor der Ausgabe ein
 3. Fundort von Handbuch und Ablaufblättern für Mitarbeitende.
 4. Kennung und Ablageort der Formulare.
 5. Zugeordnete Prozesse: Angabe bei der Prozesslandkarte selbst und bei Dokumenten ohne namensgleichen Prozess (z. B. 9.8). Gilt die Zeile auch für Arbeitsdokumente, Formulare und Workflows?
-6. Risikobetrachtungen in 2.3.1, 3.1.2, 9.8 und den Anleitungen sind Vorschläge und nicht bestätigt; ebenso die Leitfragen in 2.3.1 und 9.8.
+6. Risikobetrachtungen in 3.1.2, 9.8 und den Anleitungen sind Vorschläge und nicht bestätigt; ebenso die Leitfragen in 9.8. Bestätigt sind Leitfragen und Risikobetrachtung in 2.3.1 (20.11.2026).
+10. Wohlfühlindex: Verfahren der Erhebung und auswertende Stelle; gehört nicht in 2.3.1, das zuständige Dokument ist zu bestimmen.
 7. Kennungen der beiden Anleitungen in Kapitel 1.2; Anrede; eine oder zwei Anleitungen.
 8. Übrige Befunde (`handbuch/befunde-gliederung.md`).
 9. Kapitel 5 des Handbuchs: Verweis auf die Repositories der Konzeptionen und Leistungsbeschreibungen oder Kopie. Reihenfolge der weiteren Überführung.
