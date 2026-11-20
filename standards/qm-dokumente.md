@@ -1,6 +1,6 @@
 # Standard: QM-Dokumente
 
-Stand: 20.11.2026 · Version 0.10 (Entwurf) · Verantwortlich: Geschäftsführung
+Stand: 20.11.2026 · Version 0.11 (Entwurf) · Verantwortlich: Geschäftsführung
 
 ## 1 Geltung
 
@@ -26,6 +26,7 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 14. **Ablauf zuerst.** In jedem Prozessdokument steht das Flussdiagramm an erster Stelle, der Text danach (Festlegung des Trägers vom 20.11.2026).
 15. **Ablaufblatt.** Jedes Flussdiagramm ist für sich nutzbar und zugänglich: Zu jedem Prozessdokument gibt es ein Ablaufblatt mit Flussdiagramm, Checkliste und Verweisen, ausgegeben als Word, PDF und Bild in `export/ablauf/` (Festlegung des Trägers vom 20.11.2026).
 16. **Verweise.** Zugehörige Dokumente, Formulare und Gesetzestexte werden direkt am Prozess genannt und, wo eine Fundstelle vorhanden ist, verlinkt. Gesetze verweisen auf gesetze-im-internet.de (Festlegung des Trägers vom 20.11.2026).
+17. **Eigenes Blatt.** Ablauf und Checkliste stehen je auf einem eigenen Blatt; nach jedem der beiden folgt ein Seitenumbruch, damit sie einzeln nutzbar sind (Festlegung des Trägers vom 20.11.2026).
 
 ## 3 Vorschläge, noch nicht bestätigt
 
@@ -95,3 +96,4 @@ Vor der Ausgabe eines Dokuments:
 | 0.8 | 19.11.2026 | Festlegungen des Trägers vom 19.11.2026: keine unbestimmten Angaben; Logo und Blauton der Word-Ausgabe |
 | 0.9 | 20.11.2026 | Leitlinie des Trägers vom 20.11.2026 (nützlich, schlank und effizient, anschlussfähig, reflexiv); Vorschlag für Prüffragen |
 | 0.10 | 20.11.2026 | Festlegungen des Trägers vom 20.11.2026: Ablauf zuerst, Ablaufblatt, Verweise; Vorschlag Checkliste je Prozess; Aufbau des Prozessdokuments angepasst |
+| 0.11 | 20.11.2026 | Festlegung des Trägers vom 20.11.2026: Ablauf und Checkliste je auf einem eigenen Blatt |

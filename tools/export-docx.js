@@ -85,7 +85,7 @@ function diagram(code, maxH = 600) {
 }
 
 // Rumpf
-let lines = body.split('\n'); const kids = []; let kapitel = [];
+let lines = body.split('\n'); const kids = []; let kapitel = [], vorher = '';
 if (ABLAUF) { // nur Kopfzeilen und die Abschnitte Ablauf, Checkliste, zugehörige Dokumente
   const keep = []; let on = true;
   for (const l of lines) { if (l.startsWith('## ')) on = /^## (\d+ )?(Ablauf|Checkliste|Zugehörige)/.test(l); if (on) keep.push(l); }
@@ -95,10 +95,16 @@ for (let i = 0; i < lines.length; i++) {
   if (!l.trim() || l.startsWith('# ') || l.startsWith('Zugeordnete Prozesse:')) continue;
   if (l.startsWith('Kapitel:')) { kapitel = l.replace('Kapitel:', '').split(' · ').map(s => s.trim()).filter(s => !/^(Kennung|Revision|Stand):/.test(s)).slice(0, 2); continue; }
   if (l.startsWith('### ')) { kids.push(new Paragraph({ keepNext: true, spacing: { before: 200, after: 100 }, children: [run(l.slice(4), { bold: true, size: 21, color: BLAU })] })); continue; }
-  if (ABLAUF && /^## (\d+ )?Ablauf/.test(l)) continue;
-  if (l.startsWith('## ')) { l = ABLAUF ? '## ' + l.slice(3).replace(/^\d+ /, '') : l; kids.push(new Paragraph({ keepNext: true, spacing: { before: 320, after: 120 },
+  if (l.startsWith('## ')) { // Ablauf und Checkliste stehen je auf einem eigenen Blatt
+    const name = l.slice(3).replace(/^\d+ /, ''), eigen = x => /^(Ablauf|Checkliste)/.test(x);
+    const umbruch = (name.startsWith('Checkliste') || eigen(vorher)) && kids.length > 0; vorher = name;
+    if (ABLAUF && name.startsWith('Ablauf')) continue;
+    if (ABLAUF) l = '## ' + name;
+    kids.push(new Paragraph({ keepNext: true, pageBreakBefore: umbruch, spacing: { before: umbruch ? 0 : 320, after: 120 },
+      children: [run(l.slice(3), { bold: true, size: 24, color: BLAU })] })); continue; }
+  if (false) { kids.push(new Paragraph({ keepNext: true, spacing: { before: 320, after: 120 },
     children: [run(l.slice(3), { bold: true, size: 24, color: BLAU })] })); continue; }
-  if (l.startsWith('```mermaid')) { const c = []; while (!lines[++i].startsWith('```')) c.push(lines[i]); kids.push(diagram(c.join('\n'), ABLAUF ? 760 : 600)); continue; }
+  if (l.startsWith('```mermaid')) { const c = []; while (!lines[++i].startsWith('```')) c.push(lines[i]); kids.push(diagram(c.join('\n'), ABLAUF ? 640 : 600)); continue; }
   if (l.startsWith('|')) { const rows = [];
     while (i < lines.length && lines[i].startsWith('|')) { if (!/^\|[\s|:-]*-[\s|:-]*\|$/.test(lines[i])) rows.push(lines[i].slice(1, -1).split('|').map(c => c.trim())); i++; }
     i--; kids.push(table(rows), gap(60)); continue; }
