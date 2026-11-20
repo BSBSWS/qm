@@ -48,8 +48,10 @@ const offen = t => new Paragraph({ spacing: { before: 60, after: 100, line: 276 
   children: [run('OFFEN  ', { bold: true, color: '8A6100' }), run(clean(t.slice(6)))] });
 
 function widths(head, n) {
-  if (n === 2 && !head[0].startsWith('Nr.') && !['Leitlinie', 'Thema', 'Dokument', 'Bereich'].includes(head[0])) return [2268, W - 2268];
+  if (n === 2 && !head[0].startsWith('Nr.') && !['Leitlinie', 'Thema', 'Dokument', 'Bereich', 'Bezug'].includes(head[0])) return [2268, W - 2268];
   if (head[0] === 'Nr.' && n === 4) return [520, 4580, 1985, 1985];
+  if (head[0] === 'Nr.' && n === 3) return [520, 3150, W - 3670];
+  if (head[0] === 'Bezug') return [3000, W - 3000];
   if (head[0] === 'Art' && n === 3) return [1900, 4670, 2500];
   if (head[0] === 'Dokument' && n === 3) return [2300, 4270, 2500];
   if (head[0] === 'Teil' && n === 3) return [2300, 3900, 2870];
@@ -69,8 +71,8 @@ function table(rows) {
       { shading: fill(BLAU), borders: { top: none, left: none, right: none, bottom: none } })) }));
   rows.slice(1).forEach((r, k) => trs.push(new TableRow({ cantSplit: true, children: r.map((c, i) => {
     const label = noHead && i === 0, nr = head[0] === 'Nr.' && i === 0;
-    return cell((head[0] === 'Nr.' ? c.split(/;\s+/) : [c]).map(p => new Paragraph({ spacing: { line: 264 },
-      children: inline(clean(p), label ? { bold: true, color: BLAU, size: 18 } : nr ? { bold: true, color: BLAU } : head[0] === 'Art' && i === 0 ? { size: 18, color: GRAU } : {}) })), w[i],
+    return cell((head[0] === 'Nr.' ? c.split(/;\s+/) : [c]).map((p, pi) => new Paragraph({ spacing: { line: 264, after: head[1] === 'Ziel' && i === 1 && pi === 0 ? 60 : 0 },
+      children: inline(clean(p), label ? { bold: true, color: BLAU, size: 18 } : nr ? { bold: true, color: BLAU } : head[0] === 'Art' && i === 0 ? { size: 18, color: GRAU } : head[1] === 'Ziel' && i === 1 && pi === 0 ? { bold: true } : {}) })), w[i],
       { shading: label ? fill(HELL) : undefined, ...(noHead && k === 0 ? { borders: { top: line(), left: none, right: none, bottom: line() } } : {}) }); }) })));
   return new Table({ width: { size: W, type: WidthType.DXA }, columnWidths: w, rows: trs });
 }

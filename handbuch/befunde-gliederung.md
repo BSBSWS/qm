@@ -111,3 +111,17 @@ Vorlage: `alt/2.3.1_Qualitaetspolitik.docx`, Version 04.2023, Rev. 0005; erstell
 | 57 | Der Wohlfühlindex ist genannt, aber nicht beschrieben. Der Satz „Das QM unterteilen sich zukünftig …“ ist grammatisch fehlerhaft; im Satz zu den Kostenträgern steht ein Einschub ohne Anschluss („Sie sichern unsere wirtschaftliche Grundlage“). |
 | 58 | Abkürzungen ohne Erklärung: „KJHV“, „LJA“. In der Überführung als „Kinder- und Jugendhilfeverbund“ und „Landesjugendamt“ ausgeschrieben. |
 | 59 | Der Bezug auf die „vorliegende Vereinbarung zur Qualitätsentwicklung“ lässt offen, welches Dokument gemeint ist. Entschieden am 20.11.2026: Vereinbarung mit dem örtlichen Jugendamt. |
+
+## 9 Dokument 2.3.2 Qualitätsziele
+
+Vorlage: `alt/2.3.2_Qualitaetsziele.docx`, Version 04.2023, Rev. 0005; erstellt 05.06.2013, geprüft und freigegeben 12.04.2023; vier Seiten. Die Vorlage trägt wie die Qualitätspolitik die Kennung 2.3.1 und dieselben Lenkungsangaben.
+
+| Nr. | Befund |
+|---|---|
+| 60 | Kennung: Vorlage 2.3.1, vom Träger am 20.11.2026 als 2.3.2 festgelegt; „Kontext der Organisation“ wird 2.3.3. |
+| 61 | Die Zählung der Ziele springt von 6 auf 8; ein Ziel 7 fehlt. Die Ziele 1 bis 6 sind Aufzählungspunkte, 8 und 9 sind von Hand nummeriert. In der Überführung durchgezählt (1 bis 8). |
+| 62 | Die Spalte „Maßnahmen und Indikatoren“ ist eine durchlaufende Liste ohne Zuordnung zu den Zielen; die Zuordnung in der Überführung folgt der Reihenfolge. Die Spalte „Dokumente/Formulare“ ist leer. |
+| 63 | Der Zweck verlangt „messbar“; kein Indikator nennt einen Zielwert oder eine Kennzahl. |
+| 64 | Unbestimmte Angaben: elfmal „regelmäßig“, zweimal „bei Bedarf“, einmal „zeitnah“. Am 20.11.2026 vom Träger definiert; offen bleibt der Turnus von Supervision, kollegialer Beratung und psychiatrischer Fallberatung. |
+| 65 | Doppelungen: strukturierte Reflexion nach kritischen Ereignissen (Ziele 2 und 5); Teamsitzungen, kollegiale Beratung und Supervision (Ziele 3 und 7). |
+| 66 | Schreibfehler: „psychatrischer“, „weiterentwickelt“ statt „weiterentwickeln“, fehlende Leerzeichen nach Überschriften; ein Indikator ohne Subjekt („individuelle und einrichtungsbezogene Fortbildungsbedarfe ermittelt“). |
