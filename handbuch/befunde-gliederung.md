@@ -122,6 +122,6 @@ Vorlage: `alt/2.3.2_Qualitaetsziele.docx`, Version 04.2023, Rev. 0005; erstellt 
 | 61 | Die Zählung der Ziele springt von 6 auf 8; ein Ziel 7 fehlt. Die Ziele 1 bis 6 sind Aufzählungspunkte, 8 und 9 sind von Hand nummeriert. In der Überführung durchgezählt (1 bis 8). |
 | 62 | Die Spalte „Maßnahmen und Indikatoren“ ist eine durchlaufende Liste ohne Zuordnung zu den Zielen; die Zuordnung in der Überführung folgt der Reihenfolge. Die Spalte „Dokumente/Formulare“ ist leer. |
 | 63 | Der Zweck verlangt „messbar“; kein Indikator nennt einen Zielwert oder eine Kennzahl. |
-| 64 | Unbestimmte Angaben: elfmal „regelmäßig“, zweimal „bei Bedarf“, einmal „zeitnah“. Am 20.11.2026 vom Träger definiert; offen bleibt der Turnus von Supervision, kollegialer Beratung und psychiatrischer Fallberatung. |
+| 64 | Unbestimmte Angaben: elfmal „regelmäßig“, zweimal „bei Bedarf“, einmal „zeitnah“. Am 20.11.2026 vom Träger definiert; der Turnus von Supervision, kollegialer Beratung und psychiatrischer Fallberatung steht nach Auskunft des Trägers in anderen Dokumenten. |
 | 65 | Doppelungen: strukturierte Reflexion nach kritischen Ereignissen (Ziele 2 und 5); Teamsitzungen, kollegiale Beratung und Supervision (Ziele 3 und 7). |
 | 66 | Schreibfehler: „psychatrischer“, „weiterentwickelt“ statt „weiterentwickeln“, fehlende Leerzeichen nach Überschriften; ein Indikator ohne Subjekt („individuelle und einrichtungsbezogene Fortbildungsbedarfe ermittelt“). |
