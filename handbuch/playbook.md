@@ -20,11 +20,18 @@ Zugeordnete Prozesse: alle Prozesse
 
 > Das QM arbeitet für uns, nicht wir für das QM!
 
-## 2 Leitlinie
+## 2 Leitsätze
+
+1. Durch definierte und effiziente Prozesse und Strukturen gewinnen wir Zeit und Raum für Beziehung und Menschlichkeit.
+2. Die Ambiguität durch normative Erfordernisse der ISO und reflexives und relationales Handeln wird nicht als Hindernis, sondern als Chance betrachtet.
+
+Grundannahme: Die begrenzte Reichweite von Verfahrensstandardisierungen resultiert aus dem Charakter von sozialen Dienstleistungen.
+
+## 3 Leitlinie
 
 Das QM ist nützlich für die praktische Arbeit, schlank und effizient, anschlussfähig für alle Mitarbeitenden und reflexiv.
 
-## 3 Festlegungen in Kürze
+## 4 Festlegungen in Kürze
 
 | Thema | Leitorientierung |
 |---|---|
@@ -37,7 +44,7 @@ Das QM ist nützlich für die praktische Arbeit, schlank und effizient, anschlus
 | Lenkung | Revisionen werden fortgezählt. Die Freigabe erfolgt außerhalb des Repositorys. Ein Entwurf gilt nicht. |
 | Offene Angaben | Fehlende Angaben werden nicht erfunden, sondern als offen gekennzeichnet und erfragt. |
 
-## 4 Dokumente in Kürze
+## 5 Dokumente in Kürze
 
 ### Kapitel 1 Allgemeine Anforderungen
 

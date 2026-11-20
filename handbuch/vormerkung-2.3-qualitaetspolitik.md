@@ -8,6 +8,13 @@ Oberster Grundsatz des Trägers vom 20.11.2026 im Wortlaut:
 
 > Das QM arbeitet für uns, nicht wir für das QM!
 
+Leitsätze des Trägers vom 20.11.2026 im Wortlaut:
+
+1. Durch definierte und effiziente Prozesse und Strukturen gewinnen wir Zeit und Raum für Beziehung und Menschlichkeit.
+2. Die Ambiguität durch normative Erfordernisse der ISO und reflexives und relationales Handeln wird nicht als Hindernis, sondern als Chance betrachtet.
+
+Grundannahme: Die begrenzte Reichweite von Verfahrensstandardisierungen resultiert aus dem Charakter von sozialen Dienstleistungen.
+
 Vorgabe des Trägers vom 20.11.2026 im Wortlaut:
 
 > Das QM soll in Zukunft stark von der Prämisse bestimmt sein, nützlich für die praktische Arbeit zu sein, schlank und effizient, anschlussfähig für alle Mitarbeitenden und reflexiv.
@@ -44,3 +51,7 @@ OFFEN: Die Vorlage zu 2.3 Qualitätspolitik und Qualitätsziele liegt im Reposit
 OFFEN: Qualitätsziele zur Leitlinie fehlen, zum Beispiel woran der Träger erkennt, dass die Dokumente in der Praxis genutzt werden.
 
 OFFEN: Verhältnis zum Unternehmensleitbild (2.2).
+
+OFFEN: Einordnung des Satzes zur begrenzten Reichweite von Verfahrensstandardisierungen; hier als Grundannahme geführt.
+
+OFFEN: Der Formulierungsvorschlag in Abschnitt 3 berücksichtigt die Leitsätze noch nicht.

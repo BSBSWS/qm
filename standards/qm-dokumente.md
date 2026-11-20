@@ -1,6 +1,6 @@
 # Standard: QM-Dokumente
 
-Stand: 20.11.2026 · Version 0.12 (Entwurf) · Verantwortlich: Geschäftsführung
+Stand: 20.11.2026 · Version 0.13 (Entwurf) · Verantwortlich: Geschäftsführung
 
 ## 1 Geltung
 
@@ -9,6 +9,13 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 ## 2 Festgelegt
 
 **Oberster Grundsatz (Festlegung des Trägers vom 20.11.2026).** Das QM arbeitet für uns, nicht wir für das QM!
+
+**Leitsätze (Festlegung des Trägers vom 20.11.2026).** Wortlaut des Trägers:
+
+1. Durch definierte und effiziente Prozesse und Strukturen gewinnen wir Zeit und Raum für Beziehung und Menschlichkeit.
+2. Die Ambiguität durch normative Erfordernisse der ISO und reflexives und relationales Handeln wird nicht als Hindernis, sondern als Chance betrachtet.
+
+Grundannahme: Die begrenzte Reichweite von Verfahrensstandardisierungen resultiert aus dem Charakter von sozialen Dienstleistungen.
 
 **Leitlinie (Festlegung des Trägers vom 20.11.2026).** Das QM ist nützlich für die praktische Arbeit, schlank und effizient, anschlussfähig für alle Mitarbeitenden und reflexiv. Jedes Dokument und jede Regel dieses Standards wird daran gemessen.
 
@@ -102,3 +109,4 @@ Vor der Ausgabe eines Dokuments:
 | 0.10 | 20.11.2026 | Festlegungen des Trägers vom 20.11.2026: Ablauf zuerst, Ablaufblatt, Verweise; Vorschlag Checkliste je Prozess; Aufbau des Prozessdokuments angepasst |
 | 0.11 | 20.11.2026 | Festlegung des Trägers vom 20.11.2026: Ablauf und Checkliste je auf einem eigenen Blatt |
 | 0.12 | 20.11.2026 | Arbeitshinweise des Trägers vom 20.11.2026: oberster Grundsatz, Leitorientierungen, Playbook |
+| 0.13 | 20.11.2026 | Leitsätze und Grundannahme des Trägers vom 20.11.2026 |

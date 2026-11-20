@@ -21,8 +21,8 @@ heute = datetime.date.today().strftime('%d.%m.%Y')
 out = ['---', 'titel: Playbook QM', 'textart: Zusammenfassung der Leitorientierungen', 'prozesse: alle Prozesse', 'revision: "001"',
        'stand: ' + heute, 'status: Entwurf', 'erstellt: OFFEN', 'geprueft: OFFEN', 'freigegeben: OFFEN', '---', '',
        '# Playbook QM', '', 'Kapitel: QM-Handbuch · Leitorientierungen auf einen Blick', '', 'Zugeordnete Prozesse: alle Prozesse', '',
-       '## 1 Oberster Grundsatz', '', teil('Oberster Grundsatz'), '', '## 2 Leitlinie', '', teil('Leitlinie'), '',
-       '## 3 Festlegungen in Kürze', '', teil('Festlegungen in Kürze'), '', '## 4 Dokumente in Kürze', '']
+       '## 1 Oberster Grundsatz', '', teil('Oberster Grundsatz'), '', '## 2 Leitsätze', '', teil('Leitsätze'), '', '## 3 Leitlinie', '', teil('Leitlinie'), '',
+       '## 4 Festlegungen in Kürze', '', teil('Festlegungen in Kürze'), '', '## 5 Dokumente in Kürze', '']
 for k in sorted({d[0] for d in docs}, key=lambda x: int(x or 0)):
     out += ['### Kapitel ' + k + ' ' + kapitel.get(k, ''), '', '| Dokument | Leitorientierung |', '|---|---|']
     for d in sorted([d for d in docs if d[0] == k], key=key):

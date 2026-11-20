@@ -6,6 +6,13 @@ Stand: 20.11.2026. Quelle für den ersten Teil des Playbooks. Die Leitorientieru
 
 > Das QM arbeitet für uns, nicht wir für das QM!
 
+## Leitsätze
+
+1. Durch definierte und effiziente Prozesse und Strukturen gewinnen wir Zeit und Raum für Beziehung und Menschlichkeit.
+2. Die Ambiguität durch normative Erfordernisse der ISO und reflexives und relationales Handeln wird nicht als Hindernis, sondern als Chance betrachtet.
+
+Grundannahme: Die begrenzte Reichweite von Verfahrensstandardisierungen resultiert aus dem Charakter von sozialen Dienstleistungen.
+
 ## Leitlinie
 
 Das QM ist nützlich für die praktische Arbeit, schlank und effizient, anschlussfähig für alle Mitarbeitenden und reflexiv.
