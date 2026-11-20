@@ -90,7 +90,11 @@ function diagram(code, maxH = 600) {
 }
 
 // Rumpf
-let lines = body.split('\n'); const kids = []; let kapitel = [], vorher = '', liste = 0;
+let lines = body.split('\n');
+{ // Der Abschnitt „Änderungen“ bleibt in der Quelle und wird nie ausgegeben
+  const keep = []; let on = true;
+  for (const l of lines) { if (l.startsWith('## ')) on = !/^## Änderungen/.test(l); if (on) keep.push(l); }
+  lines = keep; } const kids = []; let kapitel = [], vorher = '', liste = 0;
 if (ABLAUF) { // nur Kopfzeilen und die Abschnitte Ablauf, Checkliste, zugehörige Dokumente
   const keep = []; let on = true;
   for (const l of lines) { if (l.startsWith('## ')) on = /^## (\d+ )?(Ablauf|Checkliste|Zugehörige)/.test(l); if (on) keep.push(l); }

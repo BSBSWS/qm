@@ -35,7 +35,6 @@ Alle Prozessdokumente sind gleich aufgebaut. Wer eines kennt, findet sich in jed
 | Beschreibung | Die Schritte in Worten, mit Verantwortung und Dokumenten | Zum Nachlesen im Einzelnen |
 | Risikobetrachtung | Was misslingen kann und was vorbeugt | Bei der Planung und nach Schwierigkeiten |
 | Reflexion und Weiterentwicklung | Leitfragen zum eigenen Handeln | Im Team nach der Aufgabe |
-| Änderungen | Was sich seit der letzten Revision geändert hat | Nach einer neuen Revision |
 
 Ablauf und Checkliste gibt es zusätzlich als eigenes Ablaufblatt zum Ausdrucken und Aushängen.
 

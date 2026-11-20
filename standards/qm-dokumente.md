@@ -1,6 +1,6 @@
 # Standard: QM-Dokumente
 
-Stand: 20.11.2026 · Version 0.15 (Entwurf) · Verantwortlich: Geschäftsführung
+Stand: 20.11.2026 · Version 0.16 (Entwurf) · Verantwortlich: Geschäftsführung
 
 ## 1 Geltung
 
@@ -48,6 +48,7 @@ Grundannahme: Die begrenzte Reichweite von Verfahrensstandardisierungen resultie
 27. **Kapitel 9.** Kapitel 9 heißt „Hilfeprozesse“. „Wohngruppen“, „familienanaloge Einrichtungen, IWLs“ und „Eltern-Kind-Einrichtung“ sind Zwischenüberschriften (Festlegungen des Trägers vom 20.11.2026).
 28. **Stellenbezeichnungen.** Stellen heißen so, wie das Schlüsselverzeichnis sie führt (Festlegung des Trägers vom 20.11.2026).
 29. **Gestaltung.** Blau #2D4B9B ist bestätigt (20.11.2026).
+30. **Ausgabe ohne Änderungen.** Der Abschnitt „Änderungen“ steht nur in der Markdown-Quelle; in Word, PDF und Ablaufblatt erscheint er nie (Festlegung des Trägers vom 20.11.2026).
 
 ## 3 Vorschläge, noch nicht bestätigt
 
@@ -124,3 +125,4 @@ Verbindlich nach der Festlegung des Trägers vom 20.11.2026. Vor der Ausgabe ein
 | 0.13 | 20.11.2026 | Leitsätze und Grundannahme des Trägers vom 20.11.2026 |
 | 0.14 | 20.11.2026 | Festlegungen des Trägers vom 20.11.2026: Wortlaut der Leitsätze, § 78b SGB VIII und ISO 9001 als Grundlagen, Definition unbestimmter Angaben |
 | 0.15 | 20.11.2026 | Festlegungen des Trägers vom 20.11.2026: keine eigenen Prozessnummern (ersetzt Nr. 8), Lenkung, Ort der Reflexion, Risikobetrachtung zwingend, Checkliste und Prüffragen verbindlich, Kapitel 9, Stellenbezeichnungen; offene Punkte neu gefasst |
+| 0.16 | 20.11.2026 | Festlegung des Trägers vom 20.11.2026: Ausgabe ohne den Abschnitt „Änderungen“ |
