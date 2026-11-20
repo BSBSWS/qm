@@ -10,8 +10,8 @@ Festlegung des Trägers vom 20.11.2026: Das Handbuch bleibt vorerst bei der Ausg
 |---|---|---|---|
 | 5.2.1 a | passt zu Zweck und Kontext, stützt die strategische Ausrichtung | Zweck, Leitsätze und Grundlagen vorhanden; der Kontext der Organisation (2.3.3) fehlt noch | teilweise |
 | 5.2.1 b | Rahmen für Qualitätsziele | steht wörtlich im Zweck; Abschnitt 4 und Verweis auf die Ziele | erfüllt |
-| 5.2.1 c | Verpflichtung, die zutreffenden Anforderungen zu erfüllen | Absicht, das QM-System nach § 78b SGB VIII umzusetzen; eine ausdrückliche Verpflichtung auf gesetzliche und vereinbarte Anforderungen fehlt | teilweise |
-| 5.2.1 d | Verpflichtung zur fortlaufenden Verbesserung des QM-Systems | „Grundlage ständiger Verbesserung“; QMB stößt die Weiterentwicklung an; eine ausdrückliche Verpflichtung fehlt | teilweise |
+| 5.2.1 c | Verpflichtung, die zutreffenden Anforderungen zu erfüllen | Absicht, das QM-System nach § 78b SGB VIII umzusetzen; seit 20.11.2026 ausdrückliche Verpflichtung in Abschnitt 2 | erfüllt |
+| 5.2.1 d | Verpflichtung zur fortlaufenden Verbesserung des QM-Systems | „Grundlage ständiger Verbesserung“; QMB stößt die Weiterentwicklung an; seit 20.11.2026 ausdrückliche Verpflichtung in Abschnitt 2 | erfüllt |
 | 5.2.2 a | als dokumentierte Information verfügbar und gepflegt | Dokument mit Revision, Prüfung, Freigabe, jährlicher Überprüfung | erfüllt |
 | 5.2.2 b | in der Organisation bekannt, verstanden, angewendet | Verteiler alle Mitarbeitenden, Leitorientierung, Playbook; wie die Bekanntmachung geschieht, ist nicht geregelt | teilweise |
 | 5.2.2 c | für interessierte Parteien verfügbar, soweit angemessen | jährlicher Dialog mit den Jugendämtern; ob und wie die Qualitätspolitik nach außen zugänglich ist, ist nicht geregelt | offen |
@@ -22,7 +22,7 @@ Festlegung des Trägers vom 20.11.2026: Das Handbuch bleibt vorerst bei der Ausg
 |---|---|---|---|
 | 6.2.1 Einleitung | Ziele für relevante Funktionen, Ebenen und Prozesse | acht Ziele für den Träger insgesamt; keine Zuordnung zu Funktionen, Ebenen oder Prozessen | teilweise |
 | 6.2.1 a | im Einklang mit der Qualitätspolitik | Abschnitt „Bezüge“ | erfüllt |
-| 6.2.1 b | messbar | keine Zielwerte (Entscheidung des Trägers); Nachweis je Maßnahme und Bewertung als erfüllt, teilweise erfüllt, nicht erfüllt; die Norm verlangt Messbarkeit ausdrücklich | teilweise; siehe Abschnitt 4 |
+| 6.2.1 b | messbar | keine Zielwerte (Entscheidung des Trägers); Nachweis je Maßnahme und Bewertung als erfüllt, teilweise erfüllt, nicht erfüllt; seit 20.11.2026 Messgrößen benannt: Grad der Erfüllung im Managementreview und Wohlfühlindex | erfüllt, ohne Zielwerte |
 | 6.2.1 c | zutreffende Anforderungen berücksichtigt | § 78b SGB VIII, Hilfeplan, Schutzauftrag in den Zielen | erfüllt |
 | 6.2.1 d | bedeutsam für die Konformität der Leistung und für die Zufriedenheit der Kunden | weitere Ziele des QM (Abschnitt 4); Wohlfühlindex | erfüllt |
 | 6.2.1 e | überwacht | Bewertung im jährlichen Managementreview | erfüllt |
@@ -47,3 +47,10 @@ Festlegung des Trägers vom 20.11.2026: Das Handbuch bleibt vorerst bei der Ausg
 4. Jahresplan: je Schwerpunkt zusätzlich Ressourcen und Art der Bewertung festhalten (Norm 6.2.2).
 5. Begriffe klären: „Managementbewertung“ (jährlich, durch die Geschäftsführung) und „internes Audit“ getrennt führen; im Handbuch einheitlich benennen.
 6. 2.3.3 Kontext der Organisation: Die Norm verlangt externe und interne Themen sowie die interessierten Parteien mit ihren Anforderungen (Norm 4.1 und 4.2). Die Qualitätspolitik nennt bereits junge Menschen und Familien, Kostenträger, Jugendämter, Landesjugendämter und Mitarbeitende.
+
+## 5 Entscheidungen des Trägers vom 20.11.2026
+
+- Vorschlag 1 umgesetzt (Verpflichtungen in 2.3.1).
+- Vorschlag 3 umgesetzt (Messgrößen in 2.3.2).
+- Zu Vorschlag 5: Es bleibt bei „jährlich zum Audit“.
+- Vorschlag 4 (Jahresplan mit Ressourcen und Art der Bewertung): offen.
