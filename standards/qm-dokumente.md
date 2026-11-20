@@ -1,6 +1,6 @@
 # Standard: QM-Dokumente
 
-Stand: 20.11.2026 · Version 0.17 (Entwurf) · Verantwortlich: Geschäftsführung
+Stand: 20.11.2026 · Version 0.18 (Entwurf) · Verantwortlich: Geschäftsführung
 
 ## 1 Geltung
 
@@ -39,7 +39,7 @@ Grundannahme: Die begrenzte Reichweite von Verfahrensstandardisierungen resultie
 18. **Leitorientierung.** Für jede Festlegung, jeden Text und jedes Kapitel gibt es eine Leitorientierung: eine kurze Zusammenfassung. In Dokumenten steht sie als Zeile „Leitorientierung“ unter dem Titel; die Leitorientierungen zu den Festlegungen stehen in `standards/leitorientierungen.md` (Arbeitshinweis des Trägers vom 20.11.2026).
 19. **Playbook.** Alle Leitorientierungen werden im Playbook zusammengefasst (`handbuch/playbook.md`, erzeugt mit `tools/playbook.py`) (Arbeitshinweis des Trägers vom 20.11.2026).
 20. **Wortlaut der Leitsätze.** Oberster Grundsatz und Leitsätze stehen überall im Wortlaut des Trägers, auch in der Wir-Form; der übrige Text bleibt sachlich (Festlegung des Trägers vom 20.11.2026).
-21. **Grundlagen des QM.** § 78b SGB VIII und die ISO 9001 sind beide maßgeblich und werden beide genannt (Festlegung des Trägers vom 20.11.2026).
+21. **Grundlagen des QM.** § 78b SGB VIII und die ISO 9001 sind beide maßgeblich und werden beide genannt (Festlegung des Trägers vom 20.11.2026). Maßgeblich bleibt vorerst die Ausgabe ISO 9001:2015 (Festlegung des Trägers vom 20.11.2026). Der Normtext liegt dem Träger vor und wird nicht im Repository abgelegt; Abgleiche nennen die Anforderungen in eigenen Worten.
 22. **Unbestimmte Angaben werden definiert.** Stehen in einer Vorlage unbestimmte Angaben, bleiben sie nicht stehen und entfallen nicht ersatzlos: Der Träger legt die genaue Angabe fest; sie wird vor der Ausgabe abgefragt (Festlegung des Trägers vom 20.11.2026; ergänzt Nr. 13).
 23. **Lenkung.** Freigegeben wird immer durch die Geschäftsführung, geprüft immer durch die Qualitätsmanagementbeauftragte oder den Qualitätsmanagementbeauftragten (QMB); die erstellende Stelle wechselt. Jedes Dokument wird mindestens jährlich zum Audit überprüft. Rückmeldungen gehen an die QMB. Dokumente des Handbuchs tragen keine Unterschriftsfelder (Festlegungen des Trägers vom 20.11.2026).
 24. **Ort der Reflexion.** Die Leitfragen werden je nach Thema und Handlungsebene besprochen (Festlegung des Trägers vom 20.11.2026).
@@ -128,3 +128,4 @@ Verbindlich nach der Festlegung des Trägers vom 20.11.2026. Vor der Ausgabe ein
 | 0.15 | 20.11.2026 | Festlegungen des Trägers vom 20.11.2026: keine eigenen Prozessnummern (ersetzt Nr. 8), Lenkung, Ort der Reflexion, Risikobetrachtung zwingend, Checkliste und Prüffragen verbindlich, Kapitel 9, Stellenbezeichnungen; offene Punkte neu gefasst |
 | 0.16 | 20.11.2026 | Festlegung des Trägers vom 20.11.2026: Ausgabe ohne den Abschnitt „Änderungen“ |
 | 0.17 | 20.11.2026 | Festlegung des Trägers vom 20.11.2026: Kennungen 2.3.1 bis 2.3.3 |
+| 0.18 | 20.11.2026 | Festlegung des Trägers vom 20.11.2026: vorerst ISO 9001:2015; Abgleich für Kapitel 2.3 angelegt |
