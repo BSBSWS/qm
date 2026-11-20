@@ -16,7 +16,7 @@ for f in sorted(glob.glob('handbuch/*.md')):
     get = lambda k: (re.search(r'(?m)^' + k + r': *"?([^"\n]*)"?$', s) or [None, ''])[1]
     kap = re.search(r'(?m)^Kapitel: (\d+)', s)
     docs.append((kap.group(1) if kap else '', get('kennung'), get('titel'), lo.group(1), get('status')))
-key = lambda d: ([int(x) for x in d[1].split('.')] if d[1] else [int(d[0] or 0), 0, 0, 0], d[2])
+key = lambda d: ([int(x) for x in re.findall(r'\d+', d[1])] if d[1] else [int(d[0] or 0), 0, 0, 0], d[1].startswith('F'), d[1], d[2])
 heute = datetime.date.today().strftime('%d.%m.%Y')
 out = ['---', 'titel: Playbook QM', 'textart: Zusammenfassung der Leitorientierungen', 'prozesse: alle Prozesse', 'revision: "001"',
        'stand: ' + heute, 'status: Entwurf', 'erstellt: OFFEN', 'geprueft: QMB', 'freigegeben: Geschäftsführung', '---', '',

@@ -1,6 +1,6 @@
 # Standard: QM-Dokumente
 
-Stand: 20.11.2026 · Version 0.18 (Entwurf) · Verantwortlich: Geschäftsführung
+Stand: 20.11.2026 · Version 0.19 (Entwurf) · Verantwortlich: Geschäftsführung
 
 ## 1 Geltung
 
@@ -50,6 +50,7 @@ Grundannahme: Die begrenzte Reichweite von Verfahrensstandardisierungen resultie
 29. **Gestaltung.** Blau #2D4B9B ist bestätigt (20.11.2026).
 30. **Ausgabe ohne Änderungen.** Der Abschnitt „Änderungen“ steht nur in der Markdown-Quelle; in Word, PDF und Ablaufblatt erscheint er nie (Festlegung des Trägers vom 20.11.2026).
 31. **Kennungen in 2.3.** 2.3.1 Qualitätspolitik, 2.3.2 Qualitätsziele, 2.3.3 Kontext der Organisation (Festlegung des Trägers vom 20.11.2026).
+32. **Formulare.** Ein Formular trägt die Kennung des Dokuments, zu dem es gehört, mit vorangestelltem F und einem fortlaufenden Buchstaben: F2.3.2.A, bei weiteren Formularen desselben Dokuments B, C, D (Vorschlag des Trägers vom 20.11.2026, angewendet). Formulare tragen keine Risikobetrachtung und keinen Teil „Reflexion und Weiterentwicklung“ (Festlegung des Trägers vom 20.11.2026).
 
 ## 3 Vorschläge, noch nicht bestätigt
 
@@ -99,7 +100,7 @@ Verbindlich nach der Festlegung des Trägers vom 20.11.2026. Vor der Ausgabe ein
 1. Schlüsselverzeichnis der Stellen: liegt im Repository nicht vor.
 2. Verteiler der Dokumente; erstellende Stelle je Dokument.
 3. Fundort von Handbuch und Ablaufblättern für Mitarbeitende.
-4. Kennung und Ablageort der Formulare.
+4. Ablageort der Formulare; Zuordnung der Kennungen für die Formulare aus 9.1.4 und 9.8.
 5. Zugeordnete Prozesse: Angabe bei der Prozesslandkarte selbst und bei Dokumenten ohne namensgleichen Prozess (z. B. 9.8). Gilt die Zeile auch für Arbeitsdokumente, Formulare und Workflows?
 6. Risikobetrachtungen in 3.1.2, 9.8 und den Anleitungen sind Vorschläge und nicht bestätigt; ebenso die Leitfragen in 9.8. Bestätigt sind Leitfragen und Risikobetrachtung in 2.3.1 (20.11.2026).
 10. Wohlfühlindex: Verfahren der Erhebung und auswertende Stelle; gehört nicht in 2.3.1, das zuständige Dokument ist zu bestimmen.
@@ -129,3 +130,4 @@ Verbindlich nach der Festlegung des Trägers vom 20.11.2026. Vor der Ausgabe ein
 | 0.16 | 20.11.2026 | Festlegung des Trägers vom 20.11.2026: Ausgabe ohne den Abschnitt „Änderungen“ |
 | 0.17 | 20.11.2026 | Festlegung des Trägers vom 20.11.2026: Kennungen 2.3.1 bis 2.3.3 |
 | 0.18 | 20.11.2026 | Festlegung des Trägers vom 20.11.2026: vorerst ISO 9001:2015; Abgleich für Kapitel 2.3 angelegt |
+| 0.19 | 20.11.2026 | Kennungen der Formulare (F + Dokumentkennung + Buchstabe); Formulare ohne Risikobetrachtung und Reflexionsteil |

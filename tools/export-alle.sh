@@ -3,7 +3,7 @@
 # Aufruf aus dem Wurzelordner des Repositorys: sh tools/export-alle.sh
 set -e
 python3 tools/playbook.py
-for f in handbuch/[0-9]*.md handbuch/anleitung-*.md handbuch/formular-*.md handbuch/playbook.md; do
+for f in handbuch/[0-9]*.md handbuch/anleitung-*.md handbuch/F[0-9]*.md handbuch/playbook.md; do
   kennung=$(sed -n 's/^kennung: *"\{0,1\}\([0-9.]*\)"\{0,1\}$/\1/p' "$f")
   name=$(basename "$f" .md)
   node tools/export-docx.js "$f" "export/$name.docx"
