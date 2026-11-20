@@ -100,7 +100,7 @@ Verbindlich nach der Festlegung des Trägers vom 20.11.2026. Vor der Ausgabe ein
 1. Schlüsselverzeichnis der Stellen: liegt im Repository nicht vor.
 2. Verteiler der Dokumente; erstellende Stelle je Dokument.
 3. Fundort von Handbuch und Ablaufblättern für Mitarbeitende.
-4. Ablageort der Formulare; Zuordnung der Kennungen für die Formulare aus 9.1.4 und 9.8.
+4. Ablageort der Formulare. Vergeben sind F2.3.2.A, F9.1.4.A bis C und F9.8.A; außer F2.3.2.A liegt keines im Repository vor.
 5. Zugeordnete Prozesse: Angabe bei der Prozesslandkarte selbst und bei Dokumenten ohne namensgleichen Prozess (z. B. 9.8). Gilt die Zeile auch für Arbeitsdokumente, Formulare und Workflows?
 6. Risikobetrachtungen in 3.1.2, 9.8 und den Anleitungen sind Vorschläge und nicht bestätigt; ebenso die Leitfragen in 9.8. Bestätigt sind Leitfragen und Risikobetrachtung in 2.3.1 (20.11.2026).
 10. Wohlfühlindex: Verfahren der Erhebung und auswertende Stelle; gehört nicht in 2.3.1, das zuständige Dokument ist zu bestimmen.
