@@ -21,6 +21,7 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 |---|---|
 | `handbuch/gliederung.md` | Gliederung des Handbuchs als Dokumentenliste: 213 Einträge in 12 Kapiteln, mit Stand der Überführung |
 | `handbuch/befunde-gliederung.md` | 51 Befunde zu Kennungen, Titeln, Aufbau, Prozesslandkarte und Musterdokument 9.1.4; Lenkungsangaben der Vorlagen |
+| `handbuch/vormerkung-2.3-qualitaetspolitik.md` | Vorgaben des Trägers für die Qualitätspolitik (Vormerkung, kein gelenktes Dokument) |
 | `handbuch/anleitung-prozessdokumente.md` | Kurzanleitung: Aufbau der Prozessdokumente und Begründung (Rev. 001, Entwurf) |
 | `handbuch/3.1.2_prozesslandkarte.md` | Prozesslandkarte (Rev. 002, Entwurf), Schaubild farbig nach Prozessart: 7 Managementprozesse, 16 Kernprozesse in 3 Bereichen, 6 Unterstützungsprozesse |
 | `handbuch/9.8_ablauf-gefaehrdungsmomente.md` | Ablauf Gefährdungsmomente und Übergriffe (Rev. 0004, Entwurf) |
