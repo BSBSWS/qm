@@ -9,3 +9,5 @@ Dieses Repository enthält Dokumente des Qualitätsmanagements der Sozialwerk Sa
 5. Keine Klarnamen betreuter junger Menschen oder von Familien und keine Angaben, an denen sie erkennbar sind. Vorlagen, die solche Angaben enthalten, werden nicht im Repository abgelegt.
 6. Die Freigabe von QM-Dokumenten erfolgt außerhalb des Repositorys.
 7. Alle Arbeiten für die Sozialwerk Sauerland GmbH (Konto BSBSWS) sind strikt von den Inhalten anderer Konten und Projekte getrennt, insbesondere von BSBHSK: nichts von dort lesen oder übernehmen, nichts dorthin ablegen, nicht darauf verweisen.
+8. Oberster Grundsatz: Das QM arbeitet für uns, nicht wir für das QM! Leitlinie: Das QM ist nützlich für die praktische Arbeit, schlank und effizient, anschlussfähig für alle Mitarbeitenden und reflexiv. Jeden Text daran messen; im Zweifel kürzen.
+9. Jedes Dokument trägt unter dem Titel die Zeile „Leitorientierung“ (kurze Zusammenfassung). Nach jeder Änderung an Dokumenten oder Festlegungen das Playbook neu erzeugen: `sh tools/export-alle.sh`.

@@ -5,20 +5,30 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 | Ordner | Inhalt |
 |---|---|
 | `standards/` | Standards für QM-Dokumente |
+| `export/` | Word-Ausgaben; in `export/ablauf/` je Prozess das Ablaufblatt (Word, PDF, Bild). Erzeugen mit `sh tools/export-alle.sh` |
+| `tools/` | Export nach Word (`export-docx.js`), Logo |
 | `handbuch/` | QM-Handbuch: Gliederung (Dokumentenliste), Befunde, überführte Dokumente; Vorlagen in `handbuch/alt/` |
 
 ## Bestand
 
 | Standard | Stand |
 |---|---|
-| `standards/qm-dokumente.md` | Version 0.3 (Entwurf), 19.11.2026: Pflichtbestandteile, Überführung, Nachbildung der Lenkung, Kennungsschema; Prozesslandkarte steht aus |
+| `standards/qm-dokumente.md` | Version 0.13 (Entwurf), 20.11.2026: Pflichtbestandteile, Überführung, Nachbildung der Lenkung, Kennungsschema, Prozessnummern, Revisionszählung, Text und Flussdiagramm, Bereinigung |
 
 ## QM-Handbuch
 
 | Datei | Inhalt |
 |---|---|
 | `handbuch/gliederung.md` | Gliederung des Handbuchs als Dokumentenliste: 213 Einträge in 12 Kapiteln, mit Stand der Überführung |
-| `handbuch/befunde-gliederung.md` | 17 Befunde zu Kennungen, Titeln und Aufbau; Lenkungsangaben der Vorlagen |
-| `handbuch/alt/` | Vorlagen 0.1 Startseite, 0.2 Gliederung, 0.3 Synopse Norm – QM-System |
+| `handbuch/befunde-gliederung.md` | 51 Befunde zu Kennungen, Titeln, Aufbau, Prozesslandkarte und Musterdokument 9.1.4; Lenkungsangaben der Vorlagen |
+| `handbuch/vormerkung-2.3-qualitaetspolitik.md` | Vorgaben des Trägers für die Qualitätspolitik (Vormerkung, kein gelenktes Dokument) |
+| `handbuch/playbook.md` | Playbook QM: oberster Grundsatz, Leitlinie und alle Leitorientierungen; erzeugt mit `tools/playbook.py` |
+| `standards/leitorientierungen.md` | Leitorientierungen zu den Festlegungen (Quelle für das Playbook) |
+| `handbuch/anleitung-mitarbeitende.md` | Arbeiten mit dem QM-Handbuch: Anleitung für Mitarbeitende (Rev. 001, Entwurf) |
+| `handbuch/anleitung-prozessdokumente.md` | Kurzanleitung: Aufbau der Prozessdokumente und Begründung (Rev. 001, Entwurf) |
+| `handbuch/3.1.2_prozesslandkarte.md` | Prozesslandkarte (Rev. 002, Entwurf), Schaubild farbig nach Prozessart: 7 Managementprozesse, 16 Kernprozesse in 3 Bereichen, 6 Unterstützungsprozesse |
+| `handbuch/9.8_ablauf-gefaehrdungsmomente.md` | Ablauf Gefährdungsmomente und Übergriffe (Rev. 0004, Entwurf) |
+| `handbuch/9.1.4_hilfeplanung-stationaer.md` | Musterdokument Hilfeplanung – stationäre Einrichtungen (Rev. 0006, Entwurf): Text und Flussdiagramm in einem Dokument, bereinigt |
+| `handbuch/alt/` | Vorlagen 0.1 Startseite, 0.2 Gliederung, 0.3 Synopse Norm – QM-System, 3.1.2 Prozesslandkarte, 9.1.4 Hilfeplanung stat. Einr. (Text und Flussdiagramm) |
 
-Überführt ist bisher nur die Gliederung (0.2).
+Überführt sind die Gliederung (0.2), die Prozesslandkarte (3.1.2) und als Musterdokument 9.1.4 Hilfeplanung stat. Einr. (Entwurf).

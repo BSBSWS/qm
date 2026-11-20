@@ -1,6 +1,6 @@
-# Befunde zu Gliederung und Prolog des QM-Handbuchs
+# Befunde zum QM-Handbuch: Gliederung, Prolog, Prozesslandkarte, Musterdokument 9.1.4
 
-Stand: 19.11.2026. Grundlage: die Vorlagen 0.1 Startseite, 0.2 Gliederung und 0.3 Synopse Norm – QM-System (abgelegt in `alt/`). Die Befunde sind nicht berichtigt; über jede Änderung entscheidet der Träger.
+Stand: 19.11.2026. Grundlage: die Vorlagen 0.1 Startseite, 0.2 Gliederung, 0.3 Synopse Norm – QM-System 3.1.2 Prozesslandkarte und 9.1.4 Hilfeplanung stat. Einr. mit Flussdiagramm (abgelegt in `alt/`). Die Befunde sind nicht berichtigt; über jede Änderung entscheidet der Träger.
 
 ## 1 Kennungen
 
@@ -28,7 +28,7 @@ Stand: 19.11.2026. Grundlage: die Vorlagen 0.1 Startseite, 0.2 Gliederung und 0.
 
 | Nr. | Befund |
 |---|---|
-| 13 | Die Prozesslandkarte (3.1.2) liegt nicht vor. Ohne sie lässt sich die Zeile „Zugeordnete Prozesse“ nicht füllen. |
+| 13 | Erledigt am 19.11.2026: Die Prozesslandkarte (3.1.2) liegt vor und ist überführt (`3.1.2_prozesslandkarte.md`). Befunde dazu in Abschnitt 5. |
 | 14 | Kapitel 5 führt Dokumente, die in anderen Repositories gepflegt werden: Leistungsbeschreibungen (BSBSWS/SWSlb), Konzeptionen und Schutzkonzept (BSBSWS/SWSKonz). Zu klären ist, ob das Handbuch darauf verweist oder eine Kopie führt. |
 | 15 | Die Verweise der Startseite zeigen auf ein Laufwerk (H:). Im Repository werden daraus Verweise auf die Dateien des Handbuchs. |
 | 16 | Die Startseite trägt einen Vertraulichkeitsvermerk. Er ist für die Word-Ausgabe zu übernehmen oder neu zu fassen. |
@@ -42,4 +42,57 @@ Stand: 19.11.2026. Grundlage: die Vorlagen 0.1 Startseite, 0.2 Gliederung und 0.
 | Fußzeile | Kürzel oder Name der erstellenden Person, Datum | 0.1: „Schr 04.04.2023“ |
 | Fußzeile | erstellt, freigegeben, Revision | 0.3: „erst.: …, freigegeben: 07/2026, 03.02.14, Rev. 0005“ |
 
-Bei 0.3 stehen zwei Daten („07/2026“ und „03.02.14“); welches die Freigabe und welches die Erstellung bezeichnet, ist unklar. Angaben zu Prüfung, Verteiler und nächster Überprüfung enthalten die Vorlagen nicht.
+Die Prozesslandkarte 3.1.2 weicht davon ab: Die Kopfzeile ist leer; die Fußzeile lautet „Datum: 29.04.2026 erstellt von: H. Wenkel | genehmigt von: Gf | Version: 04.2026 Rev. 001“ („genehmigt“ statt „freigegeben“, Version aus Monat und Jahr mit Revisionsnummer).
+
+Bei 0.3 stehen zwei Daten („07/2026“ und „03.02.14“); welches die Freigabe und welches die Erstellung bezeichnet, ist unklar. Angaben zu Verteiler und nächster Überprüfung enthalten die Vorlagen nicht. Eine Angabe zur Prüfung enthält nur 9.1.4 (Fußzeile: „erstellt: M. Kettler 30.04.18 · geprüft: M. Kettler 30.04.18 · freigegeben: K. Glasenapp/M. Frese · Version 04/2018 Rev. 0005“, je mit Feld „Unterschrift“; ein Datum der Freigabe fehlt).
+
+## 5 Prozesslandkarte (3.1.2)
+
+| Nr. | Befund |
+|---|---|
+| 18 | Die Prozesse tragen keine Nummern. Die Zeile „Zugeordnete Prozesse“ kann nach dieser Vorlage nur Namen nennen. |
+| 19 | Prozessnamen sind nicht eindeutig: „Neuaufnahme“, „Hilfeplanung“, „schulischer Bereich“, „Freizeitbereich“, „Elternarbeit“ und „Entlassung“ stehen bei den stationären und den teilstationären Hilfen, „Hilfeplanung“ zusätzlich bei der Ambulanten Jugendhilfe. Eindeutig ist erst die Verbindung aus Bereich und Prozess. |
+| 20 | Die stationären Hilfen sind nicht unterteilt. Die Gliederung trennt in 9.1 Wohngruppen, familienanaloge Einrichtungen (IWLs) und Eltern-Kind-Einrichtung. |
+| 21 | Dokumente der Gliederung ohne namensgleichen Kernprozess: Inobhutnahme, Umgang mit dem Eigentum, Entweichung (9.1), Erziehungsplanung (9.2.3), Serviceleistungen (9.4), Ausschluss Entwicklung (9.5), Beteiligungskonzept (9.6). |
+| 22 | Ambulante Jugendhilfe: Die Prozesslandkarte nennt „Hilfeaufnahme“, „Hilfeverlauf“ und „Beendigung der Hilfe“, die Gliederung „Betreuungsaufnahme“, „Betreuungsplanung“ und „Betreuungsende“ (9.3.1, 9.3.3, 9.3.4). |
+| 23 | Die Zuordnung der Handbuchkapitel 1 bis 8, 10 und 11 zu den Management- und Unterstützungsprozessen ist nicht festgelegt. Sie lässt sich aus den Namen nur zum Teil ablesen. |
+| 24 | Schreibfehler: „Managmentprozesse“, „Controling“, „Personalführung und-entwickling“. Erledigt in Rev. 002: berichtigt. |
+| 25 | Titel: In der Gliederung „Prozesslandkarte_SwS“, im Dateinamen „Prozesslandkarte“; das Dokument selbst trägt keinen Titel. |
+| 26 | Beschriftung der Pfeile: Der rechte Pfeil trägt „Beteiligung“, der linke „Transparenz“ und „Beteiligung“. Ob das beabsichtigt ist, ist unklar. |
+| 27 | Die Vorlage ist ein Schaubild ohne Text: Prozessverantwortliche, Schnittstellen und eine Erläuterung zu „linear“ und „systemisch“ fehlen. |
+
+## 6 Musterdokument 9.1.4 Hilfeplanung stat. Einr.
+
+| Nr. | Befund |
+|---|---|
+| 28 | Unter der Kennung 9.1.4 liegen zwei Dateien: der Text (Word, Version 04/2018, Rev. 0005) und das Flussdiagramm (Visio/PDF, Version 04/2011, Rev. 0003). Die Gliederung 0.2 führt nur einen Eintrag. Die Revisionen laufen getrennt; das Flussdiagramm ist sieben Jahre älter als der Text. Entschieden am 19.11.2026: ein Dokument mit gemeinsamer Revision 0006. |
+| 29 | Titel: Text „Hilfeplanung stat. Einr.“, Flussdiagramm „Hilfeplanung Wohngruppe“, Gliederung „Hilfeplanung - stat. Einr.“. Die Kopfzeile nennt 9.1 „Betreuungsprozesse stationäre Einrichtungen“, die Gliederung „Stationäre Einrichtungen“. |
+| 30 | Die Nummerierung der Beschreibung ist gestört: neun Nummern, davon vier ohne Text; der letzte Absatz trägt keine Nummer. Die Überführung zählt die sechs Absätze durch. Erledigt in Rev. 0006. |
+| 31 | Die Spalten „verantwortlich“ und „Dokumente/Formulare“ sind keinem Schritt zugeordnet. Entschieden am 19.11.2026: Die Zuordnung nach der Lage in der Vorlage bleibt. |
+| 32 | Reihenfolge: Die Vorbereitung des Hilfeplangesprächs steht im Text als letzter Absatz, im Flussdiagramm vor dem Gespräch. Entschieden am 19.11.2026: Der Text hat Vorrang; die Reihenfolge des Textes bleibt. |
+| 33 | Der Verweis „s. 9.5.1“ hat kein Ziel; die Gliederung führt 9.5 „Ausschluss Entwicklung“ ohne Unterpunkte. In Betracht kommt 9.4.1 „HPG im Jugendamt“. Entschieden am 19.11.2026: Verweis auf 9.4.1. |
+| 34 | Text und Flussdiagramm weichen ab. Nur im Flussdiagramm: Bericht an den ASD, abschließendes Hilfeplangespräch bei Entlassung, Folgemaßnahmen und Nachbetreuung. Nur im Text: Teilnahme von Lehrkräften und Ausbildenden, Zuständigkeiten, Risikobetrachtung. Turnus im Text „halbjährlich oder jährlich“, im Flussdiagramm „nach ca. ½ Jahr“. Entschieden am 19.11.2026: Der Text hat Vorrang; das Flussdiagramm ist in Rev. 0006 angepasst. |
+| 35 | Verantwortung: Im Kopf stehen „LeiterInnen der Einrichtungen, Personensorgeberechtigte“, in der Tabelle zusätzlich Fachbereichsleitung und Erzieherteam; die Personensorgeberechtigten kommen in der Beschreibung nicht vor. |
+| 36 | Dokumente und Formulare ohne Kennung: „Fragebogen Jugendamt“, „Vorbereitung auf das Hpg“, „Einschätzungsbogen Verselbständigung“; das HPG-Protokoll ist „nicht hinterlegt“. |
+| 37 | Schreibweisen: Binnen-I („LeiterInnen“, „LehrerInnen“, „AusbilderInnen“), „Klienten“, „Erzieherteam“, „HPG“ und „Hpg“, Abkürzungen „ASD“, „JA“, „stat. Einr.“. Erledigt in Rev. 0006: nach den Schreibregeln bereinigt. |
+| 38 | Erstellt und geprüft hat dieselbe Person am selben Tag. |
+| 39 | Die Legende des Flussdiagramms führt sieben Zeichen (Start/Ende, Inhalte, Datenbank, Dokument, Entscheidung, Teilprozess, Prozess); verwendet sind vier. |
+
+## 7 Dokument 9.8 Ablauf Gefährdungsmomente/Übergriffe
+
+Vorlage: `alt/9.8_Ablauf_Gefaehrdungsmomente.docx`, Version 08.2026, Rev. 0003; erstellt 03.07.2026, geprüft 21.08.2026, freigegeben ohne Datum.
+
+| Nr. | Befund |
+|---|---|
+| 40 | Die Kennung 9.8 steht nicht in der Gliederung 0.2; dort endet Kapitel 9 mit 9.6. Eine Kennung 9.7 ist nicht bekannt. |
+| 41 | Die Kopfzeile nennt Kapitel 9 „Hilfeprozesse“, die Gliederung „Betreuungsprozesse“ (vgl. Befund zur Bezeichnung von Kapitel 9). |
+| 42 | Titel und Zweck weichen ab: Titel „Gefährdungsmomente/Übergriffe“, Zweck nur „gewalttätige Übergriffe“. Was außer Übergriffen als Gefährdungsmoment gilt, ist nicht beschrieben. |
+| 43 | Unbestimmte Angaben: „bei Bedarf“ (Polizei, Rettungsdienst), „je nach Fall“ (nicht sorgeberechtigte Eltern), „Ggf“ (Anzeige). Bedingungen und Entscheidungsbefugnis fehlen. |
+| 44 | Fristen fehlen: für die Meldungen an Leitung, Sorgeberechtigte und Jugendamt sowie für die Meldung nach § 47 SGB VIII. Der Adressat der Meldung nach § 47 (Landesjugendamt) ist nicht genannt. |
+| 45 | Stellenbezeichnungen uneinheitlich: „Gruppenleitung“ und „Einrichtungsleitung“; „Bereichsleitung“ und „FBL“. Die Geschäftsführung steht im Kopf als verantwortlich, kommt im Ablauf aber nicht vor. |
+| 46 | Die Spalte „verantwortlich“ ist den Schritten nicht eindeutig zugeordnet; eine Angabe nennt die pädagogische Fachkraft doppelt. |
+| 47 | Ein Flussdiagramm liegt nicht vor, obwohl das Dokument „Ablauf“ heißt. Die Überführung enthält eine aus dem Text abgeleitete Darstellung. |
+| 48 | Das Formular „Aktennotiz nach § 47“ ist mit einem Laufwerkspfad (X:) verknüpft und trägt keine Kennung; im Text heißt es „Aktennotiz“, in der Datei „Aktenvermerk § 47 Meldung“. |
+| 49 | Der Bezug zum Kinderschutzkonzept (5.3) und zum Institutionellen Schutzkonzept (5.8) ist nicht hergestellt. |
+| 50 | Die Dateieigenschaften tragen den Titel eines anderen Dokuments („Stellenbeschreibung Zentrale Steuerungsunterstützung (ZSu)“). |
+| 51 | Schreibweisen: Genderstern („Kolleg*innen“), „Täter und Opfer“, Abkürzungen „stat.“, „päd.“, „FBL“. Erledigt in Rev. 0004: bereinigt. |
