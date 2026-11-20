@@ -109,7 +109,7 @@ Verbindlich nach der Festlegung des Trägers vom 20.11.2026. Vor der Ausgabe ein
 10. Wohlfühlindex: Verfahren der Erhebung und auswertende Stelle; gehört nicht in 2.3.1, das zuständige Dokument ist zu bestimmen.
 7. Kennungen der beiden Anleitungen in Kapitel 1.2; Anrede; eine oder zwei Anleitungen.
 8. Übrige Befunde (`handbuch/befunde-gliederung.md`).
-11. Managementreview: Ein Dokument dazu fehlt; Kennung, Eingaben, Turnus und Nachweis sind festzulegen. Aktuelle Liste der Standorte im Zertifikat fehlt.
+11. Managementreview: 10.2.3 ist als Vorschlag angelegt; Kennung, Zeitpunkt, Beteiligte und Nachweis sind zu bestätigen. Aktuelle Liste der Standorte im Zertifikat fehlt.
 9. Kapitel 5 des Handbuchs: Verweis auf die Repositories der Konzeptionen und Leistungsbeschreibungen oder Kopie. Reihenfolge der weiteren Überführung.
 
 ## Änderungen

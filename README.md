@@ -36,6 +36,7 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 | `handbuch/8.9.3_lenkung-dokumente.md` | Arbeitsanweisung Lenkung von Formularen und Dokumenten (Rev. 0002, Entwurf) |
 | `handbuch/10.2.1_interne-audits.md` | Interne Audits (Rev. 0003, Entwurf) |
 | `handbuch/10.2.2_externe-audits.md` | Externe Audits (Rev. 0004, Entwurf) |
+| `handbuch/10.2.3_managementreview.md` | Managementreview (Rev. 0001, Entwurf; neu, Vorschlag) |
 | `handbuch/9.8_ablauf-gefaehrdungsmomente.md` | Ablauf Gefährdungsmomente und Übergriffe (Rev. 0004, Entwurf) |
 | `handbuch/9.1.4_hilfeplanung-stationaer.md` | Musterdokument Hilfeplanung – stationäre Einrichtungen (Rev. 0006, Entwurf): Text und Flussdiagramm in einem Dokument, bereinigt |
 | `handbuch/alt/` | Vorlagen 0.1 Startseite, 0.2 Gliederung, 0.3 Synopse Norm – QM-System, 3.1.2 Prozesslandkarte, 9.1.4 Hilfeplanung stat. Einr. (Text und Flussdiagramm) |

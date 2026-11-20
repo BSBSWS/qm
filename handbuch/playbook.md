@@ -87,6 +87,7 @@ Das QM ist nützlich für die praktische Arbeit, schlank und effizient, anschlus
 |---|---|
 | 10.2.1 Interne Audits (Entwurf) | Im internen Audit prüft der Träger selbst, ob die Arbeit den eigenen Vorgaben entspricht und wo die Vorgaben besser werden müssen. Jede Einrichtung wird in drei Jahren zweimal auditiert. Der Bericht liegt nach 14 Tagen vor, Mängel sind nach 30 Tagen beseitigt. |
 | 10.2.2 Externe Audits (Entwurf) | Einmal im Jahr prüft TÜV Rheinland von außen, ob das QM-System funktioniert: als Rezertifizierungs- oder als Überwachungsaudit. Zu diesem Termin sind alle QM-Dokumente überprüft. Aus dem Auditbericht folgen Maßnahmen. |
+| 10.2.3 Managementreview (Entwurf) | Einmal im Jahr, vor dem externen Audit, bewertet die Geschäftsführung, ob das QM der Arbeit nützt: Was zeigen Audits, Beschwerden, Befragungen und Kennzahlen, was wurde aus den Maßnahmen des Vorjahres, was ist als Nächstes zu tun? Das Ergebnis ist der Jahresplan. |
 
 Kapitel ohne Eintrag sind noch nicht überführt; ihre Leitorientierungen folgen mit der Überführung.
 

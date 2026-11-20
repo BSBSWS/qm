@@ -272,6 +272,7 @@ Umfang: 213 Einträge in 12 Kapiteln (0 bis 11).
 | 10.2 | Qualitätsprüfungen | 2 | Ordner | nicht überführt |
 | 10.2.1 | Interne Qualitätsprüfungen (Audits) | 3 | Datei | überführt, Rev. 0003 Entwurf (`10.2.1_interne-audits.md`), Word-Ausgabe in `export/`, Vorlage in `alt/` |
 | 10.2.2 | Externe Qualitätsprüfungen | 3 | Datei | überführt, Rev. 0004 Entwurf (`10.2.2_externe-audits.md`), Word-Ausgabe in `export/`, Vorlage in `alt/` |
+| 10.2.3 | Managementreview | 3 | Datei | neu, nicht in Gliederung 0.2 und Dateiliste; Kennung vorgeschlagen; Rev. 0001 Entwurf (`10.2.3_managementreview.md`), Word-Ausgabe in `export/` |
 | 10.3 | Optimierungsmanagement | 2 | Ordner und Datei | nicht überführt |
 | 10.4 | Qualitätszirkel | 2 | Ordner und Datei | nicht überführt |
 | 10.5 | Statistische Auswertungen | 2 | Ordner und Datei | nicht überführt |
