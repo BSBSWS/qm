@@ -34,6 +34,8 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 | `handbuch/dateiliste.md` | Dateiliste des Handbuchs vom 20.11.2026: 109 Ordner, 337 Dateien |
 | `handbuch/3.1.2_prozesslandkarte.md` | Prozesslandkarte (Rev. 002, Entwurf), Schaubild farbig nach Prozessart: 7 Managementprozesse, 16 Kernprozesse in 3 Bereichen, 6 Unterstützungsprozesse |
 | `handbuch/8.9.3_lenkung-dokumente.md` | Arbeitsanweisung Lenkung von Formularen und Dokumenten (Rev. 0002, Entwurf) |
+| `handbuch/10.2.1_interne-audits.md` | Interne Audits (Rev. 0003, Entwurf) |
+| `handbuch/10.2.2_externe-audits.md` | Externe Audits (Rev. 0004, Entwurf) |
 | `handbuch/9.8_ablauf-gefaehrdungsmomente.md` | Ablauf Gefährdungsmomente und Übergriffe (Rev. 0004, Entwurf) |
 | `handbuch/9.1.4_hilfeplanung-stationaer.md` | Musterdokument Hilfeplanung – stationäre Einrichtungen (Rev. 0006, Entwurf): Text und Flussdiagramm in einem Dokument, bereinigt |
 | `handbuch/alt/` | Vorlagen 0.1 Startseite, 0.2 Gliederung, 0.3 Synopse Norm – QM-System, 3.1.2 Prozesslandkarte, 9.1.4 Hilfeplanung stat. Einr. (Text und Flussdiagramm) |

@@ -81,6 +81,13 @@ Das QM ist nützlich für die praktische Arbeit, schlank und effizient, anschlus
 | 9.1.4 Hilfeplanung – stationäre Einrichtungen (Entwurf) | Hilfeplangespräche finden zu Beginn der Maßnahme und danach halbjährlich statt; federführend ist das Jugendamt. Das Team bereitet jedes Gespräch spätestens 14 Tage vorher vor und informiert den ASD. Die Einrichtung sichert die Ergebnisse am selben Tag. |
 | 9.8 Ablauf Gefährdungsmomente und Übergriffe (Entwurf) | Nach einem Übergriff zuerst die Situation beruhigen, das Kindeswohl sichern und Hilfe holen. Danach Leitung, Sorgeberechtigte und Jugendamt informieren, den Vorfall dokumentieren und die Aktennotiz nach § 47 verfassen. Zum Schluss den Vorfall im Team reflektieren. |
 
+### Kapitel 10 Kontinuierliche Qualitätsverbesserung
+
+| Dokument | Leitorientierung |
+|---|---|
+| 10.2.1 Interne Audits (Entwurf) | Im internen Audit prüft der Träger selbst, ob die Arbeit den eigenen Vorgaben entspricht und wo die Vorgaben besser werden müssen. Jede Einrichtung wird in drei Jahren zweimal auditiert. Der Bericht liegt nach 14 Tagen vor, Mängel sind nach 30 Tagen beseitigt. |
+| 10.2.2 Externe Audits (Entwurf) | Einmal im Jahr prüft TÜV Rheinland von außen, ob das QM-System funktioniert: als Rezertifizierungs- oder als Überwachungsaudit. Zu diesem Termin sind alle QM-Dokumente überprüft. Aus dem Auditbericht folgen Maßnahmen. |
+
 Kapitel ohne Eintrag sind noch nicht überführt; ihre Leitorientierungen folgen mit der Überführung.
 
 ## Risikobetrachtung

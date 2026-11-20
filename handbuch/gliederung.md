@@ -270,8 +270,8 @@ Umfang: 213 Einträge in 12 Kapiteln (0 bis 11).
 | 10 | Kontinuierliche Qualitätsverbesserung | 1 | Ordner | – |
 | 10.1 | Befragungen | 2 | Ordner und Datei | Vorlage abgelegt (`alt/`); nicht überführt |
 | 10.2 | Qualitätsprüfungen | 2 | Ordner | nicht überführt |
-| 10.2.1 | Interne Qualitätsprüfungen (Audits) | 3 | Datei | Vorlage abgelegt (`alt/`, Rev. 0002 von 04.2024); nicht überführt |
-| 10.2.2 | Externe Qualitätsprüfungen | 3 | Datei | Vorlage abgelegt (`alt/`, Fassung 03/2011); nicht überführt |
+| 10.2.1 | Interne Qualitätsprüfungen (Audits) | 3 | Datei | überführt, Rev. 0003 Entwurf (`10.2.1_interne-audits.md`), Word-Ausgabe in `export/`, Vorlage in `alt/` |
+| 10.2.2 | Externe Qualitätsprüfungen | 3 | Datei | überführt, Rev. 0004 Entwurf (`10.2.2_externe-audits.md`), Word-Ausgabe in `export/`, Vorlage in `alt/` |
 | 10.3 | Optimierungsmanagement | 2 | Ordner und Datei | nicht überführt |
 | 10.4 | Qualitätszirkel | 2 | Ordner und Datei | nicht überführt |
 | 10.5 | Statistische Auswertungen | 2 | Ordner und Datei | nicht überführt |
