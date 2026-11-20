@@ -139,3 +139,4 @@ Vorlage: `alt/2.3.3_Kontext_der_Organisation.docx`, Version 05.2025, Rev. 0001; 
 | 71 | Unbestimmte Angaben und Superlativ: „stets“, „zeitnah“, „diverse andere Projekte“, „höchste Transparenz“. |
 | 72 | Die Vorlage nennt sozialpädagogische Hilfen an Schulen und Projekte als Leistungen des Trägers; die Prozesslandkarte führt dafür keine Kernprozesse. |
 | 73 | Erstellt und geprüft hat dieselbe Person am selben Tag. |
+| 74 | Der Träger nennt am 20.11.2026 zusätzlich die Pflegekinderhilfe (stationäre Hilfen) und die Offene Arbeit mit Kindern und Jugendlichen (ambulante Hilfen). Beide fehlen in der Gliederung 0.2, Kapitel 9, und in der Vorlage zum Kontext. |
