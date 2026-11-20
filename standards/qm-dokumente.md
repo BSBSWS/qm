@@ -1,6 +1,6 @@
 # Standard: QM-Dokumente
 
-Stand: 20.11.2026 · Version 0.20 (Entwurf) · Verantwortlich: Geschäftsführung
+Stand: 20.11.2026 · Version 0.21 (Entwurf) · Verantwortlich: Geschäftsführung
 
 ## 1 Geltung
 
@@ -53,6 +53,7 @@ Grundannahme: Die begrenzte Reichweite von Verfahrensstandardisierungen resultie
 32. **Formulare.** Ein Formular trägt die Kennung des Dokuments, zu dem es gehört, mit vorangestelltem F und einem fortlaufenden Buchstaben: F2.3.2.A, bei weiteren Formularen desselben Dokuments B, C, D (Vorschlag des Trägers vom 20.11.2026, angewendet). Formulare tragen keine Risikobetrachtung und keinen Teil „Reflexion und Weiterentwicklung“ (Festlegung des Trägers vom 20.11.2026).
 33. **Audit und Managementreview.** „Zum Audit“ meint das jährliche externe Rezertifizierungs- oder Überwachungsaudit; Zertifizierer ist TÜV Rheinland (früher LGA). Das Managementreview ist ein eigener Vorgang neben den Auditberichten; der Begriff heißt künftig immer „Managementreview“, nicht „Managementbewertung“ (Festlegungen des Trägers vom 20.11.2026).
 34. **Standorte ohne Anschrift.** Dokumente des Handbuchs nennen Standorte mit Name und Ort, nicht mit Anschrift (Festlegung des Trägers vom 20.11.2026 zu 2.3.3).
+35. **Weg und Kennzeichnung der Dokumente.** Dokumente nennen Stellen, keine Namen, und führen Revision und Stand als Datum. Die QMB vergibt den Versionsschlüssel, nimmt die Dokumente in das Handbuch auf und informiert vierteljährlich im QM-Rundbrief. Gültig ist die Fassung im QM-Handbuch. Der Ordner „QM-Pipeline“ wird genutzt, bis ein neues digitales System eingeführt ist. Einzelheiten: 8.9.3 (Festlegungen des Trägers vom 20.11.2026).
 
 ## 3 Vorschläge, noch nicht bestätigt
 
@@ -101,7 +102,7 @@ Verbindlich nach der Festlegung des Trägers vom 20.11.2026. Vor der Ausgabe ein
 
 1. Schlüsselverzeichnis der Stellen: liegt im Repository nicht vor.
 2. Verteiler der Dokumente; erstellende Stelle je Dokument.
-3. Fundort von Handbuch und Ablaufblättern für Mitarbeitende.
+3. Fundort der Ablaufblätter für Mitarbeitende; geplantes digitales System für das Handbuch.
 4. Ablageort der Formulare. Vergeben sind F2.3.2.A, F9.1.4.A bis C und F9.8.A; außer F2.3.2.A liegt keines im Repository vor.
 5. Zugeordnete Prozesse: Angabe bei der Prozesslandkarte selbst und bei Dokumenten ohne namensgleichen Prozess (z. B. 9.8). Gilt die Zeile auch für Arbeitsdokumente, Formulare und Workflows?
 6. Risikobetrachtungen in 3.1.2, 9.8 und den Anleitungen sind Vorschläge und nicht bestätigt; ebenso die Leitfragen in 9.8. Bestätigt sind Leitfragen und Risikobetrachtung in 2.3.1 (20.11.2026).
@@ -135,3 +136,4 @@ Verbindlich nach der Festlegung des Trägers vom 20.11.2026. Vor der Ausgabe ein
 | 0.18 | 20.11.2026 | Festlegung des Trägers vom 20.11.2026: vorerst ISO 9001:2015; Abgleich für Kapitel 2.3 angelegt |
 | 0.19 | 20.11.2026 | Kennungen der Formulare (F + Dokumentkennung + Buchstabe); Formulare ohne Risikobetrachtung und Reflexionsteil |
 | 0.20 | 20.11.2026 | Festlegungen des Trägers vom 20.11.2026: Audit ist das externe Rezertifizierungs- oder Überwachungsaudit, Zertifizierer TÜV Rheinland, Managementreview als eigener Vorgang und Begriff; Standorte ohne Anschrift |
+| 0.21 | 20.11.2026 | Festlegungen des Trägers vom 20.11.2026 zu 8.9.3: Stellen statt Namen, Revision und Stand, Aufgaben der QMB, QM-Rundbrief, gültige Fassung im Handbuch |
