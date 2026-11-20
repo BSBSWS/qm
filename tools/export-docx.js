@@ -56,6 +56,8 @@ function widths(head, n) {
   if (head[0] === 'Nr.' && n === 8) return [600, 1700, 2900, 1800, 1900, 1200, 1900, W - 12000];
   if (head[0] === 'Nr.' && n === 3) return [520, 3150, W - 3670];
   if (head[0] === 'Bezug') return [3000, W - 3000];
+  if (head[0] === 'Partei' && n === 3) return [2300, 3900, W - 6200];
+  if (head[0] === 'Thema' && n === 3) return [2300, 4400, W - 6700];
   if (head[0] === 'Maßnahme und Indikator') return [W - 3000, 3000];
   if (head[0] === 'Art' && n === 3) return [1900, 4670, 2500];
   if (head[0] === 'Dokument' && n === 3) return [2300, 4270, 2500];

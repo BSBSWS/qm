@@ -30,6 +30,7 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 | `handbuch/2.3.2_qualitaetsziele.md` | Qualitätsziele (Rev. 0006, Entwurf): acht Ziele mit Maßnahmen und Indikatoren |
 | `handbuch/abgleich-iso-9001-kapitel-2-3.md` | Abgleich von 2.3.1 und 2.3.2 mit ISO 9001:2015 (Arbeitsunterlage) |
 | `handbuch/F2.3.2.A_jahresplan-qualitaetsziele.md` | Formular F2.3.2.A Jahresplan Qualitätsziele (Rev. 001, Entwurf), Querformat |
+| `handbuch/2.3.3_kontext-der-organisation.md` | Kontext der Organisation (Rev. 001, Entwurf): Themen, interessierte Parteien, Anwendungsbereich |
 | `handbuch/3.1.2_prozesslandkarte.md` | Prozesslandkarte (Rev. 002, Entwurf), Schaubild farbig nach Prozessart: 7 Managementprozesse, 16 Kernprozesse in 3 Bereichen, 6 Unterstützungsprozesse |
 | `handbuch/9.8_ablauf-gefaehrdungsmomente.md` | Ablauf Gefährdungsmomente und Übergriffe (Rev. 0004, Entwurf) |
 | `handbuch/9.1.4_hilfeplanung-stationaer.md` | Musterdokument Hilfeplanung – stationäre Einrichtungen (Rev. 0006, Entwurf): Text und Flussdiagramm in einem Dokument, bereinigt |

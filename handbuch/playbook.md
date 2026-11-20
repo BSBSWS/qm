@@ -60,6 +60,7 @@ Das QM ist nützlich für die praktische Arbeit, schlank und effizient, anschlus
 | 2.3.1 Qualitätspolitik (Entwurf) | Das QM dient der praktischen Arbeit. Definierte Prozesse schaffen Zeit und Raum für Beziehung; reflexive Qualitätsentwicklung stellt die jungen Menschen und ihre Familien in den Mittelpunkt. |
 | 2.3.2 Qualitätsziele (Entwurf) | Acht Qualitätsziele machen die Qualitätspolitik überprüfbar: Beteiligung, Schutz, reflexive Praxis, Wirkung, Fehler- und Lernkultur, Beschwerdemanagement, Fachkompetenz und Qualitätsentwicklung. Jede Maßnahme hat einen Nachweis; das Audit bewertet sie jährlich, und die Geschäftsführung setzt daraus Schwerpunkte. |
 | F2.3.2.A Jahresplan Qualitätsziele (Entwurf) | Zum Audit legt die Geschäftsführung zwei oder drei Qualitätsziele als Schwerpunkt des folgenden Jahres fest. Der Jahresplan hält je Schwerpunkt fest, was getan wird, womit, durch wen, bis wann und woran das Ergebnis bewertet wird. |
+| 2.3.3 Kontext der Organisation (Entwurf) | Der Kontext nennt, was von außen und innen auf die Arbeit des Trägers wirkt und wer welche Anforderungen an ihn stellt. Er ist Grundlage von Qualitätspolitik und Qualitätszielen und wird jährlich zum Audit überprüft. |
 
 ### Kapitel 3 Betriebliche Organisation und Verantwortungen
 

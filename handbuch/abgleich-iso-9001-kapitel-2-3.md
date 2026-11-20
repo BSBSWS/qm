@@ -8,7 +8,7 @@ Festlegung des Trägers vom 20.11.2026: Das Handbuch bleibt vorerst bei der Ausg
 
 | Norm | Anforderung in Stichworten | Stand in 2.3.1 | Bewertung |
 |---|---|---|---|
-| 5.2.1 a | passt zu Zweck und Kontext, stützt die strategische Ausrichtung | Zweck, Leitsätze und Grundlagen vorhanden; der Kontext der Organisation (2.3.3) fehlt noch | teilweise |
+| 5.2.1 a | passt zu Zweck und Kontext, stützt die strategische Ausrichtung | Zweck, Leitsätze und Grundlagen vorhanden; der Kontext der Organisation liegt seit 20.11.2026 als Entwurf vor (2.3.3) | teilweise, bis 2.3.3 vervollständigt ist |
 | 5.2.1 b | Rahmen für Qualitätsziele | steht wörtlich im Zweck; Abschnitt 4 und Verweis auf die Ziele | erfüllt |
 | 5.2.1 c | Verpflichtung, die zutreffenden Anforderungen zu erfüllen | Absicht, das QM-System nach § 78b SGB VIII umzusetzen; seit 20.11.2026 ausdrückliche Verpflichtung in Abschnitt 2 | erfüllt |
 | 5.2.1 d | Verpflichtung zur fortlaufenden Verbesserung des QM-Systems | „Grundlage ständiger Verbesserung“; QMB stößt die Weiterentwicklung an; seit 20.11.2026 ausdrückliche Verpflichtung in Abschnitt 2 | erfüllt |
@@ -54,3 +54,11 @@ Festlegung des Trägers vom 20.11.2026: Das Handbuch bleibt vorerst bei der Ausg
 - Vorschlag 3 umgesetzt (Messgrößen in 2.3.2).
 - Zu Vorschlag 5: Es bleibt bei „jährlich zum Audit“.
 - Vorschlag 4 umgesetzt: Formular `F2.3.2.A_jahresplan-qualitaetsziele.md` mit Maßnahme, Ressourcen, verantwortlicher Stelle, Termin und Bewertung; es gilt für die jährlichen Schwerpunkte, nicht für alle acht Ziele.
+
+## 6 Kontext der Organisation (Norm 4.1 bis 4.3) und Dokument 2.3.3
+
+| Norm | Anforderung in Stichworten | Stand in 2.3.3 | Bewertung |
+|---|---|---|---|
+| 4.1 | externe und interne Themen bestimmen, überwachen, überprüfen | Abschnitte 2, 3 und 5; die Themen stammen nur aus den überführten Dokumenten | teilweise |
+| 4.2 | interessierte Parteien und ihre Anforderungen bestimmen, überwachen, überprüfen | Abschnitte 4 und 5; Anforderungen abgeleitet, nicht erhoben | teilweise |
+| 4.3 | Anwendungsbereich mit Leistungen, Grenzen und begründeten Ausschlüssen als dokumentierte Information | Abschnitt 1 nennt die Leistungen; Grenzen und Ausschlüsse fehlen | teilweise |
