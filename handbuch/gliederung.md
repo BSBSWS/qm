@@ -58,7 +58,7 @@ Umfang: 213 Einträge in 12 Kapiteln (0 bis 11).
 | 3.1 | Firmenübersichten | 2 | Ordner und Datei | nicht überführt |
 | 3.1.1 | Organigramm SwS | 3 | Datei | nicht überführt |
 | 3.1.2 | Prozesslandkarte_SwS | 3 | Datei | überführt, Rev. 002 Entwurf (`3.1.2_prozesslandkarte.md`), Word-Ausgabe in `export/`, Vorlage in `alt/` |
-| 3.1.3 | Stakeholderanalyse_SwS | 3 | Datei | nicht überführt |
+| 3.1.3 | Stakeholderanalyse_SwS | 3 | Datei | Vorlage abgelegt (`alt/`, drei Dateien, Rev. 0002 von 04.2023); in 2.3.3, Abschnitt 4 eingearbeitet; nicht überführt |
 | 3.2 | Zuständigkeitsmatrix | 2 | Ordner und Datei | nicht überführt |
 | 3.3 | Stellenbeschreibungen | 2 | Ordner | nicht überführt |
 | 3.3.1 | Verwaltung | 3 | Ordner | nicht überführt |
@@ -112,7 +112,7 @@ Umfang: 213 Einträge in 12 Kapiteln (0 bis 11).
 | 4.2.2.1 | stationäre Einrichtungen | 4 | Datei | nicht überführt |
 | 4.2.2.2 | teilstationäre Einrichtungen | 4 | Datei | nicht überführt |
 | 4.2.2.3 | Ambulante Jugendhilfe | 4 | Datei | nicht überführt |
-| 4.2.3 | Praxisberatung/Supervision/Psych. Fachberatung | 3 | Ordner und Datei | nicht überführt |
+| 4.2.3 | Praxisberatung/Supervision/Psych. Fachberatung | 3 | Ordner und Datei | Vorlage abgelegt (`alt/`); nicht überführt |
 | 4.2.4 | Server-Nutzung | 3 | Datei | nicht überführt |
 | 4.2.5 | Dienstbesprechung Verwaltung | 3 | Datei | nicht überführt |
 | 4.2.6 | Geschäftsführersitzung | 3 | Datei | nicht überführt |
@@ -267,14 +267,14 @@ Umfang: 213 Einträge in 12 Kapiteln (0 bis 11).
 | Nr. | Titel | Ebene | Art | Stand |
 |---|---|---|---|---|
 | 10 | Kontinuierliche Qualitätsverbesserung | 1 | Ordner | – |
-| 10.1 | Befragungen | 2 | Ordner und Datei | nicht überführt |
+| 10.1 | Befragungen | 2 | Ordner und Datei | Vorlage abgelegt (`alt/`); nicht überführt |
 | 10.2 | Qualitätsprüfungen | 2 | Ordner | nicht überführt |
-| 10.2.1 | Interne Qualitätsprüfungen (Audits) | 3 | Datei | nicht überführt |
-| 10.2.2 | Externe Qualitätsprüfungen | 3 | Datei | nicht überführt |
+| 10.2.1 | Interne Qualitätsprüfungen (Audits) | 3 | Datei | Vorlage abgelegt (`alt/`, Rev. 0002 von 04.2024); nicht überführt |
+| 10.2.2 | Externe Qualitätsprüfungen | 3 | Datei | Vorlage abgelegt (`alt/`, Fassung 03/2011); nicht überführt |
 | 10.3 | Optimierungsmanagement | 2 | Ordner und Datei | nicht überführt |
 | 10.4 | Qualitätszirkel | 2 | Ordner und Datei | nicht überführt |
 | 10.5 | Statistische Auswertungen | 2 | Ordner und Datei | nicht überführt |
-| 10.6 | Kennzahlen | 2 | Ordner und Datei | nicht überführt |
+| 10.6 | Kennzahlen | 2 | Ordner und Datei | Vorlage abgelegt (`alt/`); nicht überführt |
 
 ## 11 Anhang
 
