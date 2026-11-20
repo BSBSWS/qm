@@ -239,6 +239,7 @@ Umfang: 213 Einträge in 12 Kapiteln (0 bis 11).
 | 9.1.3.7 | Freizeitbereich - Eltern-Kind-Einrichtung | 3 | Datei | nicht überführt |
 | 9.1.3.8 | Entweichung - Eltern-Kind-Einrichtung | 3 | Datei | nicht überführt |
 | 9.1.3.9 | Entlassung - Eltern-Kind-Einrichtung | 3 | Datei | nicht überführt |
+| 9.1.4 | Pflegekinderhilfe | 3 | Zwischenüberschrift | neu am 20.11.2026 (Angabe des Trägers), Nummer vorgeschlagen; Dokumente 9.1.4.1 ff. liegen nicht vor |
 | 9.2 | Teilstationärer Bereich | 2 | Ordner | nicht überführt |
 | 9.2.1 | Neuaufnahme- teilstat. Einr. | 3 | Datei | nicht überführt |
 | 9.2.2 | Hilfeplanung- teilstat. Einr. | 3 | Datei | nicht überführt |
@@ -252,6 +253,7 @@ Umfang: 213 Einträge in 12 Kapiteln (0 bis 11).
 | 9.3.2 | Hilfeplanung - AJH | 3 | Datei | nicht überführt |
 | 9.3.3 | Betreuungsplanung - AJH | 3 | Datei | nicht überführt |
 | 9.3.4 | Betreuungsende - AJH | 3 | Datei | nicht überführt |
+| 9.3.5 | Offene Arbeit mit Kindern und Jugendlichen | 3 | Zwischenüberschrift | neu am 20.11.2026 (Angabe des Trägers), Nummer vorgeschlagen; Dokumente 9.3.5.1 ff. liegen nicht vor |
 | 9.4 | Serviceleistungen | 2 | Ordner | nicht überführt |
 | 9.4.1 | HPG im Jugendamt | 3 | Datei | nicht überführt |
 | 9.4.2 | Probewohnen | 3 | Datei | nicht überführt |
