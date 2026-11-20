@@ -46,7 +46,7 @@ Das Qualitätsmanagement der Sozialwerk Sauerland GmbH dient der praktischen Arb
 
 ## 4 Offen
 
-Die Vorlage liegt seit dem 20.11.2026 vor und ist als `2.3.1_qualitaetspolitik.md` überführt (Rev. 0006, Entwurf). Die Vorgaben dieser Vormerkung sind dort noch nicht eingearbeitet.
+Die Vorlage liegt seit dem 20.11.2026 vor und ist als `2.3.1_qualitaetspolitik.md` überführt (Rev. 0006, Entwurf). Die Vorgaben dieser Vormerkung sind dort seit dem 20.11.2026 eingearbeitet (Abschnitte 1, 3, 4, 5 und 6). Der Formulierungsvorschlag in Abschnitt 3 dieser Vormerkung ist damit überholt.
 
 OFFEN: Qualitätsziele zur Leitlinie fehlen, zum Beispiel woran der Träger erkennt, dass die Dokumente in der Praxis genutzt werden.
 

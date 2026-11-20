@@ -57,7 +57,7 @@ Das QM ist nützlich für die praktische Arbeit, schlank und effizient, anschlus
 
 | Dokument | Leitorientierung |
 |---|---|
-| 2.3.1 Qualitätspolitik (Entwurf) | Qualität ist ein fortlaufender, reflexiver Entwicklungsprozess mit den jungen Menschen und ihren Familien im Mittelpunkt; das QM verbindet dafür Standardisierung und reflexive Qualitätsentwicklung. |
+| 2.3.1 Qualitätspolitik (Entwurf) | Das QM dient der praktischen Arbeit. Definierte Prozesse schaffen Zeit und Raum für Beziehung; reflexive Qualitätsentwicklung stellt die jungen Menschen und ihre Familien in den Mittelpunkt. |
 
 ### Kapitel 3 Betriebliche Organisation und Verantwortungen
 

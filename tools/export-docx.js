@@ -48,12 +48,13 @@ const offen = t => new Paragraph({ spacing: { before: 60, after: 100, line: 276 
   children: [run('OFFEN  ', { bold: true, color: '8A6100' }), run(clean(t.slice(6)))] });
 
 function widths(head, n) {
-  if (n === 2 && !head[0].startsWith('Nr.') && !['Leitlinie', 'Thema', 'Dokument'].includes(head[0])) return [2268, W - 2268];
+  if (n === 2 && !head[0].startsWith('Nr.') && !['Leitlinie', 'Thema', 'Dokument', 'Bereich'].includes(head[0])) return [2268, W - 2268];
   if (head[0] === 'Nr.' && n === 4) return [520, 4580, 1985, 1985];
   if (head[0] === 'Art' && n === 3) return [1900, 4670, 2500];
   if (head[0] === 'Dokument' && n === 3) return [2300, 4270, 2500];
   if (head[0] === 'Teil' && n === 3) return [2300, 3900, 2870];
   if (head[0] === 'Leitlinie') return [3000, W - 3000];
+  if (head[0] === 'Bereich') return [3000, W - 3000];
   if (head[0] === 'Thema' || (head[0] === 'Dokument' && n === 2)) return [2700, W - 2700];
   if (head[0].startsWith('Nr.') && n === 3) return [1500, 3000, W - 4500];
   if (head[0].startsWith('Nr.') && n === 2) return [1500, W - 1500];
