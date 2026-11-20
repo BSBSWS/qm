@@ -53,4 +53,4 @@ Festlegung des Trägers vom 20.11.2026: Das Handbuch bleibt vorerst bei der Ausg
 - Vorschlag 1 umgesetzt (Verpflichtungen in 2.3.1).
 - Vorschlag 3 umgesetzt (Messgrößen in 2.3.2).
 - Zu Vorschlag 5: Es bleibt bei „jährlich zum Audit“.
-- Vorschlag 4 (Jahresplan mit Ressourcen und Art der Bewertung): offen.
+- Vorschlag 4 umgesetzt: Formular `formular-jahresplan-qualitaetsziele.md` mit Maßnahme, Ressourcen, verantwortlicher Stelle, Termin und Bewertung; es gilt für die jährlichen Schwerpunkte, nicht für alle acht Ziele.

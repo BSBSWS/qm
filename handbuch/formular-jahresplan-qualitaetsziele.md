@@ -1,0 +1,50 @@
+---
+titel: Jahresplan Qualitätsziele
+textart: Formular
+format: quer
+prozesse: Managementprozess QM
+revision: "001"
+stand: 20.11.2026
+status: Entwurf
+erstellt: Geschäftsführung, QMB
+geprueft: QMB
+freigegeben: Geschäftsführung
+verteiler: OFFEN
+naechste_ueberpruefung: mindestens jährlich zum Audit
+---
+
+# Jahresplan Qualitätsziele
+
+Kapitel: 2 Verantwortung der Leitung · 2.3 Qualitätspolitik und Qualitätsziele
+
+Zugeordnete Prozesse: Managementprozess QM
+
+Leitorientierung: Zum Audit legt die Geschäftsführung zwei oder drei Qualitätsziele als Schwerpunkt des folgenden Jahres fest. Der Jahresplan hält je Schwerpunkt fest, was getan wird, womit, durch wen, bis wann und woran das Ergebnis bewertet wird.
+
+| | |
+|---|---|
+| Jahr | |
+| Festgelegt zum Audit am | |
+| Bewertet zum Audit am | |
+
+| Nr. | Qualitätsziel (2.3.2) | Maßnahme | Ressourcen | verantwortliche Stelle | Termin | Bewertung anhand | Ergebnis im Folgejahr |
+|---|---|---|---|---|---|---|---|
+| 1 | | | | | | | ☐ erfüllt; ☐ teilweise erfüllt; ☐ nicht erfüllt |
+| 2 | | | | | | | ☐ erfüllt; ☐ teilweise erfüllt; ☐ nicht erfüllt |
+| 3 | | | | | | | ☐ erfüllt; ☐ teilweise erfüllt; ☐ nicht erfüllt |
+
+Hinweise: In der Spalte „Qualitätsziel“ steht die Nummer des Ziels aus 2.3.2. „Bewertung anhand“ nennt den Nachweis aus 2.3.2, an dem das Ergebnis geprüft wird. Das folgende Audit trägt das Ergebnis ein; Folgerungen gehen in den nächsten Jahresplan.
+
+## Offene Punkte
+
+OFFEN: Kennung und Ablageort des Formulars.
+
+OFFEN: Verteiler.
+
+OFFEN: Ob Formulare eine Risikobetrachtung und den Teil „Reflexion und Weiterentwicklung“ tragen, ist nicht entschieden; dieses Formular enthält beides nicht.
+
+## Änderungen
+
+| Revision | Datum | Änderung | Grund |
+|---|---|---|---|
+| 001 (Entwurf) | 20.11.2026 | Erste Fassung mit den fünf Angaben nach ISO 9001:2015, Abschnitt 6.2.2 | Auftrag des Trägers vom 20.11.2026 |
