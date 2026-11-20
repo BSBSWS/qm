@@ -13,14 +13,14 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 
 | Standard | Stand |
 |---|---|
-| `standards/qm-dokumente.md` | Version 0.19 (Entwurf), 20.11.2026: Pflichtbestandteile, Überführung, Nachbildung der Lenkung, Kennungsschema, Prozessnummern, Revisionszählung, Text und Flussdiagramm, Bereinigung |
+| `standards/qm-dokumente.md` | Version 0.20 (Entwurf), 20.11.2026: Pflichtbestandteile, Überführung, Nachbildung der Lenkung, Kennungsschema, Prozessnummern, Revisionszählung, Text und Flussdiagramm, Bereinigung |
 
 ## QM-Handbuch
 
 | Datei | Inhalt |
 |---|---|
 | `handbuch/gliederung.md` | Gliederung des Handbuchs als Dokumentenliste: 213 Einträge in 12 Kapiteln, mit Stand der Überführung |
-| `handbuch/befunde-gliederung.md` | 99 Befunde zu Kennungen, Titeln, Aufbau, Prozesslandkarte und Musterdokument 9.1.4; Lenkungsangaben der Vorlagen |
+| `handbuch/befunde-gliederung.md` | 100 Befunde zu Kennungen, Titeln, Aufbau, Prozesslandkarte und Musterdokument 9.1.4; Lenkungsangaben der Vorlagen |
 | `handbuch/vormerkung-2.3-qualitaetspolitik.md` | Vorgaben des Trägers für die Qualitätspolitik (Vormerkung, kein gelenktes Dokument) |
 | `handbuch/playbook.md` | Playbook QM: oberster Grundsatz, Leitlinie und alle Leitorientierungen; erzeugt mit `tools/playbook.py` |
 | `standards/leitorientierungen.md` | Leitorientierungen zu den Festlegungen (Quelle für das Playbook) |

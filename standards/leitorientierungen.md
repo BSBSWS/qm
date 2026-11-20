@@ -27,5 +27,5 @@ Das QM ist nützlich für die praktische Arbeit, schlank und effizient, anschlus
 | Leitorientierung | Jede Festlegung, jeder Text und jedes Kapitel hat eine kurze Leitorientierung. Alle zusammen bilden das Playbook. |
 | Text und Schaubild | Text und Flussdiagramm bilden ein Dokument. Bei Widerspruch gilt der Text. |
 | Quelle und Ausgabe | Quelle ist die Markdown-Datei im Repository. Daraus entstehen Word, PDF und Bild. |
-| Lenkung | Die QMB prüft, die Geschäftsführung gibt frei. Überprüft wird mindestens jährlich zum Audit. Rückmeldungen gehen an die QMB. Ein Entwurf gilt nicht. |
+| Lenkung | Die QMB prüft, die Geschäftsführung gibt frei. Überprüft wird mindestens jährlich zum externen Audit. Rückmeldungen gehen an die QMB. Ein Entwurf gilt nicht. |
 | Offene Angaben | Fehlende Angaben werden nicht erfunden, sondern als offen gekennzeichnet und erfragt. |

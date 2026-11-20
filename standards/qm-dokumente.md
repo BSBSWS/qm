@@ -1,6 +1,6 @@
 # Standard: QM-Dokumente
 
-Stand: 20.11.2026 · Version 0.19 (Entwurf) · Verantwortlich: Geschäftsführung
+Stand: 20.11.2026 · Version 0.20 (Entwurf) · Verantwortlich: Geschäftsführung
 
 ## 1 Geltung
 
@@ -51,6 +51,8 @@ Grundannahme: Die begrenzte Reichweite von Verfahrensstandardisierungen resultie
 30. **Ausgabe ohne Änderungen.** Der Abschnitt „Änderungen“ steht nur in der Markdown-Quelle; in Word, PDF und Ablaufblatt erscheint er nie (Festlegung des Trägers vom 20.11.2026).
 31. **Kennungen in 2.3.** 2.3.1 Qualitätspolitik, 2.3.2 Qualitätsziele, 2.3.3 Kontext der Organisation (Festlegung des Trägers vom 20.11.2026).
 32. **Formulare.** Ein Formular trägt die Kennung des Dokuments, zu dem es gehört, mit vorangestelltem F und einem fortlaufenden Buchstaben: F2.3.2.A, bei weiteren Formularen desselben Dokuments B, C, D (Vorschlag des Trägers vom 20.11.2026, angewendet). Formulare tragen keine Risikobetrachtung und keinen Teil „Reflexion und Weiterentwicklung“ (Festlegung des Trägers vom 20.11.2026).
+33. **Audit und Managementreview.** „Zum Audit“ meint das jährliche externe Rezertifizierungs- oder Überwachungsaudit; Zertifizierer ist TÜV Rheinland (früher LGA). Das Managementreview ist ein eigener Vorgang neben den Auditberichten; der Begriff heißt künftig immer „Managementreview“, nicht „Managementbewertung“ (Festlegungen des Trägers vom 20.11.2026).
+34. **Standorte ohne Anschrift.** Dokumente des Handbuchs nennen Standorte mit Name und Ort, nicht mit Anschrift (Festlegung des Trägers vom 20.11.2026 zu 2.3.3).
 
 ## 3 Vorschläge, noch nicht bestätigt
 
@@ -106,6 +108,7 @@ Verbindlich nach der Festlegung des Trägers vom 20.11.2026. Vor der Ausgabe ein
 10. Wohlfühlindex: Verfahren der Erhebung und auswertende Stelle; gehört nicht in 2.3.1, das zuständige Dokument ist zu bestimmen.
 7. Kennungen der beiden Anleitungen in Kapitel 1.2; Anrede; eine oder zwei Anleitungen.
 8. Übrige Befunde (`handbuch/befunde-gliederung.md`).
+11. Managementreview: Ein Dokument dazu fehlt; Kennung, Eingaben, Turnus und Nachweis sind festzulegen. Aktuelle Liste der Standorte im Zertifikat fehlt.
 9. Kapitel 5 des Handbuchs: Verweis auf die Repositories der Konzeptionen und Leistungsbeschreibungen oder Kopie. Reihenfolge der weiteren Überführung.
 
 ## Änderungen
@@ -131,3 +134,4 @@ Verbindlich nach der Festlegung des Trägers vom 20.11.2026. Vor der Ausgabe ein
 | 0.17 | 20.11.2026 | Festlegung des Trägers vom 20.11.2026: Kennungen 2.3.1 bis 2.3.3 |
 | 0.18 | 20.11.2026 | Festlegung des Trägers vom 20.11.2026: vorerst ISO 9001:2015; Abgleich für Kapitel 2.3 angelegt |
 | 0.19 | 20.11.2026 | Kennungen der Formulare (F + Dokumentkennung + Buchstabe); Formulare ohne Risikobetrachtung und Reflexionsteil |
+| 0.20 | 20.11.2026 | Festlegungen des Trägers vom 20.11.2026: Audit ist das externe Rezertifizierungs- oder Überwachungsaudit, Zertifizierer TÜV Rheinland, Managementreview als eigener Vorgang und Begriff; Standorte ohne Anschrift |
