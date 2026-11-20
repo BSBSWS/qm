@@ -5,7 +5,7 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 | Ordner | Inhalt |
 |---|---|
 | `standards/` | Standards für QM-Dokumente |
-| `export/` | Word-Ausgaben |
+| `export/` | Word-Ausgaben; in `export/ablauf/` je Prozess das Ablaufblatt (Word, PDF, Bild). Erzeugen mit `sh tools/export-alle.sh` |
 | `tools/` | Export nach Word (`export-docx.js`), Logo |
 | `handbuch/` | QM-Handbuch: Gliederung (Dokumentenliste), Befunde, überführte Dokumente; Vorlagen in `handbuch/alt/` |
 
@@ -13,7 +13,7 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 
 | Standard | Stand |
 |---|---|
-| `standards/qm-dokumente.md` | Version 0.9 (Entwurf), 20.11.2026: Pflichtbestandteile, Überführung, Nachbildung der Lenkung, Kennungsschema, Prozessnummern, Revisionszählung, Text und Flussdiagramm, Bereinigung |
+| `standards/qm-dokumente.md` | Version 0.10 (Entwurf), 20.11.2026: Pflichtbestandteile, Überführung, Nachbildung der Lenkung, Kennungsschema, Prozessnummern, Revisionszählung, Text und Flussdiagramm, Bereinigung |
 
 ## QM-Handbuch
 

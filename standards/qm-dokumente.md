@@ -1,6 +1,6 @@
 # Standard: QM-Dokumente
 
-Stand: 20.11.2026 · Version 0.9 (Entwurf) · Verantwortlich: Geschäftsführung
+Stand: 20.11.2026 · Version 0.10 (Entwurf) · Verantwortlich: Geschäftsführung
 
 ## 1 Geltung
 
@@ -23,6 +23,9 @@ Der Standard gilt für alle QM-Dokumente des Trägers: Texte des QM-Handbuchs, A
 11. **Text und Flussdiagramm.** Text und Flussdiagramm einer Kennung bilden ein Dokument mit gemeinsamer Revision; das Flussdiagramm steht als Mermaid-Text im Abschnitt „Ablauf“. Weichen beide ab, hat der Text Vorrang; das Flussdiagramm wird angepasst (Festlegungen des Trägers vom 19.11.2026).
 12. **Bereinigung.** Bei der Überführung wird der Wortlaut nach den Schreibregeln bereinigt: Paarform oder neutrale Form, Abkürzungen ausgeschrieben, einheitliche Schreibweisen. Der Inhalt bleibt; jede Änderung steht in der Änderungstabelle (Festlegung des Trägers vom 19.11.2026).
 13. **Keine unbestimmten Angaben.** Ungefähre und weiche Angaben wie „etwa“, „ca.“, „ungefähr“, „in der Regel“, „ggf.“, „rechtzeitig“ oder „im Einzelfall“ stehen in keinem Text; Häufigkeiten, Fristen, Mengen und Bedingungen werden genau genannt. Fehlt die genaue Angabe, wird sie mit `OFFEN:` gekennzeichnet und beim Träger erfragt (Festlegung des Trägers vom 19.11.2026).
+14. **Ablauf zuerst.** In jedem Prozessdokument steht das Flussdiagramm an erster Stelle, der Text danach (Festlegung des Trägers vom 20.11.2026).
+15. **Ablaufblatt.** Jedes Flussdiagramm ist für sich nutzbar und zugänglich: Zu jedem Prozessdokument gibt es ein Ablaufblatt mit Flussdiagramm, Checkliste und Verweisen, ausgegeben als Word, PDF und Bild in `export/ablauf/` (Festlegung des Trägers vom 20.11.2026).
+16. **Verweise.** Zugehörige Dokumente, Formulare und Gesetzestexte werden direkt am Prozess genannt und, wo eine Fundstelle vorhanden ist, verlinkt. Gesetze verweisen auf gesetze-im-internet.de (Festlegung des Trägers vom 20.11.2026).
 
 ## 3 Vorschläge, noch nicht bestätigt
 
@@ -63,7 +66,8 @@ Vor der Ausgabe eines Dokuments:
 
 - Je Kapitel ein Ordner: `handbuch/<Kapitelnummer zweistellig>-<kurzname>/`, z. B. `handbuch/09-betreuungsprozesse/`.
 - Je Dokument eine Markdown-Datei: `<Kennung>_<kurztitel>.md`, z. B. `9.1.4_hilfeplanung-stationaer.md`. Unterordner der Vorlage (Art „Ordner“) werden nicht nachgebildet; die Kennung trägt die Ordnung.
-- Aufbau eines Prozessdokuments nach dem Muster: Kopf mit Zeile „Zugeordnete Prozesse“; Zweck und Zuständigkeit; Beschreibung; Ablauf; Risikobetrachtung; Reflexion und Weiterentwicklung; Änderungen.
+- Aufbau eines Prozessdokuments nach dem Muster: Kopf mit Zeile „Zugeordnete Prozesse“; Ablauf; Checkliste; zugehörige Dokumente, Formulare und Rechtsgrundlagen; Zweck und Zuständigkeit; Beschreibung; Risikobetrachtung; Reflexion und Weiterentwicklung; offene Punkte (nur im Entwurf); Änderungen.
+- Checkliste je Prozess (Anregung des Trägers vom 20.11.2026): Punkte zum Abhaken, aus der Beschreibung abgeleitet, nach den Abschnitten des Ablaufs gegliedert.
 - Die Word-Ausgabe liegt in `export/`, die überführte Vorlage in `handbuch/alt/`. Erzeugt wird sie mit `tools/export-docx.js`; Die Angaben in Kopf- und Fußzeile folgen der Vorlage. Logo ist immer `tools/logo-sws.png` (Fassung 2021 ohne „GmbH“; Festlegung des Trägers vom 19.11.2026). Gestaltung nach der Festlegung des Trägers vom 19.11.2026: Blau des Trägerlogos (#2D4B9B) statt Gelb, Tabellenköpfe blau mit weißer Schrift, feine waagerechte Linien statt Gitter. Absätze mit `OFFEN:` sind farbig hinterlegt.
 - `handbuch/gliederung.md` ist die Dokumentenliste und führt je Dokument den Stand der Überführung.
 
@@ -90,3 +94,4 @@ Vor der Ausgabe eines Dokuments:
 | 0.7 | 19.11.2026 | Festlegungen des Trägers vom 19.11.2026 zum Musterdokument: Text und Flussdiagramm als ein Dokument, Vorrang des Textes, Bereinigung nach den Schreibregeln; Word-Ausgabe mit `tools/export-docx.js` |
 | 0.8 | 19.11.2026 | Festlegungen des Trägers vom 19.11.2026: keine unbestimmten Angaben; Logo und Blauton der Word-Ausgabe |
 | 0.9 | 20.11.2026 | Leitlinie des Trägers vom 20.11.2026 (nützlich, schlank und effizient, anschlussfähig, reflexiv); Vorschlag für Prüffragen |
+| 0.10 | 20.11.2026 | Festlegungen des Trägers vom 20.11.2026: Ablauf zuerst, Ablaufblatt, Verweise; Vorschlag Checkliste je Prozess; Aufbau des Prozessdokuments angepasst |

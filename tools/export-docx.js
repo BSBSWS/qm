@@ -1,12 +1,14 @@
 // Word-Ausgabe eines QM-Dokuments aus der Markdown-Quelle.
-// Aufruf: node tools/export-docx.js handbuch/<datei>.md export/<datei>.docx
+// Aufruf: node tools/export-docx.js handbuch/<datei>.md export/<datei>.docx [--ablauf]
+// --ablauf erzeugt das Ablaufblatt: nur Ablauf und zugehörige Dokumente, dazu das Flussdiagramm als PNG neben der Zieldatei.
 // Voraussetzungen: npm-Paket "docx", Mermaid-CLI "mmdc" für Flussdiagramme.
 const fs = require('fs'), path = require('path'), os = require('os');
 const { execFileSync } = require('child_process');
 const { Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell, WidthType, ShadingType,
-  AlignmentType, ImageRun, Header, Footer, PageNumber, BorderStyle, VerticalAlign, LevelFormat } = require('docx');
+  AlignmentType, ImageRun, ExternalHyperlink, Header, Footer, PageNumber, BorderStyle, VerticalAlign, LevelFormat } = require('docx');
 
-const [src, out] = process.argv.slice(2);
+const args = process.argv.slice(2), ABLAUF = args.includes('--ablauf');
+const [src, out] = args.filter(a => !a.startsWith('--'));
 if (!src || !out) { console.error('Aufruf: node tools/export-docx.js quelle.md ziel.docx'); process.exit(1); }
 
 // Gestaltung: Blau des Trägerlogos, helle Tönung, feine Linien
@@ -24,6 +26,14 @@ const val = k => fm[k] || 'OFFEN';
 
 const clean = s => s.replace(/`/g, '').trim();
 const run = (t, o = {}) => new TextRun({ text: t, font: FONT, size: 20, color: TEXT, ...o });
+// Text mit Markdown-Verweisen [Text](Adresse) und der Kennzeichnung OFFEN
+function inline(t, o = {}) {
+  const res = [], re = /\[([^\]]+)\]\(([^)]+)\)/g; let last = 0, m;
+  const plain = x => { if (x) res.push(x.trim() === 'OFFEN' ? run(x, { ...o, bold: true, color: '8A6100' }) : run(x, o)); };
+  while ((m = re.exec(t))) { plain(t.slice(last, m.index));
+    res.push(new ExternalHyperlink({ link: m[2], children: [run(m[1], { ...o, color: BLAU, underline: {} })] })); last = re.lastIndex; }
+  plain(t.slice(last)); return res;
+}
 const P = (children, o = {}) => new Paragraph({ spacing: { after: 100, line: 276 }, ...o, children });
 const none = { style: BorderStyle.NONE, size: 0, color: 'FFFFFF' };
 const line = (c = LINIE, s = 4) => ({ style: BorderStyle.SINGLE, size: s, color: c });
@@ -40,6 +50,7 @@ const offen = t => new Paragraph({ spacing: { before: 60, after: 100, line: 276 
 function widths(head, n) {
   if (n === 2 && !head[0].startsWith('Nr.')) return [2268, W - 2268];
   if (head[0] === 'Nr.' && n === 4) return [520, 4580, 1985, 1985];
+  if (head[0] === 'Art' && n === 3) return [1900, 4670, 2500];
   if (head[0].startsWith('Nr.') && n === 3) return [1500, 3000, W - 4500];
   if (head[0].startsWith('Nr.') && n === 2) return [1500, W - 1500];
   if (head[0] === 'Revision' && n === 4) return [1300, 1300, 3970, 2500];
@@ -54,11 +65,11 @@ function table(rows) {
   rows.slice(1).forEach((r, k) => trs.push(new TableRow({ cantSplit: true, children: r.map((c, i) => {
     const label = noHead && i === 0, nr = head[0] === 'Nr.' && i === 0;
     return cell((head[0] === 'Nr.' ? c.split(/;\s+/) : [c]).map(p => new Paragraph({ spacing: { line: 264 },
-      children: [run(clean(p), label ? { bold: true, color: BLAU, size: 18 } : nr ? { bold: true, color: BLAU } : {})] })), w[i],
+      children: inline(clean(p), label ? { bold: true, color: BLAU, size: 18 } : nr ? { bold: true, color: BLAU } : head[0] === 'Art' && i === 0 ? { size: 18, color: GRAU } : {}) })), w[i],
       { shading: label ? fill(HELL) : undefined, ...(noHead && k === 0 ? { borders: { top: line(), left: none, right: none, bottom: line() } } : {}) }); }) })));
   return new Table({ width: { size: W, type: WidthType.DXA }, columnWidths: w, rows: trs });
 }
-function diagram(code) {
+function diagram(code, maxH = 600) {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'qm-'));
   const f = n => path.join(tmp, n);
   fs.writeFileSync(f('d.mmd'), code); fs.writeFileSync(f('p.json'), '{"args":["--no-sandbox"]}');
@@ -67,30 +78,38 @@ function diagram(code) {
       primaryTextColor: '#' + TEXT, lineColor: '#' + BLAU, edgeLabelBackground: '#FFFFFF', tertiaryColor: '#FFFFFF' } }));
   execFileSync('mmdc', ['-p', f('p.json'), '-c', f('c.json'), '-i', f('d.mmd'), '-o', f('d.png'), '-b', 'white', '-s', '3'], { stdio: 'ignore' });
   const buf = fs.readFileSync(f('d.png')), pw = buf.readUInt32BE(16), ph = buf.readUInt32BE(20);
-  let w = 600, h = Math.round(600 * ph / pw); if (h > 600) { h = 600; w = Math.round(600 * pw / ph); }
+  let w = 600, h = Math.round(600 * ph / pw); if (h > maxH) { h = maxH; w = Math.round(maxH * pw / ph); }
+  if (ABLAUF) fs.writeFileSync(out.replace(/\.docx$/, '.png'), buf);
   return new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 80, after: 120 },
     children: [new ImageRun({ type: 'png', data: buf, transformation: { width: w, height: h } })] });
 }
 
 // Rumpf
-const lines = body.split('\n'), kids = []; let kapitel = [];
+let lines = body.split('\n'); const kids = []; let kapitel = [];
+if (ABLAUF) { // nur Kopfzeilen und die Abschnitte Ablauf, Checkliste, zugehörige Dokumente
+  const keep = []; let on = true;
+  for (const l of lines) { if (l.startsWith('## ')) on = /^## (\d+ )?(Ablauf|Checkliste|Zugehörige)/.test(l); if (on) keep.push(l); }
+  lines = keep; }
 for (let i = 0; i < lines.length; i++) {
-  const l = lines[i];
+  let l = lines[i];
   if (!l.trim() || l.startsWith('# ') || l.startsWith('Zugeordnete Prozesse:')) continue;
   if (l.startsWith('Kapitel:')) { kapitel = l.replace('Kapitel:', '').split(' · ').map(s => s.trim()).filter(s => !/^(Kennung|Revision|Stand):/.test(s)).slice(0, 2); continue; }
   if (l.startsWith('### ')) { kids.push(new Paragraph({ keepNext: true, spacing: { before: 200, after: 100 }, children: [run(l.slice(4), { bold: true, size: 21, color: BLAU })] })); continue; }
-  if (l.startsWith('## ')) { kids.push(new Paragraph({ keepNext: true, spacing: { before: 320, after: 120 },
+  if (ABLAUF && /^## (\d+ )?Ablauf/.test(l)) continue;
+  if (l.startsWith('## ')) { l = ABLAUF ? '## ' + l.slice(3).replace(/^\d+ /, '') : l; kids.push(new Paragraph({ keepNext: true, spacing: { before: 320, after: 120 },
     children: [run(l.slice(3), { bold: true, size: 24, color: BLAU })] })); continue; }
-  if (l.startsWith('```mermaid')) { const c = []; while (!lines[++i].startsWith('```')) c.push(lines[i]); kids.push(diagram(c.join('\n'))); continue; }
+  if (l.startsWith('```mermaid')) { const c = []; while (!lines[++i].startsWith('```')) c.push(lines[i]); kids.push(diagram(c.join('\n'), ABLAUF ? 760 : 600)); continue; }
   if (l.startsWith('|')) { const rows = [];
     while (i < lines.length && lines[i].startsWith('|')) { if (!/^\|[\s|:-]*-[\s|:-]*\|$/.test(lines[i])) rows.push(lines[i].slice(1, -1).split('|').map(c => c.trim())); i++; }
     i--; kids.push(table(rows), gap(60)); continue; }
   if (/^\d+\. /.test(l)) { kids.push(P([run(clean(l.replace(/^\d+\. /, '')))], { numbering: { reference: 'num', level: 0 }, spacing: { after: 70, line: 276 } })); continue; }
+  if (l.startsWith('- [ ] ')) { kids.push(new Paragraph({ spacing: { after: 50, line: 276 }, indent: { left: 420, hanging: 420 },
+    children: [new TextRun({ text: '\u2610', font: 'Segoe UI Symbol', size: 24, color: BLAU }), run('\t' + clean(l.slice(6)))], tabStops: [{ type: 'left', position: 420 }] })); continue; }
   if (l.startsWith('OFFEN:')) { kids.push(offen(l)); continue; }
   const lab = l.match(/^(Risiko|Risikominimierung):/);
   if (lab) { kids.push(P([run(lab[1] + '  ', { bold: true, color: BLAU }), run(l.slice(lab[0].length).trim())])); continue; }
   const klein = l.startsWith('Vorlagen:') || l.startsWith('Vorlage:') || l.startsWith('Zeichen:') || l.startsWith('Lesart:');
-  kids.push(P([run(clean(l), klein ? { size: 16, color: GRAU } : {})], l.endsWith(':') ? { keepNext: true } : {}));
+  kids.push(P(inline(clean(l), klein ? { size: 16, color: GRAU } : {}), l.endsWith(':') ? { keepNext: true } : {}));
 }
 
 // Titelfeld mit Prozesszeile
@@ -98,7 +117,7 @@ const nb = { top: none, left: none, right: none, bottom: none };
 const titel = new Table({ width: { size: W, type: WidthType.DXA }, columnWidths: [2268, W - 2268], rows: [
   new TableRow({ children: [cell([
       new Paragraph({ spacing: { after: 20 }, children: [run((kapitel[1] || kapitel[0] || '').toUpperCase(), { size: 15, color: 'D5DAEE', characterSpacing: 20 })] }),
-      new Paragraph({ children: [run(val('kennung') + '  ', { size: 30, color: 'D5DAEE' }), run(fm.titel || '', { bold: true, size: 30, color: 'FFFFFF' })] })],
+      new Paragraph({ children: [run(val('kennung') + '  ', { size: 30, color: 'D5DAEE' }), run((ABLAUF && !/^Ablauf/.test(fm.titel || '') ? 'Ablauf: ' : '') + (fm.titel || ''), { bold: true, size: 30, color: 'FFFFFF' })] })],
     W, { columnSpan: 2, shading: fill(BLAU), borders: nb, margins: { top: 160, bottom: 160, left: 200, right: 200 } })] }),
   new TableRow({ children: [
     cell([new Paragraph({ children: [run('Zugeordnete Prozesse', { bold: true, size: 18, color: BLAU })] })], 2268, { shading: fill(HELL), borders: nb, margins: { top: 90, bottom: 90, left: 200, right: 110 } }),
