@@ -51,6 +51,7 @@ function widths(head, n) {
   if (n === 2 && !head[0].startsWith('Nr.') && head[0] !== 'Leitlinie') return [2268, W - 2268];
   if (head[0] === 'Nr.' && n === 4) return [520, 4580, 1985, 1985];
   if (head[0] === 'Art' && n === 3) return [1900, 4670, 2500];
+  if (head[0] === 'Dokument' && n === 3) return [2300, 4270, 2500];
   if (head[0] === 'Teil' && n === 3) return [2300, 3900, 2870];
   if (head[0] === 'Leitlinie') return [3000, W - 3000];
   if (head[0].startsWith('Nr.') && n === 3) return [1500, 3000, W - 4500];
@@ -111,6 +112,7 @@ for (let i = 0; i < lines.length; i++) {
     while (i < lines.length && lines[i].startsWith('|')) { if (!/^\|[\s|:-]*-[\s|:-]*\|$/.test(lines[i])) rows.push(lines[i].slice(1, -1).split('|').map(c => c.trim())); i++; }
     i--; kids.push(table(rows), gap(60)); continue; }
   if (/^\d+\. /.test(l)) { if (!/^\d+\. /.test(lines[i - 1] || '')) liste++; kids.push(P([run(clean(l.replace(/^\d+\. /, '')))], { numbering: { reference: 'num', level: 0, instance: liste }, spacing: { after: 70, line: 276 } })); continue; }
+  if (l.startsWith('- ') && !l.startsWith('- [ ] ')) { kids.push(P(inline(clean(l.slice(2))), { numbering: { reference: 'punkt', level: 0 }, spacing: { after: 70, line: 276 } })); continue; }
   if (l.startsWith('- [ ] ')) { kids.push(new Paragraph({ spacing: { after: 50, line: 276 }, indent: { left: 420, hanging: 420 },
     children: [new TextRun({ text: '\u2610', font: 'Segoe UI Symbol', size: 24, color: BLAU }), run('\t' + clean(l.slice(6)))], tabStops: [{ type: 'left', position: 420 }] })); continue; }
   if (l.startsWith('OFFEN:')) { kids.push(offen(l)); continue; }
@@ -156,7 +158,7 @@ const footer = new Footer({ children: [new Table({ width: { size: W, type: Width
 
 const doc = new Document({
   styles: { default: { document: { run: { font: FONT, size: 20, color: TEXT } } } },
-  numbering: { config: [{ reference: 'num', levels: [{ level: 0, format: LevelFormat.DECIMAL, text: '%1', alignment: AlignmentType.LEFT,
+  numbering: { config: [{ reference: 'punkt', levels: [{ level: 0, format: LevelFormat.BULLET, text: '\u2013', alignment: AlignmentType.LEFT, style: { run: { color: BLAU, font: FONT }, paragraph: { indent: { left: 420, hanging: 420 } } } }] }, { reference: 'num', levels: [{ level: 0, format: LevelFormat.DECIMAL, text: '%1', alignment: AlignmentType.LEFT,
     style: { run: { bold: true, color: BLAU, font: FONT }, paragraph: { indent: { left: 420, hanging: 420 } } } }] }] },
   sections: [{ properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 1900, right: 1418, bottom: 1500, left: 1418, header: 709, footer: 600 } } },
     headers: { default: header }, footers: { default: footer },
