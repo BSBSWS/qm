@@ -140,3 +140,22 @@ Vorlage: `alt/2.3.3_Kontext_der_Organisation.docx`, Version 05.2025, Rev. 0001; 
 | 72 | Die Vorlage nennt sozialpädagogische Hilfen an Schulen und Projekte als Leistungen des Trägers; die Prozesslandkarte führt dafür keine Kernprozesse. |
 | 73 | Erstellt und geprüft hat dieselbe Person am selben Tag. |
 | 74 | Der Träger nennt am 20.11.2026 zusätzlich die Pflegekinderhilfe (stationäre Hilfen) und die Offene Arbeit mit Kindern und Jugendlichen (ambulante Hilfen). Beide fehlen in der Gliederung 0.2, Kapitel 9, und in der Vorlage zum Kontext. Am 20.11.2026 in die Gliederung aufgenommen: 9.1.4 Pflegekinderhilfe und 9.3.5 Offene Arbeit mit Kindern und Jugendlichen, je als Zwischenüberschrift; die Nummern sind ein Vorschlag. Die Zwischenüberschrift 9.1.4 trägt dieselbe Nummer wie das Dokument 9.1.4 Hilfeplanung, wie schon bei 9.1.1 bis 9.1.3. |
+
+## 11 Dateiliste des Handbuchs (20.11.2026)
+
+Quelle: `alt/Dateien_QM_Handbuch_2026-11-20.xlsx`, übernommen in `dateiliste.md`: 109 Ordner, 337 Dateien. Die Gliederung 0.2 führt 213 Einträge.
+
+| Nr. | Befund |
+|---|---|
+| 75 | Die Dateiliste ist aktueller als die Gliederung 0.2. Nur in der Dateiliste stehen unter anderem: 1.2.1 Anwendungsbereich Kontext, 3.1.3 Stakeholderanalyse (2023), 5.6 Konzeptionen mit Unterordnern, 5.8.1 und 5.8.2, 5.9 AZAV, 6.7.5 BEM, 8.9 Arbeitsanweisungen (8.9.1 bis 8.9.11), 9.1.5, 9.7 Akteneinsicht. |
+| 76 | Kapitel 9.1: „9.1.1 stat. Wohngruppen“, „9.1.2. familienanaloge Einrichtungen, IWL“ und „9.1.3. Eltern-Kind-Einrichtung“ sind Ordner. Die Dokumente der Wohngruppen tragen 9.1.1 bis 9.1.10 und liegen je als Text und als Flussdiagramm (Unterordner „Flussdiagramme“) vor. Das bestätigt die Auskunft des Trägers zu Befund 1. |
+| 77 | 9.1.5 Erziehungsplanung stat. Einr. liegt nur als Flussdiagramm vor; ein Textdokument 9.1.5 fehlt. Für 9.1.2, 9.1.3, 9.2 und 9.3 führt die Liste keine Flussdiagramme. |
+| 78 | Kapitel 9.3 heißt in der Dateiliste wie in der Prozesslandkarte: Hilfeaufnahme, Hilfeplanung, Hilfeverlauf, Beendigung der Hilfe. Die abweichenden Titel der Gliederung 0.2 (Befund 22) sind überholt. |
+| 79 | 9.7 ist vergeben (Akteneinsicht). 9.8 Ablauf Gefährdungsmomente steht nicht in der Liste (neues Dokument). |
+| 80 | 2.3: Die Liste führt eine Datei „2.3.1 Qualitätspolitik und Qualitätsziele“ und „2.3.2 Kontext der Organisation“. Dem Repository liegen Qualitätspolitik und Qualitätsziele als zwei Vorlagen vor; die neuen Kennungen sind 2.3.1, 2.3.2 und 2.3.3. |
+| 81 | Für den Kontext der Organisation (2.3.3) einschlägig und nicht im Repository: 1.2.1 Anwendungsbereich Kontext, 3.1.3 Stakeholderanalyse 2023 (zwei Texte, eine Grafik). |
+| 82 | Für Lenkung, Audit und Messung einschlägig und nicht im Repository: 8.9.3 AA Lenkung von dok. Informationen, 10.2.1 interne Audits, 10.2.2 externe Audits, 10.1 Befragungen, 10.6 Kennzahlen, 8.9.2 AA Dokumentation Kundenzufriedenheit. Ein Dokument zur Managementbewertung führt die Liste nicht. |
+| 83 | Ein Schlüsselverzeichnis der Stellen führt die Liste nicht; es gibt 3.2 Zuständigkeitsmatrix und 3.3 Stellenbeschreibungen. Die Stellenbeschreibungen 3.3.1.6 und 3.3.1.8 der Gliederung fehlen in der Liste. |
+| 84 | Leistungen, die über die Prozesslandkarte hinausgehen: Leistungsbeschreibungen 5.1.4.1 bis 5.1.4.17 (unter anderem SpFh, Erziehungsbeistandschaft, Clearing, begleiteter Umgang, Eingliederungshilfe nach § 35a, SBW), OGS, AZAV (5.9), Offene Arbeit (5.6.4, ISK für OT und KOT). Die Pflegekinderhilfe erscheint zusammen mit den IWL (5.1.2 „IWLs & PKH“; Bereichsleitung IWL_PKH_WPF). |
+| 85 | Dateinamen uneinheitlich: Schreibfehler („Flussiagramm“, „Flußdiagramm“, „Elern-Kind“, „Zuständigskeitsmatrix“), Dateien ohne Kennung, Dubletten als .docx und .pdf, Verknüpfungen (.lnk), ein Dateiname mit „final docx“. |
+

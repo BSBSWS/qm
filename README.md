@@ -20,7 +20,7 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 | Datei | Inhalt |
 |---|---|
 | `handbuch/gliederung.md` | Gliederung des Handbuchs als Dokumentenliste: 213 Einträge in 12 Kapiteln, mit Stand der Überführung |
-| `handbuch/befunde-gliederung.md` | 74 Befunde zu Kennungen, Titeln, Aufbau, Prozesslandkarte und Musterdokument 9.1.4; Lenkungsangaben der Vorlagen |
+| `handbuch/befunde-gliederung.md` | 85 Befunde zu Kennungen, Titeln, Aufbau, Prozesslandkarte und Musterdokument 9.1.4; Lenkungsangaben der Vorlagen |
 | `handbuch/vormerkung-2.3-qualitaetspolitik.md` | Vorgaben des Trägers für die Qualitätspolitik (Vormerkung, kein gelenktes Dokument) |
 | `handbuch/playbook.md` | Playbook QM: oberster Grundsatz, Leitlinie und alle Leitorientierungen; erzeugt mit `tools/playbook.py` |
 | `standards/leitorientierungen.md` | Leitorientierungen zu den Festlegungen (Quelle für das Playbook) |
@@ -31,6 +31,7 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 | `handbuch/abgleich-iso-9001-kapitel-2-3.md` | Abgleich von 2.3.1 und 2.3.2 mit ISO 9001:2015 (Arbeitsunterlage) |
 | `handbuch/F2.3.2.A_jahresplan-qualitaetsziele.md` | Formular F2.3.2.A Jahresplan Qualitätsziele (Rev. 001, Entwurf), Querformat |
 | `handbuch/2.3.3_kontext-der-organisation.md` | Kontext der Organisation (Rev. 001, Entwurf): Themen, interessierte Parteien, Anwendungsbereich |
+| `handbuch/dateiliste.md` | Dateiliste des Handbuchs vom 20.11.2026: 109 Ordner, 337 Dateien |
 | `handbuch/3.1.2_prozesslandkarte.md` | Prozesslandkarte (Rev. 002, Entwurf), Schaubild farbig nach Prozessart: 7 Managementprozesse, 16 Kernprozesse in 3 Bereichen, 6 Unterstützungsprozesse |
 | `handbuch/9.8_ablauf-gefaehrdungsmomente.md` | Ablauf Gefährdungsmomente und Übergriffe (Rev. 0004, Entwurf) |
 | `handbuch/9.1.4_hilfeplanung-stationaer.md` | Musterdokument Hilfeplanung – stationäre Einrichtungen (Rev. 0006, Entwurf): Text und Flussdiagramm in einem Dokument, bereinigt |
