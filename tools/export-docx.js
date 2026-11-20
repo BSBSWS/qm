@@ -20,7 +20,7 @@ const fm = {}; let body = text;
 const m = text.match(/^---\n([\s\S]*?)\n---\n/);
 if (m) { body = text.slice(m[0].length);
   for (const l of m[1].split('\n')) { const i = l.indexOf(':'); if (i > 0) fm[l.slice(0, i).trim()] = l.slice(i + 1).trim().replace(/^"|"$/g, ''); } }
-for (const k of ['kennung', 'titel', 'revision', 'stand', 'status']) if (!fm[k]) console.warn('Kopfangabe fehlt: ' + k);
+for (const k of ['titel', 'revision', 'stand', 'status']) if (!fm[k]) console.warn('Kopfangabe fehlt: ' + k);
 if (!fm.prozesse) console.warn('Kopfangabe fehlt: prozesse – Zugeordnete Prozesse: OFFEN');
 const val = k => fm[k] || 'OFFEN';
 
@@ -48,9 +48,11 @@ const offen = t => new Paragraph({ spacing: { before: 60, after: 100, line: 276 
   children: [run('OFFEN  ', { bold: true, color: '8A6100' }), run(clean(t.slice(6)))] });
 
 function widths(head, n) {
-  if (n === 2 && !head[0].startsWith('Nr.')) return [2268, W - 2268];
+  if (n === 2 && !head[0].startsWith('Nr.') && head[0] !== 'Leitlinie') return [2268, W - 2268];
   if (head[0] === 'Nr.' && n === 4) return [520, 4580, 1985, 1985];
   if (head[0] === 'Art' && n === 3) return [1900, 4670, 2500];
+  if (head[0] === 'Teil' && n === 3) return [2300, 3900, 2870];
+  if (head[0] === 'Leitlinie') return [3000, W - 3000];
   if (head[0].startsWith('Nr.') && n === 3) return [1500, 3000, W - 4500];
   if (head[0].startsWith('Nr.') && n === 2) return [1500, W - 1500];
   if (head[0] === 'Revision' && n === 4) return [1300, 1300, 3970, 2500];
@@ -85,7 +87,7 @@ function diagram(code, maxH = 600) {
 }
 
 // Rumpf
-let lines = body.split('\n'); const kids = []; let kapitel = [], vorher = '';
+let lines = body.split('\n'); const kids = []; let kapitel = [], vorher = '', liste = 0;
 if (ABLAUF) { // nur Kopfzeilen und die Abschnitte Ablauf, Checkliste, zugehörige Dokumente
   const keep = []; let on = true;
   for (const l of lines) { if (l.startsWith('## ')) on = /^## (\d+ )?(Ablauf|Checkliste|Zugehörige)/.test(l); if (on) keep.push(l); }
@@ -108,7 +110,7 @@ for (let i = 0; i < lines.length; i++) {
   if (l.startsWith('|')) { const rows = [];
     while (i < lines.length && lines[i].startsWith('|')) { if (!/^\|[\s|:-]*-[\s|:-]*\|$/.test(lines[i])) rows.push(lines[i].slice(1, -1).split('|').map(c => c.trim())); i++; }
     i--; kids.push(table(rows), gap(60)); continue; }
-  if (/^\d+\. /.test(l)) { kids.push(P([run(clean(l.replace(/^\d+\. /, '')))], { numbering: { reference: 'num', level: 0 }, spacing: { after: 70, line: 276 } })); continue; }
+  if (/^\d+\. /.test(l)) { if (!/^\d+\. /.test(lines[i - 1] || '')) liste++; kids.push(P([run(clean(l.replace(/^\d+\. /, '')))], { numbering: { reference: 'num', level: 0, instance: liste }, spacing: { after: 70, line: 276 } })); continue; }
   if (l.startsWith('- [ ] ')) { kids.push(new Paragraph({ spacing: { after: 50, line: 276 }, indent: { left: 420, hanging: 420 },
     children: [new TextRun({ text: '\u2610', font: 'Segoe UI Symbol', size: 24, color: BLAU }), run('\t' + clean(l.slice(6)))], tabStops: [{ type: 'left', position: 420 }] })); continue; }
   if (l.startsWith('OFFEN:')) { kids.push(offen(l)); continue; }
@@ -123,7 +125,7 @@ const nb = { top: none, left: none, right: none, bottom: none };
 const titel = new Table({ width: { size: W, type: WidthType.DXA }, columnWidths: [2268, W - 2268], rows: [
   new TableRow({ children: [cell([
       new Paragraph({ spacing: { after: 20 }, children: [run((kapitel[1] || kapitel[0] || '').toUpperCase(), { size: 15, color: 'D5DAEE', characterSpacing: 20 })] }),
-      new Paragraph({ children: [run(val('kennung') + '  ', { size: 30, color: 'D5DAEE' }), run((ABLAUF && !/^Ablauf/.test(fm.titel || '') ? 'Ablauf: ' : '') + (fm.titel || ''), { bold: true, size: 30, color: 'FFFFFF' })] })],
+      new Paragraph({ children: [...(fm.kennung ? [run(fm.kennung + '  ', { size: 30, color: 'D5DAEE' })] : []), run((ABLAUF && !/^Ablauf/.test(fm.titel || '') ? 'Ablauf: ' : '') + (fm.titel || ''), { bold: true, size: 30, color: 'FFFFFF' })] })],
     W, { columnSpan: 2, shading: fill(BLAU), borders: nb, margins: { top: 160, bottom: 160, left: 200, right: 200 } })] }),
   new TableRow({ children: [
     cell([new Paragraph({ children: [run('Zugeordnete Prozesse', { bold: true, size: 18, color: BLAU })] })], 2268, { shading: fill(HELL), borders: nb, margins: { top: 90, bottom: 90, left: 200, right: 110 } }),
@@ -137,7 +139,7 @@ const hb = { top: none, left: none, right: none, bottom: line(BLAU, 8) };
 const header = new Header({ children: [new Table({ width: { size: W, type: WidthType.DXA }, columnWidths: [3600, W - 3600], rows: [new TableRow({ children: [
   cell([new Paragraph({ children: [logo] })], 3600, { borders: hb, verticalAlign: VerticalAlign.CENTER, margins: { top: 0, bottom: 80, left: 0, right: 0 } }),
   cell([R([run(kapitel.join(' · '), s8)]),
-        R([run(`${val('kennung')} ${fm.titel || ''}`, { size: 17, bold: true, color: BLAU })]),
+        R([run(`${fm.kennung || ''} ${fm.titel || ''}`.trim(), { size: 17, bold: true, color: BLAU })]),
         R([run('Seite ', s8), new TextRun({ children: [PageNumber.CURRENT], font: FONT, ...s8 }), run(' von ', s8), new TextRun({ children: [PageNumber.TOTAL_PAGES], font: FONT, ...s8 })])],
     W - 3600, { borders: hb, verticalAlign: VerticalAlign.CENTER, margins: { top: 0, bottom: 80, left: 0, right: 0 } })] })] }),
   gap(120)] });
