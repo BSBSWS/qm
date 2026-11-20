@@ -53,6 +53,12 @@ Das QM ist nützlich für die praktische Arbeit, schlank und effizient, anschlus
 | Arbeiten mit dem QM-Handbuch – Anleitung für Mitarbeitende (Entwurf) | Vor der Aufgabe den Ablauf ansehen, während der Aufgabe die Checkliste nutzen, danach die Leitfragen im Team besprechen und Abweichungen melden. |
 | Aufbau der Prozessdokumente – Kurzanleitung (Entwurf) | Alle Prozessdokumente haben denselben Aufbau: vorn Ablauf und Checkliste, dann Verweise, Zuständigkeit und Beschreibung, am Ende die Leitfragen. |
 
+### Kapitel 2 Verantwortung der Leitung
+
+| Dokument | Leitorientierung |
+|---|---|
+| 2.3.1 Qualitätspolitik (Entwurf) | Qualität ist ein fortlaufender, reflexiver Entwicklungsprozess mit den jungen Menschen und ihren Familien im Mittelpunkt; das QM verbindet dafür Standardisierung und reflexive Qualitätsentwicklung. |
+
 ### Kapitel 3 Betriebliche Organisation und Verantwortungen
 
 | Dokument | Leitorientierung |

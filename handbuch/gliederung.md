@@ -43,6 +43,7 @@ Umfang: 213 Einträge in 12 Kapiteln (0 bis 11).
 | 2.1 | Verantwortung und Zuständigkeit | 2 | Ordner und Datei | nicht überführt |
 | 2.2 | Unternehmensleitbild | 2 | Ordner und Datei | nicht überführt |
 | 2.3 | Qualitätspolitik und Qualitätsziele | 2 | Ordner und Datei | nicht überführt; Vorgaben vorgemerkt in `vormerkung-2.3-qualitaetspolitik.md` |
+| 2.3.1 | Qualitätspolitik | 3 | Datei | nicht in der Vorlage 0.2 enthalten; überführt, Rev. 0006 Entwurf (`2.3.1_qualitaetspolitik.md`), Word-Ausgabe in `export/`, Vorlage in `alt/` |
 | 2.4 | Marketing und Öffentlichkeitsarbeit | 2 | Ordner und Datei | nicht überführt |
 | 2.4.1 | Marketing und Öffentlichkeitsarbeit | 3 | Datei | nicht überführt |
 | 2.4.2 | elektronische Medien | 3 | Datei | nicht überführt |

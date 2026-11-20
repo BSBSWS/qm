@@ -20,12 +20,13 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 | Datei | Inhalt |
 |---|---|
 | `handbuch/gliederung.md` | Gliederung des Handbuchs als Dokumentenliste: 213 Einträge in 12 Kapiteln, mit Stand der Überführung |
-| `handbuch/befunde-gliederung.md` | 51 Befunde zu Kennungen, Titeln, Aufbau, Prozesslandkarte und Musterdokument 9.1.4; Lenkungsangaben der Vorlagen |
+| `handbuch/befunde-gliederung.md` | 59 Befunde zu Kennungen, Titeln, Aufbau, Prozesslandkarte und Musterdokument 9.1.4; Lenkungsangaben der Vorlagen |
 | `handbuch/vormerkung-2.3-qualitaetspolitik.md` | Vorgaben des Trägers für die Qualitätspolitik (Vormerkung, kein gelenktes Dokument) |
 | `handbuch/playbook.md` | Playbook QM: oberster Grundsatz, Leitlinie und alle Leitorientierungen; erzeugt mit `tools/playbook.py` |
 | `standards/leitorientierungen.md` | Leitorientierungen zu den Festlegungen (Quelle für das Playbook) |
 | `handbuch/anleitung-mitarbeitende.md` | Arbeiten mit dem QM-Handbuch: Anleitung für Mitarbeitende (Rev. 001, Entwurf) |
 | `handbuch/anleitung-prozessdokumente.md` | Kurzanleitung: Aufbau der Prozessdokumente und Begründung (Rev. 001, Entwurf) |
+| `handbuch/2.3.1_qualitaetspolitik.md` | Qualitätspolitik (Rev. 0006, Entwurf): auf eine Seite gekürzt |
 | `handbuch/3.1.2_prozesslandkarte.md` | Prozesslandkarte (Rev. 002, Entwurf), Schaubild farbig nach Prozessart: 7 Managementprozesse, 16 Kernprozesse in 3 Bereichen, 6 Unterstützungsprozesse |
 | `handbuch/9.8_ablauf-gefaehrdungsmomente.md` | Ablauf Gefährdungsmomente und Übergriffe (Rev. 0004, Entwurf) |
 | `handbuch/9.1.4_hilfeplanung-stationaer.md` | Musterdokument Hilfeplanung – stationäre Einrichtungen (Rev. 0006, Entwurf): Text und Flussdiagramm in einem Dokument, bereinigt |

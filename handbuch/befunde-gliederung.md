@@ -96,3 +96,18 @@ Vorlage: `alt/9.8_Ablauf_Gefaehrdungsmomente.docx`, Version 08.2026, Rev. 0003; 
 | 49 | Der Bezug zum Kinderschutzkonzept (5.3) und zum Institutionellen Schutzkonzept (5.8) ist nicht hergestellt. |
 | 50 | Die Dateieigenschaften tragen den Titel eines anderen Dokuments („Stellenbeschreibung Zentrale Steuerungsunterstützung (ZSu)“). |
 | 51 | Schreibweisen: Genderstern („Kolleg*innen“), „Täter und Opfer“, Abkürzungen „stat.“, „päd.“, „FBL“. Erledigt in Rev. 0004: bereinigt. |
+
+## 8 Dokument 2.3.1 Qualitätspolitik
+
+Vorlage: `alt/2.3.1_Qualitaetspolitik.docx`, Version 04.2023, Rev. 0005; erstellt 05.06.2013, geprüft und freigegeben 12.04.2023; drei Seiten.
+
+| Nr. | Befund |
+|---|---|
+| 52 | Die Kennung 2.3.1 steht nicht in der Gliederung 0.2; dort gibt es nur 2.3 „Qualitätspolitik und Qualitätsziele“ als Ordner und Datei. |
+| 53 | Die Kopfzeile lautet „Qualitätspolitik und Qualitätsziele“, der Titel „Qualitätspolitik“. Qualitätsziele enthält das Dokument nicht. |
+| 54 | Die Spalten „verantwortlich“ und „Dokumente/Formulare“ sind leer; sie machen aus einer Seite Text drei Seiten. |
+| 55 | Die beiden Aufzählungen überschneiden sich (Beteiligung der jungen Menschen, Wirkung pädagogischer Maßnahmen). |
+| 56 | Unbestimmte Angaben: „regelmäßig“, „bei Bedarf“, „unter anderem“, „insbesondere“. |
+| 57 | Der Wohlfühlindex ist genannt, aber nicht beschrieben. Der Satz „Das QM unterteilen sich zukünftig …“ ist grammatisch fehlerhaft; im Satz zu den Kostenträgern steht ein Einschub ohne Anschluss („Sie sichern unsere wirtschaftliche Grundlage“). |
+| 58 | Abkürzungen ohne Erklärung: „KJHV“, „LJA“. In der Überführung als „Kinder- und Jugendhilfeverbund“ und „Landesjugendamt“ ausgeschrieben. |
+| 59 | Der Bezug auf die „vorliegende Vereinbarung zur Qualitätsentwicklung“ lässt offen, welches Dokument gemeint ist. |
