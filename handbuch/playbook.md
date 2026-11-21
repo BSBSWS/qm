@@ -3,7 +3,7 @@ titel: Playbook QM
 textart: Zusammenfassung der Leitorientierungen
 prozesse: alle Prozesse
 revision: "001"
-stand: 20.11.2026
+stand: 21.11.2026
 status: Entwurf
 erstellt: OFFEN
 geprueft: QMB
