@@ -31,6 +31,7 @@ Dokumente des Qualitätsmanagements und die Standards, nach denen sie geschriebe
 | `handbuch/abgleich-iso-9001-kapitel-2-3.md` | Abgleich von 2.3.1 und 2.3.2 mit ISO 9001:2015 (Arbeitsunterlage) |
 | `handbuch/F2.3.2.A_jahresplan-qualitaetsziele.md` | Formular F2.3.2.A Jahresplan Qualitätsziele (Rev. 001, Entwurf), Querformat |
 | `handbuch/2.3.3_kontext-der-organisation.md` | Kontext der Organisation (Rev. 001, Entwurf): Themen, interessierte Parteien, Anwendungsbereich |
+| `handbuch/roadmap.md` | Roadmap der Reform: Schritte, Stand, Einführung bei den Mitarbeitenden |
 | `handbuch/dateiliste.md` | Dateiliste des Handbuchs vom 20.11.2026: 109 Ordner, 337 Dateien |
 | `handbuch/3.1.2_prozesslandkarte.md` | Prozesslandkarte (Rev. 002, Entwurf), Schaubild farbig nach Prozessart: 7 Managementprozesse, 16 Kernprozesse in 3 Bereichen, 6 Unterstützungsprozesse |
 | `handbuch/8.9.3_lenkung-dokumente.md` | Arbeitsanweisung Lenkung von Formularen und Dokumenten (Rev. 0002, Entwurf) |
