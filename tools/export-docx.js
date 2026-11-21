@@ -12,7 +12,7 @@ const [src, out] = args.filter(a => !a.startsWith('--'));
 if (!src || !out) { console.error('Aufruf: node tools/export-docx.js quelle.md ziel.docx'); process.exit(1); }
 
 // Gestaltung: Blau des Trägerlogos, helle Tönung, feine Linien
-const FONT = 'Calibri', W = 9070;
+const FONT = 'Calibri'; let W = 9070; // Breite des Satzspiegels; im Querformat größer
 const BLAU = '2D4B9B', HELL = 'EEF1F8', LINIE = 'C5CBE0', GRAU = '5F6470', TEXT = '1F2433', OFFEN_BG = 'FFF3D1', OFFEN_LN = 'E0A100';
 
 const text = fs.readFileSync(src, 'utf8').replace(/\r/g, '');
@@ -22,6 +22,7 @@ if (m) { body = text.slice(m[0].length);
   for (const l of m[1].split('\n')) { const i = l.indexOf(':'); if (i > 0) fm[l.slice(0, i).trim()] = l.slice(i + 1).trim().replace(/^"|"$/g, ''); } }
 for (const k of ['titel', 'revision', 'stand', 'status']) if (!fm[k]) console.warn('Kopfangabe fehlt: ' + k);
 if (!fm.prozesse) console.warn('Kopfangabe fehlt: prozesse – Zugeordnete Prozesse: OFFEN');
+const QUER = fm.format === 'quer'; if (QUER) W = 14002;
 const val = k => fm[k] || 'OFFEN';
 
 const clean = s => s.replace(/`/g, '').trim();
@@ -40,6 +41,8 @@ const line = (c = LINIE, s = 4) => ({ style: BorderStyle.SINGLE, size: s, color:
 const cell = (children, w, o = {}) => new TableCell({ width: { size: w, type: WidthType.DXA },
   borders: { top: none, left: none, right: none, bottom: line() },
   margins: { top: 80, bottom: 80, left: 110, right: 110 }, ...o, children });
+// Formulare zum Ausfüllen erhalten in den Tabellen ein feines Gitter
+const GITTER = { top: line('8A96C4'), left: line('8A96C4'), right: line('8A96C4'), bottom: line('8A96C4') };
 const fill = c => ({ type: ShadingType.CLEAR, fill: c, color: 'auto' });
 const gap = (a = 80) => new Paragraph({ spacing: { after: a }, children: [] });
 
@@ -48,12 +51,20 @@ const offen = t => new Paragraph({ spacing: { before: 60, after: 100, line: 276 
   children: [run('OFFEN  ', { bold: true, color: '8A6100' }), run(clean(t.slice(6)))] });
 
 function widths(head, n) {
-  if (n === 2 && !head[0].startsWith('Nr.') && !['Leitlinie', 'Thema', 'Dokument'].includes(head[0])) return [2268, W - 2268];
+  if (n === 2 && !head[0].startsWith('Nr.') && !['Leitlinie', 'Thema', 'Dokument', 'Bereich', 'Bezug', 'Maßnahme und Indikator'].includes(head[0])) return [2268, W - 2268];
   if (head[0] === 'Nr.' && n === 4) return [520, 4580, 1985, 1985];
+  if (head[0] === 'Nr.' && n === 8) return [600, 1700, 2900, 1800, 1900, 1200, 1900, W - 12000];
+  if (head[0] === 'Nr.' && n === 3) return [520, 3150, W - 3670];
+  if (head[0] === 'Bezug') return [3000, W - 3000];
+  if (head[0] === 'Partei' && n === 4) return [1900, W - 4500, 900, 1700];
+  if (head[0] === 'Partei' && n === 3) return [2300, 3900, W - 6200];
+  if (head[0] === 'Thema' && n === 3) return [2300, 4400, W - 6700];
+  if (head[0] === 'Maßnahme und Indikator') return [W - 3000, 3000];
   if (head[0] === 'Art' && n === 3) return [1900, 4670, 2500];
   if (head[0] === 'Dokument' && n === 3) return [2300, 4270, 2500];
   if (head[0] === 'Teil' && n === 3) return [2300, 3900, 2870];
   if (head[0] === 'Leitlinie') return [3000, W - 3000];
+  if (head[0] === 'Bereich') return [3000, W - 3000];
   if (head[0] === 'Thema' || (head[0] === 'Dokument' && n === 2)) return [2700, W - 2700];
   if (head[0].startsWith('Nr.') && n === 3) return [1500, 3000, W - 4500];
   if (head[0].startsWith('Nr.') && n === 2) return [1500, W - 1500];
@@ -66,11 +77,11 @@ function table(rows) {
   if (!noHead) trs.push(new TableRow({ tableHeader: true, children: head.map((c, i) =>
     cell([new Paragraph({ children: [run(c, { bold: true, size: 18, color: 'FFFFFF' })] })], w[i],
       { shading: fill(BLAU), borders: { top: none, left: none, right: none, bottom: none } })) }));
-  rows.slice(1).forEach((r, k) => trs.push(new TableRow({ cantSplit: true, children: r.map((c, i) => {
+  rows.slice(1).forEach((r, k) => trs.push(new TableRow({ cantSplit: true, ...(head[0] === 'Nr.' && r.slice(1, -1).every(c => c === '') ? { height: { value: 1050, rule: 'atLeast' } } : {}), children: r.map((c, i) => {
     const label = noHead && i === 0, nr = head[0] === 'Nr.' && i === 0;
-    return cell((head[0] === 'Nr.' ? c.split(/;\s+/) : [c]).map(p => new Paragraph({ spacing: { line: 264 },
-      children: inline(clean(p), label ? { bold: true, color: BLAU, size: 18 } : nr ? { bold: true, color: BLAU } : head[0] === 'Art' && i === 0 ? { size: 18, color: GRAU } : {}) })), w[i],
-      { shading: label ? fill(HELL) : undefined, ...(noHead && k === 0 ? { borders: { top: line(), left: none, right: none, bottom: line() } } : {}) }); }) })));
+    return cell((head[0] === 'Nr.' ? c.split(/;\s+/) : [c]).map((p, pi) => new Paragraph({ spacing: { line: 264, after: head[1] === 'Ziel' && i === 1 && pi === 0 ? 60 : 0 },
+      children: inline(clean(p), label ? { bold: true, color: BLAU, size: 18 } : nr ? { bold: true, color: BLAU } : head[0] === 'Art' && i === 0 ? { size: 18, color: GRAU } : head[1] === 'Ziel' && i === 1 && pi === 0 ? { bold: true } : {}) })), w[i],
+      { shading: label ? fill(HELL) : undefined, ...(noHead && k === 0 ? { borders: { top: line(), left: none, right: none, bottom: line() } } : {}), ...(fm.textart === 'Formular' ? { borders: GITTER } : {}) }); }) })));
   return new Table({ width: { size: W, type: WidthType.DXA }, columnWidths: w, rows: trs });
 }
 function diagram(code, maxH = 600) {
@@ -89,7 +100,11 @@ function diagram(code, maxH = 600) {
 }
 
 // Rumpf
-let lines = body.split('\n'); const kids = []; let kapitel = [], vorher = '', liste = 0;
+let lines = body.split('\n');
+{ // Der Abschnitt „Änderungen“ bleibt in der Quelle und wird nie ausgegeben
+  const keep = []; let on = true;
+  for (const l of lines) { if (l.startsWith('## ')) on = !/^## Änderungen/.test(l); if (on) keep.push(l); }
+  lines = keep; } const kids = []; let kapitel = [], vorher = '', liste = 0;
 if (ABLAUF) { // nur Kopfzeilen und die Abschnitte Ablauf, Checkliste, zugehörige Dokumente
   const keep = []; let on = true;
   for (const l of lines) { if (l.startsWith('## ')) on = /^## (\d+ )?(Ablauf|Checkliste|Zugehörige)/.test(l); if (on) keep.push(l); }
@@ -125,7 +140,8 @@ for (let i = 0; i < lines.length; i++) {
   const lab = l.match(/^(Risiko|Risikominimierung):/);
   if (lab) { kids.push(P([run(lab[1] + '  ', { bold: true, color: BLAU }), run(l.slice(lab[0].length).trim())])); continue; }
   const klein = l.startsWith('Vorlagen:') || l.startsWith('Vorlage:') || l.startsWith('Zeichen:') || l.startsWith('Lesart:');
-  kids.push(P(inline(clean(l), klein ? { size: 16, color: GRAU } : {}), l.endsWith(':') ? { keepNext: true } : {}));
+  const folgt = (lines.slice(i + 1).find(x => x.trim()) || '');
+  kids.push(P(inline(clean(l), klein ? { size: 16, color: GRAU } : {}), l.endsWith(':') || folgt.startsWith('|') ? { keepNext: true } : {}));
 }
 
 // Titelfeld mit Prozesszeile
@@ -153,7 +169,7 @@ const header = new Header({ children: [new Table({ width: { size: W, type: Width
   gap(120)] });
 
 // Fußzeile: Lenkungsangaben nach der Vorlage
-const fw = [2267, 2268, 2268, 2267], ft = { top: line(LINIE, 6), left: none, right: none, bottom: none };
+const fw = [0, 1, 2, 3].map(i => i === 3 ? W - 3 * Math.floor(W / 4) : Math.floor(W / 4)), ft = { top: line(LINIE, 6), left: none, right: none, bottom: none };
 const fc = (label, value, i) => cell([
   new Paragraph({ spacing: { after: 0 }, children: [run(label.toUpperCase(), { size: 13, color: GRAU, characterSpacing: 15 })] }),
   new Paragraph({ children: [run(value, { size: 17, bold: value !== 'OFFEN', color: value === 'OFFEN' ? '8A6100' : TEXT })] })],
@@ -166,7 +182,7 @@ const doc = new Document({
   styles: { default: { document: { run: { font: FONT, size: 20, color: TEXT } } } },
   numbering: { config: [{ reference: 'punkt', levels: [{ level: 0, format: LevelFormat.BULLET, text: '\u2013', alignment: AlignmentType.LEFT, style: { run: { color: BLAU, font: FONT }, paragraph: { indent: { left: 420, hanging: 420 } } } }] }, { reference: 'num', levels: [{ level: 0, format: LevelFormat.DECIMAL, text: '%1', alignment: AlignmentType.LEFT,
     style: { run: { bold: true, color: BLAU, font: FONT }, paragraph: { indent: { left: 420, hanging: 420 } } } }] }] },
-  sections: [{ properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 1900, right: 1418, bottom: 1500, left: 1418, header: 709, footer: 600 } } },
+  sections: [{ properties: { page: { size: { width: 11906, height: 16838, ...(QUER ? { orientation: 'landscape' } : {}) }, margin: { top: 1900, right: 1418, bottom: 1500, left: 1418, header: 709, footer: 600 } } },
     headers: { default: header }, footers: { default: footer },
     children: [titel, gap(120), ...kids] }] });
 Packer.toBuffer(doc).then(b => { fs.writeFileSync(out, b); console.log('geschrieben: ' + out); });

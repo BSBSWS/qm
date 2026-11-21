@@ -4,7 +4,7 @@ Dieses Repository enthält Dokumente des Qualitätsmanagements der Sozialwerk Sa
 
 1. Vor jeder Arbeit an einem QM-Dokument `standards/qm-dokumente.md` lesen.
 2. Quelle ist immer die Markdown-Datei.
-3. Jedes QM-Dokument enthält die Zeile „Zugeordnete Prozesse“ und den Teil „Reflexion und Weiterentwicklung“.
+3. Jedes QM-Dokument enthält die Zeile „Zugeordnete Prozesse“, eine Risikobetrachtung und den Teil „Reflexion und Weiterentwicklung“. Formulare (Kennung F…) tragen keine Risikobetrachtung und keinen Reflexionsteil.
 4. Keine Inhalte erfinden. Fehlende Angaben mit einem Absatz kennzeichnen, der mit `OFFEN:` beginnt, und dem Träger nennen.
 5. Keine Klarnamen betreuter junger Menschen oder von Familien und keine Angaben, an denen sie erkennbar sind. Vorlagen, die solche Angaben enthalten, werden nicht im Repository abgelegt.
 6. Die Freigabe von QM-Dokumenten erfolgt außerhalb des Repositorys.
